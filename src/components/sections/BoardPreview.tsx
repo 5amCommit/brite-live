@@ -4,7 +4,7 @@ import ScrollReveal from "@/components/ui/scroll-reveal";
 import StaggerReveal from "@/components/ui/stagger-reveal";
 
 const featuredBoard = [
-  { name: "Daved Rosensweet, M.D.", role: "Founder & Medical Director", specialty: "Endocrinology & Hormone Therapy", image: "/brand-assets/headshot-daved-rosensweet.png" },
+  { name: "Daved Rosensweet, M.D.", role: "Founder & Medical Director", specialty: "Endocrinology & Hormone Therapy", image: "/brand-assets/headshot-daved-rosensweet-v2.png" },
   { name: "Val Koganski, MD", role: "Board Member", specialty: "Integrative & Holistic Medicine", image: "/brand-assets/headshot-val-koganski.png" },
   { name: "Jim Hrncir, RPh", role: "Board Member", specialty: "Compounding Pharmacy Pioneer", image: "/brand-assets/headshot-jim-hrncir.png" },
   { name: "Dian Ginsberg, MD", role: "Board Member", specialty: "OB/GYN & Menopause", image: "/brand-assets/headshot-dian-ginsberg.png" },

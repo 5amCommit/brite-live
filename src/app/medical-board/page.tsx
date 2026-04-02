@@ -16,7 +16,7 @@ const founder = {
   name: "Daved Rosensweet, M.D.",
   role: "Founder & Medical Director",
   specialty: "Endocrinology & Hormone Therapy",
-  image: "/brand-assets/headshot-daved-rosensweet.png",
+  image: "/brand-assets/headshot-daved-rosensweet-v2.png",
   bio: "Dr. Rosensweet has practiced medicine since 1971, graduating from the University of Michigan Medical School in 1968. A pioneer in bio-identical hormone therapy, he trained the first nurse practitioners in the US and directed health promotion for the state of New Mexico. His vision drives every aspect of BRITE.",
 };
 
