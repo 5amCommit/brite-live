@@ -1,3 +1,6 @@
+import ScrollReveal from "@/components/ui/scroll-reveal";
+import StaggerReveal from "@/components/ui/stagger-reveal";
+
 const services = [
   {
     icon: (
@@ -43,33 +46,42 @@ const services = [
 
 export default function Services() {
   return (
-    <section className="py-24 lg:py-32 bg-brite-cream">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        {/* Section Header — Cascaid editorial style */}
+    <section className="py-24 lg:py-32 bg-brite-cream relative overflow-hidden">
+      {/* Subtle radial gradient */}
+      <div className="absolute top-0 right-0 w-[500px] h-[500px] rounded-full bg-brite-teal/[0.03] blur-[100px]" />
+
+      <div className="relative z-10 mx-auto max-w-7xl px-6 lg:px-8">
+        {/* Section Header */}
         <div className="max-w-3xl">
-          <p className="text-sm font-semibold uppercase tracking-widest text-brite-teal mb-4">
-            How We Help
-          </p>
-          <h2 className="font-heading text-4xl sm:text-5xl lg:text-6xl font-bold text-brite-dark tracking-tight leading-[1.1]">
-            From complexity{" "}
-            <em className="italic font-normal text-brite-teal">to clarity</em>
-          </h2>
-          <p className="mt-6 text-lg text-brite-text-light leading-relaxed max-w-2xl">
-            Hormone health doesn&apos;t have to be overwhelming. Our Medical
-            Board has created a rigorous system to make the process clearer and
-            more straightforward.
-          </p>
+          <ScrollReveal>
+            <p className="text-sm font-semibold uppercase tracking-widest text-brite-teal mb-4">
+              How We Help
+            </p>
+          </ScrollReveal>
+          <ScrollReveal delay={0.1}>
+            <h2 className="font-heading text-4xl sm:text-5xl lg:text-6xl font-bold text-brite-dark tracking-tight leading-[1.1]">
+              From complexity{" "}
+              <em className="italic font-normal text-brite-teal">to clarity</em>
+            </h2>
+          </ScrollReveal>
+          <ScrollReveal delay={0.2}>
+            <p className="mt-6 text-lg text-brite-text-light leading-relaxed max-w-2xl">
+              Hormone health doesn&apos;t have to be overwhelming. Our Medical
+              Board has created a rigorous system to make the process clearer and
+              more straightforward.
+            </p>
+          </ScrollReveal>
         </div>
 
-        {/* Service Cards */}
-        <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-6">
+        {/* Service Cards with stagger */}
+        <StaggerReveal className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-6" stagger={0.15}>
           {services.map((service) => (
             <div
               key={service.title}
-              className="group relative rounded-2xl bg-white p-8 lg:p-10 shadow-sm border border-border/50 hover:shadow-lg hover:border-brite-teal/20 hover:-translate-y-1 transition-all duration-300"
+              className="group relative rounded-2xl bg-white p-8 lg:p-10 shadow-sm border border-border/50 hover:shadow-xl hover:border-brite-teal/20 hover:-translate-y-1.5 transition-all duration-500 ease-out"
             >
               <div className="flex items-start gap-5">
-                <div className="flex-shrink-0 flex items-center justify-center w-14 h-14 rounded-xl bg-brite-teal/10 text-brite-teal group-hover:bg-brite-teal group-hover:text-white transition-all duration-300">
+                <div className="flex-shrink-0 flex items-center justify-center w-14 h-14 rounded-xl bg-brite-teal/10 text-brite-teal group-hover:bg-brite-teal group-hover:text-white group-hover:scale-110 transition-all duration-500">
                   {service.icon}
                 </div>
                 <div>
@@ -83,7 +95,7 @@ export default function Services() {
               </div>
             </div>
           ))}
-        </div>
+        </StaggerReveal>
       </div>
     </section>
   );

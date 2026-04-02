@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -14,9 +14,22 @@ const navLinks = [
 
 export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 50);
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-white/80 backdrop-blur-md border-b border-border/50">
+    <header
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
+        scrolled
+          ? "bg-white/90 backdrop-blur-md border-b border-border/50 shadow-sm"
+          : "bg-transparent border-b border-transparent"
+      }`}
+    >
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="flex h-20 items-center justify-between">
           {/* Logo */}
@@ -27,6 +40,9 @@ export default function Header() {
               width={120}
               height={32}
               priority
+              className={`transition-all duration-500 ${
+                scrolled ? "" : "brightness-0 invert"
+              }`}
             />
           </Link>
 
@@ -36,7 +52,11 @@ export default function Header() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="text-sm font-medium text-brite-text hover:text-brite-teal transition-colors duration-300"
+                className={`text-sm font-medium transition-colors duration-300 ${
+                  scrolled
+                    ? "text-brite-text hover:text-brite-teal"
+                    : "text-white/80 hover:text-white"
+                }`}
               >
                 {link.label}
               </Link>
@@ -47,13 +67,17 @@ export default function Header() {
           <div className="hidden lg:flex items-center gap-4">
             <Link
               href="/login"
-              className="text-sm font-medium text-brite-text hover:text-brite-teal transition-colors duration-300"
+              className={`text-sm font-medium transition-colors duration-300 ${
+                scrolled
+                  ? "text-brite-text hover:text-brite-teal"
+                  : "text-white/80 hover:text-white"
+              }`}
             >
               Patient Login
             </Link>
             <Link
               href="/getting-started"
-              className="inline-flex items-center justify-center rounded-full bg-brite-teal px-6 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-brite-teal-dark hover:shadow-md transition-all duration-300"
+              className="inline-flex items-center justify-center rounded-full bg-brite-teal px-6 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-brite-teal-dark hover:shadow-md hover:scale-[1.03] transition-all duration-300"
             >
               Get Started
             </Link>
@@ -67,19 +91,19 @@ export default function Header() {
           >
             <div className="flex flex-col gap-1.5">
               <span
-                className={`block h-0.5 w-6 bg-brite-text transition-all duration-300 ${
-                  mobileOpen ? "rotate-45 translate-y-2" : ""
-                }`}
+                className={`block h-0.5 w-6 transition-all duration-300 ${
+                  scrolled ? "bg-brite-text" : "bg-white"
+                } ${mobileOpen ? "rotate-45 translate-y-2" : ""}`}
               />
               <span
-                className={`block h-0.5 w-6 bg-brite-text transition-all duration-300 ${
-                  mobileOpen ? "opacity-0" : ""
-                }`}
+                className={`block h-0.5 w-6 transition-all duration-300 ${
+                  scrolled ? "bg-brite-text" : "bg-white"
+                } ${mobileOpen ? "opacity-0" : ""}`}
               />
               <span
-                className={`block h-0.5 w-6 bg-brite-text transition-all duration-300 ${
-                  mobileOpen ? "-rotate-45 -translate-y-2" : ""
-                }`}
+                className={`block h-0.5 w-6 transition-all duration-300 ${
+                  scrolled ? "bg-brite-text" : "bg-white"
+                } ${mobileOpen ? "-rotate-45 -translate-y-2" : ""}`}
               />
             </div>
           </button>
