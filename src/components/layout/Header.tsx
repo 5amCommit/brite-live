@@ -32,16 +32,28 @@ export default function Header() {
     >
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="flex h-20 items-center justify-between">
-          {/* Logo */}
+          {/* Logo — show white version on dark hero, original on scrolled white bg */}
           <Link href="/" className="flex items-center flex-shrink-0">
+            {/* White logo for dark background (unscrolled) */}
             <Image
-              src="/brand-assets/brite-logo-green.png"
+              src="/brand-assets/brite-logo.png"
               alt="BRITE"
-              width={110}
-              height={29}
+              width={90}
+              height={70}
               priority
-              className={`transition-all duration-500 h-7 w-auto ${
-                scrolled ? "" : "brightness-0 invert"
+              className={`h-10 w-auto transition-opacity duration-500 absolute invert ${
+                scrolled ? "opacity-0" : "opacity-100"
+              }`}
+            />
+            {/* Original logo for light background (scrolled) */}
+            <Image
+              src="/brand-assets/brite-logo.png"
+              alt="BRITE"
+              width={90}
+              height={70}
+              priority
+              className={`h-10 w-auto transition-opacity duration-500 ${
+                scrolled ? "opacity-100" : "opacity-0"
               }`}
             />
           </Link>
