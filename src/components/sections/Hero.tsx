@@ -15,7 +15,7 @@ export default function Hero() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 mx-auto max-w-7xl px-6 lg:px-8 pt-32 pb-20 text-center">
+      <div className="relative z-10 mx-auto max-w-7xl px-6 lg:px-8 pt-32 pb-28 text-center">
         {/* Trust Badge */}
         <div className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 mb-8">
           <span className="h-2 w-2 rounded-full bg-brite-green animate-pulse" />
@@ -97,12 +97,9 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2">
-        <span className="text-xs text-brite-cream/40 tracking-widest uppercase">
-          Scroll
-        </span>
-        <div className="h-12 w-px bg-gradient-to-b from-brite-cream/40 to-transparent" />
+      {/* Scroll Indicator — hidden on mobile, positioned below stats */}
+      <div className="hidden lg:flex absolute bottom-4 left-1/2 -translate-x-1/2 flex-col items-center gap-1 pointer-events-none">
+        <div className="h-8 w-px bg-gradient-to-b from-brite-cream/20 to-transparent" />
       </div>
     </section>
   );
