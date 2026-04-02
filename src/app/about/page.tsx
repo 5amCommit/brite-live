@@ -25,8 +25,8 @@ export default function AboutPage() {
     <>
       <Header />
       <main>
-        {/* Hero — more breathing room */}
-        <section className="relative pt-40 pb-28 lg:pt-48 lg:pb-36 bg-brite-dark overflow-hidden">
+        {/* Hero */}
+        <section className="relative pt-36 pb-20 lg:pt-44 lg:pb-24 bg-brite-dark overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-br from-brite-dark via-brite-dark-light to-brite-charcoal" />
           <div className="absolute -bottom-1/4 -left-1/4 w-[700px] h-[700px] rounded-full bg-brite-teal/8 blur-[140px] animate-[pulse_10s_ease-in-out_infinite]" />
           <div className="absolute top-1/4 right-0 w-[400px] h-[400px] rounded-full bg-brite-gold/5 blur-[100px]" />
@@ -54,7 +54,7 @@ export default function AboutPage() {
                 correct amount of each hormone, at the right time of day, applied
                 to the right places.
               </p>
-              <div className="mt-12 w-px h-16 bg-gradient-to-b from-brite-teal-light/40 to-transparent" />
+              <div className="mt-8 w-px h-12 bg-gradient-to-b from-brite-teal-light/30 to-transparent" />
             </div>
           </div>
         </section>
@@ -92,7 +92,7 @@ export default function AboutPage() {
         </section>
 
         {/* Pull Quote */}
-        <section className="py-20 lg:py-24 bg-white relative overflow-hidden">
+        <section className="py-16 lg:py-20 bg-white relative overflow-hidden">
           <div className="absolute right-0 top-0 bottom-0 w-1 bg-gradient-to-b from-brite-teal via-brite-green to-brite-teal-light" />
           <div className="mx-auto max-w-4xl px-6 lg:px-8">
             <ScrollReveal>
@@ -111,7 +111,7 @@ export default function AboutPage() {
         </section>
 
         {/* Mission */}
-        <section className="py-24 lg:py-32 bg-brite-cream">
+        <section className="py-20 lg:py-24 bg-brite-cream">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
               <ScrollReveal>
@@ -168,7 +168,7 @@ export default function AboutPage() {
         </section>
 
         {/* Timeline */}
-        <section className="py-24 lg:py-32 bg-brite-warm-gray">
+        <section className="py-20 lg:py-24 bg-brite-warm-gray">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <ScrollReveal>
               <div className="text-center max-w-3xl mx-auto mb-16">
@@ -212,7 +212,7 @@ export default function AboutPage() {
         </section>
 
         {/* Video Section */}
-        <section className="py-24 lg:py-32 bg-white">
+        <section className="py-20 lg:py-24 bg-white">
           <div className="mx-auto max-w-4xl px-6 lg:px-8">
             <ScrollReveal>
               <div className="text-center mb-12">
@@ -239,7 +239,7 @@ export default function AboutPage() {
         </section>
 
         {/* Medical Board CTA — dark premium section */}
-        <section className="py-28 lg:py-36 bg-brite-dark relative overflow-hidden">
+        <section className="py-20 lg:py-28 bg-brite-dark relative overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-br from-brite-dark via-brite-dark-light to-brite-charcoal" />
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-brite-teal/10 blur-[120px]" />
           <div

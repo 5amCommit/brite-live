@@ -33,14 +33,14 @@ export default function Header() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="flex h-20 items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="flex items-center">
+          <Link href="/" className="flex items-center flex-shrink-0">
             <Image
               src="/brand-assets/brite-logo-green.png"
-              alt="BRITE - Bio-Identical Hormone Replacement Therapy"
-              width={120}
-              height={32}
+              alt="BRITE"
+              width={110}
+              height={29}
               priority
-              className={`transition-all duration-500 ${
+              className={`transition-all duration-500 h-7 w-auto ${
                 scrolled ? "" : "brightness-0 invert"
               }`}
             />

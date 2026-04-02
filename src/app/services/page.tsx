@@ -102,7 +102,7 @@ export default function ServicesPage() {
       <Header />
       <main>
         {/* Hero — taller, more breathing room */}
-        <section className="relative pt-40 pb-28 lg:pt-48 lg:pb-36 bg-brite-dark overflow-hidden">
+        <section className="relative pt-36 pb-20 lg:pt-44 lg:pb-24 bg-brite-dark overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-br from-brite-dark via-brite-dark-light to-brite-charcoal" />
           <div className="absolute -top-1/4 -right-1/4 w-[800px] h-[800px] rounded-full bg-brite-teal/8 blur-[140px] animate-[pulse_10s_ease-in-out_infinite]" />
           <div className="absolute bottom-0 left-1/4 w-[400px] h-[400px] rounded-full bg-brite-gold/5 blur-[100px]" />
@@ -127,7 +127,7 @@ export default function ServicesPage() {
               compounds that mimic your body&apos;s natural hormones.
             </p>
             {/* Decorative line */}
-            <div className="mt-12 mx-auto w-px h-16 bg-gradient-to-b from-brite-teal-light/40 to-transparent" />
+            <div className="mt-8 mx-auto w-px h-12 bg-gradient-to-b from-brite-teal-light/30 to-transparent" />
           </div>
         </section>
 
@@ -152,7 +152,7 @@ export default function ServicesPage() {
         </section>
 
         {/* Symptoms Section */}
-        <section className="py-24 lg:py-32 bg-brite-cream relative overflow-hidden">
+        <section className="py-20 lg:py-24 bg-brite-cream relative overflow-hidden">
           <div className="absolute top-0 right-0 w-[400px] h-[400px] rounded-full bg-brite-teal/[0.03] blur-[100px]" />
           <div className="relative z-10 mx-auto max-w-7xl px-6 lg:px-8">
             <ScrollReveal>
@@ -235,7 +235,7 @@ export default function ServicesPage() {
         </section>
 
         {/* 4-Step Process — with connecting lines */}
-        <section className="py-24 lg:py-32 bg-brite-dark relative overflow-hidden">
+        <section className="py-20 lg:py-24 bg-brite-dark relative overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-br from-brite-dark via-brite-dark-light to-brite-charcoal" />
           <div className="absolute top-0 left-1/3 w-[500px] h-[500px] rounded-full bg-brite-teal/5 blur-[120px]" />
           <div
@@ -315,7 +315,7 @@ export default function ServicesPage() {
         </section>
 
         {/* Product Benefits — with product image */}
-        <section className="py-24 lg:py-32 bg-brite-cream relative overflow-hidden">
+        <section className="py-20 lg:py-24 bg-brite-cream relative overflow-hidden">
           <div className="absolute bottom-0 left-0 w-[400px] h-[400px] rounded-full bg-brite-green/[0.03] blur-[100px]" />
           <div className="relative z-10 mx-auto max-w-7xl px-6 lg:px-8">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-20 items-center">
@@ -372,7 +372,7 @@ export default function ServicesPage() {
         </section>
 
         {/* Video Section */}
-        <section className="py-24 lg:py-32 bg-brite-warm-gray">
+        <section className="py-20 lg:py-24 bg-brite-warm-gray">
           <div className="mx-auto max-w-4xl px-6 lg:px-8">
             <ScrollReveal>
               <div className="text-center mb-12">
@@ -399,7 +399,7 @@ export default function ServicesPage() {
         </section>
 
         {/* CTA */}
-        <section className="py-28 lg:py-36 bg-brite-dark relative overflow-hidden">
+        <section className="py-20 lg:py-28 bg-brite-dark relative overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-br from-brite-dark via-brite-dark-light to-brite-charcoal" />
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-brite-teal/10 blur-[120px]" />
           <div className="relative z-10 mx-auto max-w-4xl px-6 lg:px-8 text-center">
