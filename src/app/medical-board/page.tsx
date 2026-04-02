@@ -16,7 +16,7 @@ const founder = {
   name: "Daved Rosensweet, M.D.",
   role: "Founder & Medical Director",
   specialty: "Endocrinology & Hormone Therapy",
-  image: "/brand-assets/headshot-daved-rosensweet-v2.png",
+  image: "/brand-assets/headshot-daved-rosensweet.png",
   bio: "Dr. Rosensweet has practiced medicine since 1971, graduating from the University of Michigan Medical School in 1968. A pioneer in bio-identical hormone therapy, he trained the first nurse practitioners in the US and directed health promotion for the state of New Mexico. His vision drives every aspect of BRITE.",
 };
 
@@ -96,28 +96,19 @@ export default function MedicalBoardPage() {
           <div className="relative z-10 mx-auto max-w-7xl px-6 lg:px-8">
             <ScrollReveal>
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                {/* Founder headshot — framed portrait */}
+                {/* Founder headshot */}
                 <div className="relative flex justify-center">
-                  <div className="relative">
-                    {/* Subtle teal glow behind card */}
-                    <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 w-64 h-32 rounded-full bg-brite-teal/6 blur-[40px]" />
-                    {/* Portrait frame */}
-                    <div className="relative rounded-3xl overflow-hidden bg-gradient-to-b from-[#f0eeea] to-[#e8e5e0] shadow-lg shadow-black/[0.06]">
-                      {/* Teal top accent bar */}
-                      <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-brite-teal via-brite-green to-brite-teal-light z-10" />
-                      <div className="relative h-[420px] w-[340px]">
-                        <Image
-                          src={founder.image}
-                          alt={founder.name}
-                          fill
-                          className="object-cover object-top scale-105"
-                          sizes="340px"
-                          priority
-                        />
-                        {/* Bottom fade within frame */}
-                        <div className="absolute bottom-0 inset-x-0 h-16 bg-gradient-to-t from-[#e8e5e0] to-transparent" />
-                      </div>
-                    </div>
+                  <div className="relative h-[450px] w-[360px]">
+                    <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 w-64 h-64 rounded-full bg-gradient-to-t from-brite-teal/10 to-transparent blur-[50px]" />
+                    <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-72 h-1 bg-gradient-to-r from-transparent via-brite-teal/30 to-transparent" />
+                    <Image
+                      src={founder.image}
+                      alt={founder.name}
+                      fill
+                      className="object-contain object-bottom"
+                      sizes="360px"
+                      priority
+                    />
                   </div>
                 </div>
                 {/* Founder info */}
@@ -128,11 +119,7 @@ export default function MedicalBoardPage() {
                   <h2 className="font-heading text-4xl sm:text-5xl font-bold text-brite-dark tracking-tight leading-[1.1]">
                     {founder.name}
                   </h2>
-                  <div className="mt-4 flex items-center gap-3">
-                    <div className="w-10 h-[2px] bg-gradient-to-r from-brite-teal to-transparent" />
-                    <div className="w-1.5 h-1.5 rounded-full bg-brite-teal/30" />
-                  </div>
-                  <p className="mt-3 text-lg font-medium text-brite-teal">
+                  <p className="mt-2 text-lg font-medium text-brite-teal">
                     {founder.role}
                   </p>
                   <p className="mt-6 text-base text-brite-text-light leading-relaxed">
