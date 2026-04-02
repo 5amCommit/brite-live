@@ -1,0 +1,925 @@
+ 
+"Create me a landing page for our
+21st.dev,
+60. What we can do now is use
+AI Automation Society Plus. Got a great
+AI. And we've also got a full course
+Actually, one thing that I forgot to
+All right. So that has finished up. You
+And it's not too difficult, but I'm not
+And our claw.md file actually explains
+And so yes, that's cool on its own, but
+And then I'm also going to drag in our
+And what that does is it opens up the
+Automation Society. And I'm also going
+Automation Society. So just work in
+Awards with three W's. So, there's tons
+Build Faster, Earn more. For the
+But let's say we're at a spot where we
+But now what I'll do is say awesome. I
+Claude Code, hey, create me a GitHub
+Claude a question, first it reads its
+Claude code that. So, I'm going to go
+Claude codes benefit than for ours, but
+Cloud Code project that you might use in
+Code before, that's completely fine.
+Code or really wherever you use it is
+Edit in Make, Claude, GBT40, Zapier, Air
+French to English, thank goodness. And
+GitHub and I give this a refresh, we can
+GitHub credentials. So we're going to
+GitHub first so it can push that into
+GitHub if you've never used it before.
+GitHub, GitHub grabs the new changes and
+GitHub, create an account if you don't
+GitHub. GitHub's going to automatically
+GitHub. So I just got logged in as Nate
+Herkai and now it's going to create
+However, now it has our colors and it
+I basically want you to clone this
+I just wanted to show you guys something
+I open that up and now this is no longer
+I think that it's a little bit
+I will let you know if we need to make
+I'd probably just start with pro. If you
+I'll see you on the next one. Thanks
+I'm going to come back into Cloud Code.
+I'm going to go up here to the top left
+I'm going to put in here are two things,
+I'm going to switch this to English for
+I'm using bypass permissions mode. So if
+It looks a little bit um distracting. It
+It's got home screens. It's got buttons.
+It's got shaders. It's got backgrounds.
+It's got so many different things that
+It's got, you know, mouse highlights.
+It's obviously not our color scheme, but
+Let's go to the website. Let's give it a
+Let's see if it can go ahead and make
+Meaning if I pulled up my laptop, I
+Now, if you were on plan mode, it might
+Now, so far it has not yet gotten our
+Obviously, we'd have to fill this in
+Okay. Okay. So, we've got a background.
+Puppeteer to take screenshots?" It
+Put this one there." And it would figure
+So I've deployed a new project to my
+So here you can see it downloaded this
+So what we're going to do is we're going
+So, I said, I want you to spin up a new
+So, I'm basically actually just going to
+So, I'm going to shoot this off. I'm not
+So, anyways, now we have this repository
+So, for the sake of this video, I found
+Society logo as you can see like that.
+Studio Code. So go to a browser and type
+Table. We've got some random stats here.
+That was literally it and it created all
+There we go. Right on Q. It has invoked
+This is just very simple prompting. It
+Today I'm going to be showing you guys
+Verscell to do this. Cloud code is where
+Verscell. So, what you'd probably want
+We can see that we do have our logo up
+We're going to clear this out and say
+We've got the same top menu bar. Um a
+When you create that account, it's much
+Windows, by the way. I would go to
+You just have to install it. So here's a
+You're going to be able to by the end of
+a GitHub repository called
+a local host until I tell you explicitly
+a rainbow outline. I could make them
+a subheader, what's bold, what are
+a very, very simple prompt. So all I'm
+abilities. But that is something to be
+able to figure it out either way because
+about the screenshots. So you can see
+about. So we've given some feedback now.
+access to Cloud Code, but here on Pro,
+action. If no, I'll just use my general
+actually looks good. And in order to set
+actually see how good it really built
+actually tag assets directly. So, if I
+added some animations. So I'm excited to
+after I give it that prompt, I just
+against the background animation, but
+agency, all this kind of stuff, then
+agent. And this is very similar to sort
+ahead and create that repository. Now,
+ahead and deploy this project. Awesome.
+ahead and do a clear so we can start a
+ahead and open up a fresh folder that
+all day, then you should probably
+all do this pipeline. So the first thing
+all of those have been deleted as you
+ally for a truly profitable business.
+already have one, and you're going to
+already read the Claw Denm, you might
+also looks a little bit cheap. It looks
+also mocked up a dashboard. So, let's
+an issue, especially because I'm never
+and GitHub. And Verscell is basically
+and I could look at other ways that we
+and I don't like it, I don't want that
+and I'm going to click on explorer. What
+and clean, that would be great. And if
+and click on extensions and you're going
+and cool is because every time you ask
+and create one. Whether that's in your
+and everything was fully translated from
+and it like overengineers and it just
+and it uses our colors in there, too,
+and logo and everything like that. Now a
+and now we can sync this to Verscell. So
+and professional and they don't look as
+and screenshotted the workflow, and then
+and search for screenshot. What this
+and then I'm going to paste in the name.
+and then going to sleep. I'm always
+and then it took one of where it just
+and then we have inspiration individual
+and then you have your agent on the
+and then you should be good with the
+and type this in. And you guys could all
+and we keep being really nitpicky about
+and you can put this one on local host.
+animation into this website. So from
+another really cool example called
+any changes. So hopefully with that
+any front-end code every session no
+any of your sensitive information out
+any skills in my library that help me do
+anyways, let's go ahead and open up this
+anyways, that's going to do it for
+are the five hacks that I wanted to
+asking you some questions and maybe
+asterisks, and it just helps keep the
+at all. The first thing that you need to
+automations and things like that to the
+automations, courses. It's got it's kind
+aware of once you actually are pushing
+awesome. So now that this site looks
+basically a one-s sentence prompt. This
+basically just this right here. We've
+basically like the raw code or HTML or
+basically should just bridge this gap
+basically skills are just that but in a
+be able to do a little bit better job of
+be able to look at what I was talking
+be more specific about the naming
+because I was dictating and I wanted to
+because maybe they're not named in a way
+because this is an animated background,
+because we haven't given it any other
+before we started this new build, we
+before you ask claude code to do
+behind the join the community button and
+benefits. So a full onepage landing
+best. So, sometimes you might want to
+better. This is definitely more what I
+bit of a it's got members. It's got
+blue or a different color. I think that
+bonus hack. What I'm going to do is I'm
+brand guidelines and here's the logo
+brand guidelines and our AIS logo. And
+brand guidelines, which has stuff like
+brand with the actual original reference
+branded towards me and my business. So
+brings me over to our first technically
+build like a custom GPT or cloud project
+building project, do this, this, and
+bullet points, things like that. So, you
+button up here, which is cloud code. And
+button. And then if I go to versel and
+by that is taking inspiration from
+called AIS test website. I'm just going
+called AIS test website. I'm not going
+can actually tell. Now, realistically,
+can come back in later and tell it to
+can delete all of those temporary
+can grab this claw.md file for free in
+can see that that looks much, much
+can see that we've got a nav, a hero,
+can see. And we're basically going to
+can start working with some files. So,
+capture it. So it gets stuck in this
+change the images and stuff like that.
+changes to GitHub. Okay. So this is our
+changes. So, what you guys didn't
+cla.md file. But then it will think,
+classroom, you go to claude code, and
+claw. MD file if you want to to kind of
+claw.md file, which if I drag over here,
+click into them because I don't want to
+click on start for free, take them to
+clone." So you should build one that
+clones as you can see because they're
+cloud code docs you can read about
+cloud code, talk to this little crab
+cloud code. And I'm just going to say, I
+cloud has API keys or has any usernames
+cloud. Make sure that you're not putting
+cloud.mmd file? Just think of it as a
+code for the website, it's going to
+code to GitHub and GitHub has version
+code, AI automation, building an AI
+come back into Claude Code and you would
+coming out looking like the website that
+command that it wants. But in my
+commands, you can literally just copy
+commits. This one was add glowing pulse
+community button. All right, so those
+community called A Automation Society."
+community of thousands of members in
+compare. just work in the code and then
+components you might be able to find.
+components, and now it's just a matter
+configuration that you need to set up.
+console and I would do control shiftp
+control. We can see all of our commits,
+convention of the screenshots so that we
+copied, which is the style information.
+copy a chunk of code for us to give to
+copy all of this text. Once again, I'm
+correction and steering. So, let's say I
+could have our background. So, maybe we
+could just click on backgrounds in here,
+could obviously read through this entire
+couple things to keep in mind when
+cover today. We have our claw.md file,
+create designs that are way more modern
+creates this website and it feels very
+creating a to-do list. And what you can
+credentials and then all we have to do
+cropped the actual button, but hey, it
+custom instructions. So every time you
+dangerously skip permissions. And that
+dashboard, it worked in like a little
+definitely check out our paid community,
+definitely have a responsibility to tell
+deployed on the cloud. But of course,
+design skill which is why you can see
+design skill. Now, there was another
+designcloud.mmd file, which is the one
+desktop or your documents, just create
+did is it used these screenshots as it
+different background elements come
+different places, but for very
+different things we could do here. Or I
+distracting as far as it makes the hero
+do an at, it will basically pop up and
+do is say, "Hey, Cloud Code, take this
+do is you need to go download Visual
+do it. And then the next thing what I
+do not use the screenshot tool to
+do so. So from here the question is how
+do you actually get this onto a real
+does is we can actually visit this by
+doesn't really feel good to have that be
+doesn't really work. So sometimes you
+doing this using Puppeteer. So,
+doing with this dashboard and what it
+done that and you've opened it up, this
+down in the description, you go to the
+down like a dashboard. It's got some
+dynamic. We'd want to maybe animate some
+easier if you just sign in or create
+easily do just by asking Claude Code to
+easy. If you go to the cloud.mmd file,
+effect to hero join the community
+either buy a domain right here or add an
+element right behind the hero text. And
+elements in the background and some of
+else you can do, which is kind of a
+ends up doing with this iPhone screen
+even in plan mode. I just want to show
+everyone.
+everything because you guys can just,
+everything. So I'm actually copying
+exactly know your full process yet or
+example called Dribble. Here's another
+example called godly website. And here's
+example, we wanted to make this button a
+exceptions. So first of all real quick
+existing one. And it's really simple. It
+expert community. It also changed this
+feel professional and branded. And we're
+first before it starts coding. But for
+first. It will always process that. So
+five simple hacks that you can use to
+folders, all of these files are local.
+font. We've got a community rating. Ooh,
+for and be able to make these changes.
+forth a little bit, maybe change some
+fresh session. I'm going to first of all
+from GitHub and then updates the real
+front-end design skill before writing
+fuzzy and super pixy. If you could make
+give it facts about the community yet.
+glow. And once you've made this change,
+go ahead and just download that for free
+go to the site on the web and I refresh,
+going to actually do that live in this
+going to ais-est
+going to be going through this in a way
+going to clear this out. I'm going to
+going to create a new folder. I'm going
+going to create a repository right here
+going to go to elements and in the style
+going to look at what it built versus
+going to point to it so it knows what to
+going to say go ahead and delete all of
+going to say,
+going to type in clawed code. And then
+good enough. I'm going to keep trying
+good news is it's super super simple.
+good spot for us to actually start. And
+good, we need to actually deploy this on
+got a final call to action here. The
+got buttons. And I could make them have
+got some cards. And as we scroll down,
+got the pound signs, we've got um
+got the screenshot loop, which you got
+guess that is. But let's just say we
+guys how good this front-end design
+guys making it to the end of the video.
+guys real quick before we end off this
+hack number two, which is the screenshot
+hacks, you will see why I put some of
+happy. I may have to adjust the wording
+has nothing in it. So, here we are in my
+has our information in here. We've got
+has some dynamic elements. And if you
+have noticed. And that brings us on to
+have our new site, Master A Automation,
+have to Google the different buttons to
+have to obviously authenticate into
+head over there. All right. Look at
+head over to our local host. Let's give
+helpful. We've got inspiration websites,
+helping you get to a better solution
+here and I can see what it looked at. It
+here as well as our exact colors and
+here is the web app version. I refresh
+here to the lefth hand side. Like I told
+here who are building businesses with
+here's my brand guidelines. It would be
+here's the local host. I'll refresh
+here, if you're on free, you don't have
+here, we would just keep going through
+hero section. It looked at the stats. It
+hero text so that we could see it and it
+hero waves in the background. I think we
+hey, here are the, you know, here's the
+hit limits, which you probably will if
+hopefully we should get something that
+iPhone thing to member growth this
+improved things. So, you guys didn't see
+improvement and then we make another
+improvement and we keep doing this, it
+in VS Code and download this for your
+in cloud code, could you go ahead and
+in our cloud code project. So what we
+in the brand assets. Put this one here.
+in the cloud.MD file a little bit. It
+in this project. I'm not going to read
+in this. You could open up your browser
+indeed the entire website. Now if you're
+individual components for small pieces,
+individual components. And what I mean
+information or, you know, web hook
+inspiration. Because what we're able to
+installed, you will see this little
+interested to see is what it ends up
+into this link, we should see that we
+invoke the front-end design skill and
+is a claw.md file. And I put this as
+is actually number zero. And the reason
+is go ahead and add a new project. And
+is just drag it in from my files and put
+is obviously this website right here,
+is styled. And we're going to give
+is super super solid with the front-end
+is the screenshot we just took. And I'm
+is we can go to a website called
+is what it will look like. You're going
+is where you turn that on. Now I
+is work in our brand assets. So our
+it a like. Definitely helps me out a
+it created a new folder for us called
+it did a two pass screenshot review and
+it feels very similar to the real
+it has some cool things as you scroll
+it itself. So, what is [snorts] a
+it read the cloudmd file and now it's
+it right over here. As you can see, that
+it should be able to use all of this and
+it to GitHub until I tell you to. This
+it would install that for you. All
+it's going through and it's looking
+it's going to do is it should hopefully
+it's got an ugly domain. So what you
+it. And as we go through these other
+iterate upon it throughout your project
+itself because it's able to take a
+itself. So, instead of it getting 60% of
+just asking it to do so. So, I'm going
+just going to stay on bypass
+just got to the point where now it is
+just like way too easy to not use. We've
+just paste in the code that we just
+just the IDE that we're going to be
+just told Claude Code to build us that
+just where we deploy our code to a live
+kept clicking through and looking and
+kind of stuff. But we don't really know
+knowledge. So that's why we need to have
+landing page? Because right now we're
+let me choose or point at the right
+let me see it in local host. Don't push
+lets me do is capture a full-size
+like I said, it's a blank project. If
+like it if the earn more was maybe a
+like setting this to code all night long
+like spinning up a website from scratch
+like staring at that and talking is
+like that. And so now that Claude can
+like the overall feel and vibe of the
+like too pixelated. So, what I'm going
+like what you see right here. Now once
+link and see what we got. All right, so
+literally just hit import on our AIS
+literally took one of the main screen
+literally, if you take this cloud.md and
+little bit cooler. So I'm going to ask
+local host for us to check out. So let's
+local version. And let's just say for
+local. I could open up my phone and type
+logically, this is really cool. I mean,
+logo is doing a little floating for
+look at that, I'm going to just give it
+looked at the about page. And what it
+looked at the hero section, which kind
+looked much worse. So, I'll leave a link
+looking landing pages and websites. All
+looks exactly like this one. And then
+looks good, push these changes to
+looks good. Okay, so what happens is
+looks pretty solid. Now, what I'm
+loop of thinking I haven't built this
+loop. So, the idea here is that AI is
+love that change. Go ahead and push that
+make sure that Cloud Code is building
+make the join the community button in
+markdown file. And why it's so important
+matching our brand as far as the logo,
+may want to turn off the screenshot
+maybe some sort of background behind the
+mention is in this case, because we're
+mentioned even though it's going to read
+mismatches and then it's going to do
+mode or light mode. There's lots of
+model to understand what we're asking
+month. So, it's keeping all of this on
+more is when we look at hack number
+much vibecoded AI vibecoded. And the
+music player app, and it created this
+my free school community. The link for
+my head. But we can see we've got the
+my logo and brand guidelines so that it
+near the end, even after 1 2 3 and four,
+nearby and nothing bad really is going
+need a paid account. As you can see
+need to create a new repository. So I'm
+need to do with that is we sync that
+needs. So every time you are doing
+nice little animation in the background.
+no time. Okay, so that finished up
+not entire websites. So, what we can do
+nothing that we'd be pushing into the
+notice is first of all, what it did is
+notice, or maybe you did, is over here,
+noticed that this really isn't stopping
+now have a new commit. We have all of
+now it's rewritten for our community,
+now we can just start to integrate our
+number zero because it's kind of a
+obviously gave it some different
+of like a chatbt or using cloud in the
+of like a community tracker dashboard,
+of making small tweaks and iterating
+of places that you can find inspiration.
+of the way there. But now that we added
+of this happened with only us saying,
+of this other stuff, which we could
+of this. We've got testimonials. We've
+of was a a random full page. It got the
+off. One shot prompt this thing. And
+okay, the user asked me this. Do I have
+on Mac that's still doable, but you just
+one other thing is you might have
+one to start and then open that up. And
+one, for example. First thing that I
+one. Obviously, some of the dynamic
+opens up the ability to actually use
+operating system. This is essentially
+or all of this and I'm just going to go
+or comparing to websites and cloning
+or me with Hermosi and Sam Ovens. But
+or passwords or any sensitive
+or your cloud subscription, which you do
+orange. It would be good if there was
+other little cards down here. None of
+other people can work on it, stuff like
+our colors, our typography, icons, stuff
+our colors. We have our primary accent,
+our domain. I need you to help push this
+our first hack which is the front-end
+our mid background. We've got the right
+our secondary, our dark background, and
+our website that is on the cloud. Well,
+own colors and logos and copy right into
+page, and it should be completely
+paste in what we grabbed from 21st. And
+paste it back in. But then I'm also
+permissions. I'm going to shoot that
+pictures in. We'd maybe want to change
+pictures like the school games dashboard
+pictures. As you saw in our website, we
+pills instead. Or maybe we want these
+polish. So, it basically uses its eyes
+potential to just kind of like run any
+practice, I've never really had this be
+prerequisite, but also a lot of times
+pretty quickly. We've got three
+professional landing page for AI
+professional. So give it like a cool
+project in the cloud and we set up a
+project. I can go ahead and continue to
+project. So, let's get started going
+prompt right here. This will basically
+prompt. So, before we prompt this agent,
+public GitHub or, you know, onto the
+purple colors. We've got your strategic
+push changes if they're not good, right?
+push them to Verscell and we'll be good
+read, you know, what's a header, what's
+reading the brand assets. And now what
+realize that we want to make a change to
+really cool autodeploy between Verscell
+really good at getting you where you
+really good. What I want you to do now
+reference and keep going back and forth
+refresh and see.
+repository and it could actually do
+repository. As simple as that. So I can
+right hand side. So, first thing we need
+right here I'm dragging in the Amation
+right here in our cloud.MD the first
+right here, you should see allow
+right here, you will see the web
+right here. Now, once you've done that,
+right, so I don't want to waste any time
+right, so let me go ahead and show you
+right, that just finished up. And you
+ruin the final reveal here. But it used
+say the most recent landing page looks
+say ultimately what's going to happen is
+say, "Hey, I gave you some more pictures
+say, "Hey, cloud code, can you set up
+saying is build me a modern and
+school community, the link for that's
+screenshot and you can see that that is
+screenshot loop is so powerful. So
+screenshot might not always work the
+screenshot of the entire page rather
+screenshot stuff. We have brand assets
+screenshot workflow. And we're just
+screenshot, look at the browser, see
+screenshot, which what I'm going to do
+screenshots here because I've actually
+screenshots here, but I'm not going to
+screenshots or in the claw.md, we should
+screenshots to help AI iterate upon
+screenshots, so it didn't take forever.
+scrolling tech companies. So, we've got
+secret thing going on here that I didn't
+section by section and analyzing how
+section down here I'm just going to copy
+see here is once it actually writes the
+see how that works. And it threw it on
+see that we should see right here two
+see you guys in this community. But
+set up. And then all I have to do is go
+shiny. We could toggle, you know, dark
+shoot this off and we will see.
+should actually do this instead. So,
+should be able to install all of that
+should have told cloud code, hey, you
+show you guys so you can get a feel for
+show you guys that. But let's first of
+showing Claude Code exactly what I want.
+sign in with your Enthropic subscription
+similar type of dashboard here. We've
+site is live on GitHub. So, if I click
+site, which once again looked like this.
+site. So basically what this means is
+site. So, I'm just going to go ahead and
+skill installed globally across any
+skill is. And what you're going to
+skill really is with such a minimal
+skill, I'll read it, and then I'll take
+skill, it might have gotten us like 40%
+skills right here. Essentially they are
+so it can actually do so. Now, it's not
+so that just finished up and before we
+some of these buttons to be more
+something in this project, this website
+something, it will read the claw.md file
+sometimes the screenshot doesn't fully
+start building out that website for us.
+start up the server and it's going to
+start, but you are going to continue to
+stats down here and a nice little call
+still developing all of this code and
+still kind of like watching it or I'm
+stuff for you right there really simply.
+system prompt. Think of it as every time
+take screenshots and it's going to do
+tell it not to do the screenshot flow.
+tell it that
+temporary screenshots folder. And so now
+temporary screenshots. And we can see
+test website, which you guys just saw me
+tested this out and I've had you know
+text organized so that the agent can
+text right behind it a little bit tough
+text, make things bigger, you know,
+than just my current view.
+that I did this is because the first one
+that account with your GitHub
+that again. And that is why the
+that cla code needs to look at. And what
+that first version of our workflow, it
+that has some, you know, animations. It
+that in that process of building out
+that is down in the description. And if
+that is pretty concise. You don't want
+that is something else that you can be
+that is where we will be working on this
+that look a little bit more professional
+that out for you. And of course, you
+that right into here in Cloud Code and
+that this might be a file or a folder
+that up, it's actually really, really
+that we have screenshot 1 2 3 4 all this
+that we just got a second one come
+that were made with each version. But
+that would be step two is you're going
+that you're going to need to do is go to
+that's super intuitive. And now I'm just
+that's super nice. We've also got some
+that's what you could do is you would
+that's why it's good that we still have,
+that. But right now, I just wanted to
+that. Now we can see the little glow
+that. We basically host our code or our
+that. We have a new commit. If I go to
+that. We've got like a little animation
+the MD stands for markdown, which is
+the URL, but we still do have our local
+the actual images could not have been
+the background animation looks super
+the cloudMD, it won't do a bunch of
+the colors, and the typography. It also
+the dashboard here. And what this now
+the demo, take them to this link. So,
+the end goal, then you might start
+the end goal. And so if you don't
+the exact same, but for a clone, this is
+the front-end design skill right there.
+the front-end design skill, create a
+the front-end design skill, it's going
+the front-end design skill, which is
+the front-end skill because it helps us
+the future. And when I say run these
+the index html, it started the server
+the main hero text section, make it more
+the next few months. So, we'd love to
+the reference. It's going to fix any
+the sake of the video, let's see how
+the style and just go ahead and clone
+the temporary screenshots in the
+the way there and then we make an
+the.get ignore and get everything set up
+them that coding process and thinking
+them. So, it looks like these are the
+then I said, here's a screenshot. here's
+then Verscell automatically grabs those
+then we're able to just choose a GitHub
+there's other little pieces that you
+there's tons of sites that you could go
+there. Awesome. So, it now says that our
+these temporary screenshots are more for
+they prompted Claude Code to do was use
+thing I wrote is always invoke the
+thing is getting pretty screenshot
+things on here, workshops, templates,
+things. So, now I can explicitly say,
+thinking about if you do want to be able
+this a hard refresh. And boom. We now
+this and we don't have that change yet,
+this as that tells the website how this
+this better? If yes, I'll grab the
+this command and then you run this one
+this if you wanted to and just paste
+this is all made up of a bunch of code
+this is for our community called AI
+this is really too animated. Well, I
+this link." or when they click on see
+this one that I want to use. It's got a
+this stuff in here. But that actually
+this stuff like our claw.md. We have our
+this template. And it's as simple as
+this video spin up some really awesome
+this website for us. So that is all
+this without that skill, it would have
+this, I wanted to point out one thing
+this, but in the actual to-dos, it wrote
+this. And always remember that's kind of
+those changes to that website clone that
+those changes. And once again, like
+three, which is using other websites as
+through and because they're dynamic
+through as well just now. And now if I
+through these five hacks. The first one
+to GitHub and we're going to push it to
+to GitHub. All right, so it just pushed
+to action at the bottom. So, cool. What
+to ask me questions. And that's because
+to automatically get pushed to um
+to be careful about, but it is very
+to bloat it too much with context. But
+to call this brand_assets.
+to check that what it's building
+to click through and see the changes
+to copy the name of that real quick and
+to do is in your claw.md file, you would
+to do is open up a project so that we
+to do now is just iterate. I'm going to
+to for website inspiration. Here's one
+to get us maybe let's let's just call it
+to go ahead and clear this out. I'm
+to go to the lefth hand side right here
+to go to verscell.com create an account.
+to go to your project settings. You
+to go. But when I'm making changes with
+to happen. All right, awesome. So, we
+to push that to GitHub or commit those
+to read. Also, in the hero text, I'd
+to see how it actually turns out. Okay,
+to tell it that here's my logo and
+to the next level to make it feel
+to this tweet in the description of this
+to type in cloud code and install it
+to use a combination of GitHub and
+to worry right now about a description
+today. If you guys enjoyed the video or
+ton. And as always, I appreciate you
+too big of a deal right now because
+took 10 screenshots. So, I can click
+tool. All right, so that just finished
+tools marquee. We've got stats, about
+tweaks that happens pretty quickly. And
+tweet that showed the power of this. All
+two paths and then we have some other
+two rounds at least of comparing. It's
+typography. We've got the right logo,
+understand how to put that into our
+understand what we're telling it to do
+unique? Well, what we're going to do is
+unlock the final hack, which is
+until it's close enough. So, let me show
+until you get to a good spot. We've got
+up here. We've got a a line going down.
+up. It didn't take a bunch of
+upgrade to max. So once you've got that
+upon your website. Just a reminder, you
+use its screenshot tool to screenshot
+use our branding and our you know colors
+use, which is the www right there. And
+using Cloud Code within. So once you've
+version because if I make a change here
+version that we gave it, which was this
+very, very similar. And it is a really
+video is what actually happens if we
+video. So, what I wanted to show you
+video. You basically just have to run
+viewport, which was that's more of the
+visit this site because it's now
+want these little kind of drop down
+want to do is on the top right here I'm
+want to go, but it takes a lot of manual
+want you to work in this background
+wanted our website to look like this
+wanted to show you guys that you can
+was looking for when we copied over that
+we can see it kind of full screen. Now,
+we can see our files and our folders.
+we could do now is obviously go back and
+we gave it. Well, we either should have
+we go to our deployments, we should see
+we put it in the claw. MD, but I just
+we see the actual glowing join the
+we're being pretty vague here and it
+we're going to be using today. You can
+we're going to do to start and then we
+we're previewing this in our local host.
+we're syncing all of the changes to
+we're working right now. All of these
+web. Now, the way that this works when
+website building YouTube folder, which
+website for us. Get rid of the old one
+website right here and build me a
+website. But now, how do we really up it
+website. So, I'm going to give you the
+website. Without the front-end design
+website.verell.app.
+well it does with this prompt. All
+well it's stacking up. But we will have
+well, but those changes take basically
+were AI vibe coded, but they actually
+what I'm going to do is just copy this
+what are skills? Well if you go to the
+what it looks like, and then make make
+what it's able to do is use its eyes,
+what it's building and look at the
+what we want to change. We'd add our own
+what you also could do is you could tell
+what you want to do is make sure that
+when we're building our website, which
+when you click on that, this is where it
+whenever we tell cloud code, hey this
+where even if you've never used Cloud
+where it actually comes into handy a lot
+where you would actually just have to
+which as you could tell by this video,
+which has some of the best website
+which is cool. We've got different
+which is great because we don't want to
+which once again, we didn't actually
+which one is which without clicking on
+will take longer. But once you have a
+with our own copy, but keep in mind, all
+with tons of more content coming over
+without a claw. MD file. But luckily for
+working version making small changes or
+working version of our site and I will
+working with an animation, the
+would also have to say, "Cool. When they
+would be up to the creativity of the
+would do is I would hit F12. I'm on
+would go to domains. And then this is
+would have just told Claude Code to do
+would have to do now is you would have
+would obviously have to configure as
+would still stand out and contrast
+would walk you through the DNS
+wouldn't be able to access them. And
+yes, it's nice to have something to
+yet opened a folder. So, I'm going to go
+yet tell you guys about, but if you've
+you actually can use Cloud Code. Whether
+you can actually just drag it right over
+you can do. So, here you can see I've
+you can see is that it says you have not
+you can see that I've got a section for
+you do that, it's going to prompt you to
+you don't have a folder, just go ahead
+you don't see this in your instance,
+you guys can't see because you can't see
+you guys how good this front-end design
+you guys that in action right now. So,
+you guys were curious why I was just
+you guys, if you go over to my free
+you guys, the lefth hand side is where
+you have files on the lefth hand side
+you here, we're always going to test on
+you just built. And once again, we are
+you know whatever you want to consider
+you know, look at it here or download
+you learned something new, please give
+you might have to rego back and update
+you that this is dangerous. It has the
+you want to give it the rules that it
+you want to, you know, build websites
+you websites that don't look like they
+you're doing some of the big processes
+you're going to go to settings. You're
+you're looking to dive deeper with cloud
+you're on pro or max, you can use it.
+you're putting in instructions. And
+you're using Cloud Code in Visual Studio
+you're usually putting in knowledge and
+your claw.md file or just have claw do

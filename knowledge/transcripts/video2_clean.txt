@@ -1,0 +1,502 @@
+ 
+3.js. Now, we can have all of these kind
+3D
+>> [snorts]
+>> all different services or whatever that
+And so, for that reason, we're going to
+And so, that's what CSS does and
+And then the third one here, which I
+And today I'm going to be walking you
+And you could just go back into the the
+At least it was for me before AI. And
+CSS, everything that actually goes into
+CSS. In fact, this is actually that
+Code that do not look like AI slop.
+Dribbble. So, in here, we can type in
+Especially as well when you have two
+Essentially, what these do is they bring
+Every single one of the websites in
+Fonts, one of the cool things is is you
+I did to find Railway here. And I
+I guess, nine technically, where we can
+I hope I got that right. Um and with
+I say above the fold, I just mean like
+I'll leave this in the description down
+I'm going to fire off this prompt right
+It just makes it feel a bit more busy, a
+It's a radial gradient with multiple
+Let's head over to technique number one,
+Looks beautiful. This is what we've
+Maybe you want something like informal,
+My name is Jono. I've built two
+Now, I find that with fonts, a lot of
+Now, for those of you who do not know
+Now, the last thing that I want to talk
+Now, there is a lot of different
+Okay, you can go down the list of all
+Okay. And then we can paste it in here,
+One thing I'll point out here is that I
+Railway was and it went ahead and built
+Same kind of deal with these buttons
+Shadcn does. It's a reusable template
+Shadcn-ui.
+So, as we slowly scroll down the page,
+So, everything's good. Okay, let's go
+So, instead of trying to describe how
+So, let's take a look at the results.
+So, that's a very good way to be able to
+So, you can easily
+Tailwind is just a framework or a CSS
+The same boring layout, gradients, and
+These are just instructions we're
+Um and the other one is 3 3.js over
+YouTube, and all the blueprints for this
+[music]
+a couple examples of what this looks
+a lot of different stuff that we could
+a lot of texture and a lot of character
+a screenshot. So, for this entire
+a whole host of different fonts. And all
+able to actually detect all of the HTML,
+about in this video is technique number,
+absolutely stunning and that is building
+across the screen with your cursor. Next
+across those sites where it has like
+actual underlying technology that we're
+actually a video, but we can pause it
+actually comes with all this text that I
+actually go ahead and grab this. And
+actually matters here really is this
+adding animations onto our website. So,
+additional grids into the graphic here
+again at this stage and the next stage,
+ahead and delete all of this stuff so
+ahead and demo this out. Here is now our
+all about typography. So, we'll copy
+all of that kind of stuff is adding
+all the hover hovering effects. So, like
+allowed me to personally scale my
+also call on spline up top here, which
+analyze the website. It's going to be
+and ask Claude to find beautiful
+and build it out. So, that's a cool way
+and it's going to naturally build that
+and it's just like the low-level
+and let's take a look at the results.
+and um
+and used it in my file. And here are the
+and we can take a screenshot of this
+and we're going to edit things. So, I'm
+animation to our website. Now, the next
+anything that we want to. And how we do
+are examples of what you can do, but we
+as well. And of course, there's a lot of
+asked for to include. By default, a lot
+asking it to build out the site using
+at best website. But, what we can do is
+at the top here, right? We don't want
+attach a screenshot so that it can
+automate these things yourself, you can
+automate up to 80% of it with blueprints
+automation by finding, closing, and
+available, it will go to work for you
+back in a matter of a couple seconds
+back when we're all set. Cool. So,
+background here above the fold. And when
+background over here, okay? So, that's
+background. So, if you've ever come
+be the best suited for the website I'm
+beautiful thing is is as we're kind of
+beautiful websites, but you can do and
+beautiful with this in the background.
+behave like a senior UI designer and
+being said, what we're going to do here
+below. But essentially, what we're going
+bit more complete or full just by adding
+bit more full. So, I'm going to go back
+blue, and pink and teal circles
+box or we can have avatars for
+build beautiful websites using Claude
+build out a standard website. How I got
+build using 3js, and you just can just
+building out that grid system where
+building this and then essentially clone
+building." Sweet. So, everything is
+built so far. Here's a website without
+business, I'll show you how you can
+businesses to seven figures. And of
+but it is free, okay? And so, when we
+call on. 3js down here, and then we can
+call to action section, include 3js, and
+can add in things like a toggle for
+can build these animations across your
+can go ahead and looks like this is
+can kind of like flow in and and and all
+can kind of see it moving. And then for
+can sort by calligraphy. So, for
+case is we're using Google Fonts to find
+clone or replicate a website that you
+comes in. And if we over head over to
+community where I go through all of this
+components, we can see a bunch of
+cool. Now, what we're going to be using
+copy this particular prompt, and we are
+copy this, and then paste it in. So, I'm
+could smooth this out with a gradient
+couple minutes. Another place to draw
+course, if you don't want to have to
+crash course. It stands for cascading
+cursor is going, which I think is really
+days or less, and then scaling up from
+description for free. If you guys want
+design into a site. So, what I'm going
+designed over 50 beautiful websites.
+designs that other people have put
+developer. Now, let's head over to
+did copy their image, okay? I downloaded
+difference isn't the tool, it's eight
+different 3D graphics as well. Let me
+different colors, a blurred purple,
+different fonts, one for titles, and one
+different fonts, one for titles, body
+different pages. So, for example, we can
+different types of fonts to choose from.
+directly onto your particular website.
+do this as well. Another one is Spline.
+do. First, we're going to start with
+does the trick. And it will give us
+don't want anything where if we zoom out
+don't want. And so, I'm going to go
+down the page here to the CTA section,
+down, we can give animation to all of
+elements to life. So, let's kind of take
+end, kind of minimal. But honestly, I
+enlarges. And it enlarges with 300
+entire website. Cool. So, the site's on.
+everything's good to go and we've
+exact same website. It just has no
+exactly how they're doing it. And
+example and it gives that professional
+example or we can have reusable buttons
+export in the corner, and then we want
+feel like it changes the whole entire
+finding inspiration from websites that
+first of all make money with AI and
+fold. And then lastly, we also have this
+for
+for body paragraphs. And in this case,
+for spline.design,
+for the background."
+from Google Font, and then include it
+from the image on rail railway. And the
+front of us was built using AI and every
+front-end developer. And surprise, it's
+fulfilling your first deal within 30
+gave it a description to Claude of what
+genuinely really love this website. I
+go through the whole website and change
+going to click into editing it. But it
+going to do is I'm going to use this
+going to generate a link. We're going to
+going to go ahead and act like a senior
+going to look good if we have that right
+going to paste it in. We're just
+going to pause this video and return
+going to say, "Please
+good to go. We've cloned Railway here
+granted, but are actually kind of
+graphic and and find that wherever it
+graphic here, I also don't want. I just
+graphics that we can use from 3js. This
+guys. Let's go over what they actually
+has the text, inputs, images, all that
+have a professional accordion out of the
+have is like 4x4 graphics, so it looks a
+have one font for headers, one font for
+have this ball over here where it rolls
+heading back into Claude Code and we're
+here or a graphic over here, we can take
+here was also built out using AI, but
+here, it moves up ever so slightly. And
+here, we have your everyday life,
+here. And right away, super noticeable.
+here. So, we're going to be using these
+highly recommend first of all to
+honestly add so much character to the
+huge struggle. I thought these kind of
+implemented a gradient background. Let
+implemented all of those eight
+in Claude should have a Claude.md file.
+in a background. Okay, so with that
+in at the bottom here. Right? We can see
+in that prompt as well, we said in the
+in this is actually go to railway.com,
+individual elements to life. So, these
+inspiration for user interfaces. Okay,
+inspiration from is also a site called
+instance, maybe you want handwriting.
+instructions. Now, every single project
+is first of all this logo that I
+is kind of just not the exact one, but
+is move on to the next step, which is
+is that I think are really cool. So, we
+is this kind of rough edge over here. We
+is what it looks like. We moved away
+is, and then delete it. But also, there
+it almost looks like there's three
+it is you're looking for. And when
+it just naturally fades into this
+it looks like it's gone ahead and
+it to the particular website. You can
+it would actually legitimately have
+it's happening over 300 milliseconds.
+just generically, I guess. Just website
+kind of bothering me how there's only
+kind of category. You also have formal,
+kind of stuff and teach you how you can
+kind of stuff, but there is no styling.
+last. So, we're going to start with
+learn more about Claude Code, I highly
+library in order for you to style
+library right over here that's doing
+library that we can import into our
+like instantly popping up, otherwise it
+like motion.dev to bring all the
+like this video, I'm sure you'll like
+like. If we just head over to the site,
+lines coming into the into the into the
+literally before you scroll down the
+live. Let's take a look at the font over
+log in, we'll head over to the community
+look and feel of a website, especially
+look where this white dot flips across
+looking already absolutely beautiful.
+looking for, and it's going to go to
+masterclass on the subject for free on
+me just be really concise with this.
+me like takes it over the top in terms
+minimalist site, there's not a lot of
+more, I have a paid AI automation
+nobody would have guessed that. And the
+not happy with it, you can go back to
+not the only one, but this is one of the
+now in like literally one prompt, you
+number two is about cloning a site like
+of motion graphics or sorry, 3D graphics
+of professionalism. Okay, lastly, what
+of stuff coming to life all the way down
+of that kind of stuff. It looks like
+of the times when you use it, it tends
+of these are free. All we have to do is
+okay? And I'm going to tell Claude to
+on our site. So, we can get things like
+on the first link here, we can grab from
+one graphic right here. What I'd rather
+one over here, we have this nice little
+one. Bye-bye.
+option as well. We just have a gradient
+or Spleen or I think it's Spline. I
+others. And also, if you want to learn
+our elements on the page so that they
+ourselves. So, I'm going to go ahead and
+out this really um generic and average
+out, include it on our website. Cool.
+over here and circle back when it's all
+over here of the site, okay? And then
+over to technique number four here,
+over to the final prompt here, which is
+over top here, okay? And that's an
+padding for example or you can put
+page, this is the first graphic that we
+paragraph here. We're just telling it to
+paragraphs, and then bullet points as
+part of designing websites. I think it's
+particular element on the page, and
+particular grid over here, because it's
+particular pages, stuff like this,
+paste into your existing business, which
+paste that right into Claude Code, or
+point in time. But, as we scroll down,
+positioned around the page, okay? This
+potentially like testimonials for
+pre-made reusable templates that we can
+probably should have deleted there.
+project immediately. Okay, so let's head
+pull out the font you think is going to
+put in this prompt right over here to
+really basic example. When we scroll
+recommend taking a look at my
+reference to Claude Code which one we're
+results. Right away, first shot, it's
+reusable templates, this is where Shadcn
+right here, which I think is freaking
+right? However, if you want to create
+rough. It's really smooth, right? So,
+said and done. But, we're using
+same stock components. But, this website
+screenshot. In this example, what I'm
+scrolling down this project, it does add
+second milliseconds delay. So, it's not
+section, we can literally just grab a
+see here. And we can see here that there
+send this off and I'm going to return
+seven-figure businesses and I've also
+shot over here, and then describe what
+show you just a couple here that I think
+single one of them looks like AI slop.
+sites that I use very frequently to find
+so let's move on to technique number
+something called GSAP and Framer Motion.
+something called Tailwind CSS and
+something like website
+something that we like. So, if you just
+something that we'd want to change and
+sophisticated and complicated to build
+specifically in this demo is this guy
+specifically the
+specifically, the only thing that
+specifically, what we're doing in this
+standard graphic like this, but there's
+step is probably actually my favorite
+stuff going on here. It still looks
+style sheets. It's just styling on a
+styling with it. It just has HTML. It
+styling. So, you can do things like
+subscribe to the channel, because if you
+supercharge this by copying Railway. How
+sweet. And it also gives me the same
+tab right over here, and you'll need to
+take a look at my agency where we can do
+technique number two here, which is
+techniques so that by the end of the
+techniques that nobody bothers to use.
+telling Claude in order to behave the
+text layered on top of text, because if
+thanks guys for watching. If you want to
+that essentially goes from this color to
+that even though it's a pretty
+that is through screenshots. I find that
+that we can get it off the page. This
+that we can have 3D graphics behind a
+that we have that we use. That's what
+that you can do. But, here's just a
+that you can literally just copy and
+that's not necessary, tacked on at the
+that's this GSAP
+that. And as we're scrolling down, we
+that. I'm just going to call it thing.
+that. So, we're good here. We can hit
+the background. Obviously, that's not
+the different types of handwriting.
+the drawing board and grab new fonts
+the entire thing. I'm also going to
+the page. Okay, so what that is is
+the screen. And so, all of those little
+the spline graphic. And if we scroll
+the subtitle down there. So, this is
+the times it's viewed as like something
+then we can remix this, which means
+there's 4x4 in a row. And I'm also going
+there's other libraries out there that
+there. And if you have an existing
+these 3D boxes that follow where your
+these really cool 3D graphics and you're
+they have this beautiful nice little
+they're actually incredibly difficult.
+they're flying in, I guess, is the right
+thing in motion. So, very similar feel.
+thing. I don't even know what to call
+things would be so easy to build, but
+think I just horribly pronounced that.
+think is beautiful, is these horizontal
+think it looks beautiful. So, technique
+this fictitious company is offering. So,
+this is more or less what it is that I
+this motion library right over here,
+this moving automatically in the
+this on your behalf. Thanks guys for
+this particular website right here, we
+this prompt into Claude Code. And
+this was I typed in what is Railway. I
+this, you can you can grab tons of
+this. And essentially, what we're saying
+this. Now, just to kick things off, I
+those are two different resources we can
+three over here, which is all about the
+through every single one of these
+to attach that screenshot that we just
+to be one of the most effective ways.
+to do is I'm going to send this off,
+to do is we're going to grab this, and
+to gravitate towards just like a
+to learn more about AI and automation, I
+to the drawing board here. I'm going to
+to the site. And what I like about it is
+together. So, if for example, you like
+took as well. Cool. So, we're back, and
+took me a long like honestly, that was a
+transparent, so that as we scroll down,
+truly love online in a matter of just a
+tweaks, which I feel like we take for
+type in to Google Google Fonts,
+uh
+um at least if you're not using AI. It
+um the code export right over here. It's
+um we're going to save the best for
+unfortunately, that's actually clipping
+use across our website, across multiple
+use this spline graphic above the fold
+use this. Now, you do need an account
+use two libraries. One is called Spline
+using. So, what we're doing is we're
+vibes as like stripe.com over here, how
+video are going to be down below in the
+video, you're going to understand how to
+visually see exactly what we are seeing
+watching, and I'll see you in the next
+way we want it to behave. And
+we already love. Now, you can go ahead
+we can circle back to that at a later
+we can see a lot of motion. And
+we can see the bars and all of this kind
+we can see the graphic right over here.
+we can see the text and images gliding
+we do that is by taking a screenshot
+we want changed in that particular
+we were to import it in just like that,
+we're going to do is we're going to head
+we're going to use a prompt just like
+we're just copying it into our project,
+website and then use that as inspiration
+website with the spline graphic in the
+website, and right away, this really to
+website. Here's a website with CSS.
+websites for you and that's exactly what
+websites out there like this. Dribbble's
+well. And if for whatever reason you're
+wellness, AI, all this kind of stuff in
+what CSS is, let me give you a 10-second
+what this is doing on the page is it's
+when it's done. Cool. So, everything's
+when we click this button or this box
+when we hover over this button, it
+when you have a nice beautiful font.
+which is all about backgrounds. I'm
+which is giving Claude Code the right
+width. So, you can have columns on
+with the gray background as well. So,
+wondering how they do it, this is
+word. And then we can also use something
+work for us pulling it out and applying
+would be kind of jagged and and and
+you can easily sort based on the style
+you can just tell it exactly what it is
+you can kind of see some text in that
+you can see all the kind of cool stuff
+you could just ask Claude Code, "Hey,
+you have upright, you have all these
+you want to change like a graphic over
+you're looking for. As long as it's
+you've gone ahead and found one, you can
+your body paragraphs. And if this is
+your first time coming in using Google

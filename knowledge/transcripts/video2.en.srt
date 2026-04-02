@@ -1,0 +1,5005 @@
+1
+00:00:00,440 --> 00:00:01,830
+
+Every single one of the websites in
+
+2
+00:00:01,830 --> 00:00:01,840
+Every single one of the websites in
+ 
+
+3
+00:00:01,840 --> 00:00:04,430
+Every single one of the websites in
+front of us was built using AI and every
+
+4
+00:00:04,430 --> 00:00:04,440
+front of us was built using AI and every
+ 
+
+5
+00:00:04,440 --> 00:00:06,470
+front of us was built using AI and every
+single one of them looks like AI slop.
+
+6
+00:00:06,470 --> 00:00:06,480
+single one of them looks like AI slop.
+ 
+
+7
+00:00:06,480 --> 00:00:08,550
+single one of them looks like AI slop.
+The same boring layout, gradients, and
+
+8
+00:00:08,550 --> 00:00:08,560
+The same boring layout, gradients, and
+ 
+
+9
+00:00:08,560 --> 00:00:10,910
+The same boring layout, gradients, and
+same stock components. But, this website
+
+10
+00:00:10,910 --> 00:00:10,920
+same stock components. But, this website
+ 
+
+11
+00:00:10,920 --> 00:00:13,510
+same stock components. But, this website
+here was also built out using AI, but
+
+12
+00:00:13,510 --> 00:00:13,520
+here was also built out using AI, but
+ 
+
+13
+00:00:13,520 --> 00:00:14,830
+here was also built out using AI, but
+nobody would have guessed that. And the
+
+14
+00:00:14,830 --> 00:00:14,840
+nobody would have guessed that. And the
+ 
+
+15
+00:00:14,840 --> 00:00:17,390
+nobody would have guessed that. And the
+difference isn't the tool, it's eight
+
+16
+00:00:17,390 --> 00:00:17,400
+difference isn't the tool, it's eight
+ 
+
+17
+00:00:17,400 --> 00:00:19,670
+difference isn't the tool, it's eight
+techniques that nobody bothers to use.
+
+18
+00:00:19,670 --> 00:00:19,680
+techniques that nobody bothers to use.
+ 
+
+19
+00:00:19,680 --> 00:00:20,990
+techniques that nobody bothers to use.
+My name is Jono. I've built two
+
+20
+00:00:20,990 --> 00:00:21,000
+My name is Jono. I've built two
+ 
+
+21
+00:00:21,000 --> 00:00:22,550
+My name is Jono. I've built two
+seven-figure businesses and I've also
+
+22
+00:00:22,550 --> 00:00:22,560
+seven-figure businesses and I've also
+ 
+
+23
+00:00:22,560 --> 00:00:24,225
+seven-figure businesses and I've also
+designed over 50 beautiful websites.
+
+24
+00:00:24,225 --> 00:00:24,235
+designed over 50 beautiful websites.
+ 
+
+25
+00:00:24,235 --> 00:00:25,190
+designed over 50 beautiful websites.
+[music]
+
+26
+00:00:25,190 --> 00:00:25,200
+[music]
+ 
+
+27
+00:00:25,200 --> 00:00:26,590
+[music]
+And today I'm going to be walking you
+
+28
+00:00:26,590 --> 00:00:26,600
+And today I'm going to be walking you
+ 
+
+29
+00:00:26,600 --> 00:00:28,310
+And today I'm going to be walking you
+through every single one of these
+
+30
+00:00:28,310 --> 00:00:28,320
+through every single one of these
+ 
+
+31
+00:00:28,320 --> 00:00:29,990
+through every single one of these
+techniques so that by the end of the
+
+32
+00:00:29,990 --> 00:00:30,000
+techniques so that by the end of the
+ 
+
+33
+00:00:30,000 --> 00:00:31,750
+techniques so that by the end of the
+video, you're going to understand how to
+
+34
+00:00:31,750 --> 00:00:31,760
+video, you're going to understand how to
+ 
+
+35
+00:00:31,760 --> 00:00:33,790
+video, you're going to understand how to
+build beautiful websites using Claude
+
+36
+00:00:33,790 --> 00:00:33,800
+build beautiful websites using Claude
+ 
+
+37
+00:00:33,800 --> 00:00:36,190
+build beautiful websites using Claude
+Code that do not look like AI slop.
+
+38
+00:00:36,190 --> 00:00:36,200
+Code that do not look like AI slop.
+ 
+
+39
+00:00:36,200 --> 00:00:38,430
+Code that do not look like AI slop.
+Let's head over to technique number one,
+
+40
+00:00:38,430 --> 00:00:38,440
+Let's head over to technique number one,
+ 
+
+41
+00:00:38,440 --> 00:00:41,430
+Let's head over to technique number one,
+which is giving Claude Code the right
+
+42
+00:00:41,430 --> 00:00:41,440
+which is giving Claude Code the right
+ 
+
+43
+00:00:41,440 --> 00:00:43,710
+which is giving Claude Code the right
+instructions. Now, every single project
+
+44
+00:00:43,710 --> 00:00:43,720
+instructions. Now, every single project
+ 
+
+45
+00:00:43,720 --> 00:00:46,150
+instructions. Now, every single project
+in Claude should have a Claude.md file.
+
+46
+00:00:46,150 --> 00:00:46,160
+in Claude should have a Claude.md file.
+ 
+
+47
+00:00:46,160 --> 00:00:47,470
+in Claude should have a Claude.md file.
+These are just instructions we're
+
+48
+00:00:47,470 --> 00:00:47,480
+These are just instructions we're
+ 
+
+49
+00:00:47,480 --> 00:00:49,350
+These are just instructions we're
+telling Claude in order to behave the
+
+50
+00:00:49,350 --> 00:00:49,360
+telling Claude in order to behave the
+ 
+
+51
+00:00:49,360 --> 00:00:50,670
+telling Claude in order to behave the
+way we want it to behave. And
+
+52
+00:00:50,670 --> 00:00:50,680
+way we want it to behave. And
+ 
+
+53
+00:00:50,680 --> 00:00:52,190
+way we want it to behave. And
+specifically, the only thing that
+
+54
+00:00:52,190 --> 00:00:52,200
+specifically, the only thing that
+ 
+
+55
+00:00:52,200 --> 00:00:54,630
+specifically, the only thing that
+actually matters here really is this
+
+56
+00:00:54,630 --> 00:00:54,640
+actually matters here really is this
+ 
+
+57
+00:00:54,640 --> 00:00:56,150
+actually matters here really is this
+paragraph here. We're just telling it to
+
+58
+00:00:56,150 --> 00:00:56,160
+paragraph here. We're just telling it to
+ 
+
+59
+00:00:56,160 --> 00:00:58,110
+paragraph here. We're just telling it to
+behave like a senior UI designer and
+
+60
+00:00:58,110 --> 00:00:58,120
+behave like a senior UI designer and
+ 
+
+61
+00:00:58,120 --> 00:01:00,070
+behave like a senior UI designer and
+front-end developer. And surprise, it's
+
+62
+00:01:00,070 --> 00:01:00,080
+front-end developer. And surprise, it's
+ 
+
+63
+00:01:00,080 --> 00:01:01,950
+front-end developer. And surprise, it's
+going to go ahead and act like a senior
+
+64
+00:01:01,950 --> 00:01:01,960
+going to go ahead and act like a senior
+ 
+
+65
+00:01:01,960 --> 00:01:03,270
+going to go ahead and act like a senior
+developer. Now, let's head over to
+
+66
+00:01:03,270 --> 00:01:03,280
+developer. Now, let's head over to
+ 
+
+67
+00:01:03,280 --> 00:01:04,990
+developer. Now, let's head over to
+technique number two here, which is
+
+68
+00:01:04,990 --> 00:01:05,000
+technique number two here, which is
+ 
+
+69
+00:01:05,000 --> 00:01:07,350
+technique number two here, which is
+finding inspiration from websites that
+
+70
+00:01:07,350 --> 00:01:07,360
+finding inspiration from websites that
+ 
+
+71
+00:01:07,360 --> 00:01:08,870
+finding inspiration from websites that
+we already love. Now, you can go ahead
+
+72
+00:01:08,870 --> 00:01:08,880
+we already love. Now, you can go ahead
+ 
+
+73
+00:01:08,880 --> 00:01:10,310
+we already love. Now, you can go ahead
+and ask Claude to find beautiful
+
+74
+00:01:10,310 --> 00:01:10,320
+and ask Claude to find beautiful
+ 
+
+75
+00:01:10,320 --> 00:01:12,470
+and ask Claude to find beautiful
+websites for you and that's exactly what
+
+76
+00:01:12,470 --> 00:01:12,480
+websites for you and that's exactly what
+ 
+
+77
+00:01:12,480 --> 00:01:15,030
+websites for you and that's exactly what
+I did to find Railway here. And I
+
+78
+00:01:15,030 --> 00:01:15,040
+I did to find Railway here. And I
+ 
+
+79
+00:01:15,040 --> 00:01:16,590
+I did to find Railway here. And I
+genuinely really love this website. I
+
+80
+00:01:16,590 --> 00:01:16,600
+genuinely really love this website. I
+ 
+
+81
+00:01:16,600 --> 00:01:18,110
+genuinely really love this website. I
+think it looks beautiful. So, technique
+
+82
+00:01:18,110 --> 00:01:18,120
+think it looks beautiful. So, technique
+ 
+
+83
+00:01:18,120 --> 00:01:20,950
+think it looks beautiful. So, technique
+number two is about cloning a site like
+
+84
+00:01:20,950 --> 00:01:20,960
+number two is about cloning a site like
+ 
+
+85
+00:01:20,960 --> 00:01:22,950
+number two is about cloning a site like
+this. Now, just to kick things off, I
+
+86
+00:01:22,950 --> 00:01:22,960
+this. Now, just to kick things off, I
+ 
+
+87
+00:01:22,960 --> 00:01:25,150
+this. Now, just to kick things off, I
+put in this prompt right over here to
+
+88
+00:01:25,150 --> 00:01:25,160
+put in this prompt right over here to
+ 
+
+89
+00:01:25,160 --> 00:01:27,350
+put in this prompt right over here to
+build out a standard website. How I got
+
+90
+00:01:27,350 --> 00:01:27,360
+build out a standard website. How I got
+ 
+
+91
+00:01:27,360 --> 00:01:29,590
+build out a standard website. How I got
+this was I typed in what is Railway. I
+
+92
+00:01:29,590 --> 00:01:29,600
+this was I typed in what is Railway. I
+ 
+
+93
+00:01:29,600 --> 00:01:31,430
+this was I typed in what is Railway. I
+gave it a description to Claude of what
+
+94
+00:01:31,430 --> 00:01:31,440
+gave it a description to Claude of what
+ 
+
+95
+00:01:31,440 --> 00:01:33,710
+gave it a description to Claude of what
+Railway was and it went ahead and built
+
+96
+00:01:33,710 --> 00:01:33,720
+Railway was and it went ahead and built
+ 
+
+97
+00:01:33,720 --> 00:01:36,870
+Railway was and it went ahead and built
+out this really um generic and average
+
+98
+00:01:36,870 --> 00:01:36,880
+out this really um generic and average
+ 
+
+99
+00:01:36,880 --> 00:01:40,270
+out this really um generic and average
+at best website. But, what we can do is
+
+100
+00:01:40,270 --> 00:01:40,280
+at best website. But, what we can do is
+ 
+
+101
+00:01:40,280 --> 00:01:43,190
+at best website. But, what we can do is
+supercharge this by copying Railway. How
+
+102
+00:01:43,190 --> 00:01:43,200
+supercharge this by copying Railway. How
+ 
+
+103
+00:01:43,200 --> 00:01:45,470
+supercharge this by copying Railway. How
+we do that is by taking a screenshot
+
+104
+00:01:45,470 --> 00:01:45,480
+we do that is by taking a screenshot
+ 
+
+105
+00:01:45,480 --> 00:01:48,350
+we do that is by taking a screenshot
+over here of the site, okay? And then
+
+106
+00:01:48,350 --> 00:01:48,360
+over here of the site, okay? And then
+ 
+
+107
+00:01:48,360 --> 00:01:50,910
+over here of the site, okay? And then
+we're going to use a prompt just like
+
+108
+00:01:50,910 --> 00:01:50,920
+we're going to use a prompt just like
+ 
+
+109
+00:01:50,920 --> 00:01:53,070
+we're going to use a prompt just like
+this. And essentially, what we're saying
+
+110
+00:01:53,070 --> 00:01:53,080
+this. And essentially, what we're saying
+ 
+
+111
+00:01:53,080 --> 00:01:56,990
+this. And essentially, what we're saying
+in this is actually go to railway.com,
+
+112
+00:01:56,990 --> 00:01:57,000
+in this is actually go to railway.com,
+ 
+
+113
+00:01:57,000 --> 00:01:58,950
+in this is actually go to railway.com,
+analyze the website. It's going to be
+
+114
+00:01:58,950 --> 00:01:58,960
+analyze the website. It's going to be
+ 
+
+115
+00:01:58,960 --> 00:02:01,270
+analyze the website. It's going to be
+able to actually detect all of the HTML,
+
+116
+00:02:01,270 --> 00:02:01,280
+able to actually detect all of the HTML,
+ 
+
+117
+00:02:01,280 --> 00:02:03,590
+able to actually detect all of the HTML,
+CSS, everything that actually goes into
+
+118
+00:02:03,590 --> 00:02:03,600
+CSS, everything that actually goes into
+ 
+
+119
+00:02:03,600 --> 00:02:05,710
+CSS, everything that actually goes into
+building this and then essentially clone
+
+120
+00:02:05,710 --> 00:02:05,720
+building this and then essentially clone
+ 
+
+121
+00:02:05,720 --> 00:02:07,750
+building this and then essentially clone
+the entire thing. I'm also going to
+
+122
+00:02:07,750 --> 00:02:07,760
+the entire thing. I'm also going to
+ 
+
+123
+00:02:07,760 --> 00:02:09,669
+the entire thing. I'm also going to
+attach a screenshot so that it can
+
+124
+00:02:09,669 --> 00:02:09,679
+attach a screenshot so that it can
+ 
+
+125
+00:02:09,679 --> 00:02:12,070
+attach a screenshot so that it can
+visually see exactly what we are seeing
+
+126
+00:02:12,070 --> 00:02:12,080
+visually see exactly what we are seeing
+ 
+
+127
+00:02:12,080 --> 00:02:14,030
+visually see exactly what we are seeing
+ourselves. So, I'm going to go ahead and
+
+128
+00:02:14,030 --> 00:02:14,040
+ourselves. So, I'm going to go ahead and
+ 
+
+129
+00:02:14,040 --> 00:02:15,470
+ourselves. So, I'm going to go ahead and
+send this off and I'm going to return
+
+130
+00:02:15,470 --> 00:02:15,480
+send this off and I'm going to return
+ 
+
+131
+00:02:15,480 --> 00:02:17,030
+send this off and I'm going to return
+back in a matter of a couple seconds
+
+132
+00:02:17,030 --> 00:02:17,040
+back in a matter of a couple seconds
+ 
+
+133
+00:02:17,040 --> 00:02:18,470
+back in a matter of a couple seconds
+when it's done. Cool. So, everything's
+
+134
+00:02:18,470 --> 00:02:18,480
+when it's done. Cool. So, everything's
+ 
+
+135
+00:02:18,480 --> 00:02:20,350
+when it's done. Cool. So, everything's
+good to go. We've cloned Railway here
+
+136
+00:02:20,350 --> 00:02:20,360
+good to go. We've cloned Railway here
+ 
+
+137
+00:02:20,360 --> 00:02:21,710
+good to go. We've cloned Railway here
+and let's take a look at the results.
+
+138
+00:02:21,710 --> 00:02:21,720
+and let's take a look at the results.
+ 
+
+139
+00:02:21,720 --> 00:02:22,990
+and let's take a look at the results.
+One thing I'll point out here is that I
+
+140
+00:02:22,990 --> 00:02:23,000
+One thing I'll point out here is that I
+ 
+
+141
+00:02:23,000 --> 00:02:25,710
+One thing I'll point out here is that I
+did copy their image, okay? I downloaded
+
+142
+00:02:25,710 --> 00:02:25,720
+did copy their image, okay? I downloaded
+ 
+
+143
+00:02:25,720 --> 00:02:27,990
+did copy their image, okay? I downloaded
+and used it in my file. And here are the
+
+144
+00:02:27,990 --> 00:02:28,000
+and used it in my file. And here are the
+ 
+
+145
+00:02:28,000 --> 00:02:30,350
+and used it in my file. And here are the
+results. Right away, first shot, it's
+
+146
+00:02:30,350 --> 00:02:30,360
+results. Right away, first shot, it's
+ 
+
+147
+00:02:30,360 --> 00:02:32,350
+results. Right away, first shot, it's
+looking already absolutely beautiful.
+
+148
+00:02:32,350 --> 00:02:32,360
+looking already absolutely beautiful.
+ 
+
+149
+00:02:32,360 --> 00:02:34,950
+looking already absolutely beautiful.
+So, that's a very good way to be able to
+
+150
+00:02:34,950 --> 00:02:34,960
+So, that's a very good way to be able to
+ 
+
+151
+00:02:34,960 --> 00:02:36,910
+So, that's a very good way to be able to
+clone or replicate a website that you
+
+152
+00:02:36,910 --> 00:02:36,920
+clone or replicate a website that you
+ 
+
+153
+00:02:36,920 --> 00:02:39,230
+clone or replicate a website that you
+truly love online in a matter of just a
+
+154
+00:02:39,230 --> 00:02:39,240
+truly love online in a matter of just a
+ 
+
+155
+00:02:39,240 --> 00:02:40,950
+truly love online in a matter of just a
+couple minutes. Another place to draw
+
+156
+00:02:40,950 --> 00:02:40,960
+couple minutes. Another place to draw
+ 
+
+157
+00:02:40,960 --> 00:02:42,750
+couple minutes. Another place to draw
+inspiration from is also a site called
+
+158
+00:02:42,750 --> 00:02:42,760
+inspiration from is also a site called
+ 
+
+159
+00:02:42,760 --> 00:02:45,430
+inspiration from is also a site called
+Dribbble. So, in here, we can type in
+
+160
+00:02:45,430 --> 00:02:45,440
+Dribbble. So, in here, we can type in
+ 
+
+161
+00:02:45,440 --> 00:02:47,550
+Dribbble. So, in here, we can type in
+something like website
+
+162
+00:02:47,550 --> 00:02:47,560
+something like website
+ 
+
+163
+00:02:47,560 --> 00:02:49,350
+something like website
+just generically, I guess. Just website
+
+164
+00:02:49,350 --> 00:02:49,360
+just generically, I guess. Just website
+ 
+
+165
+00:02:49,360 --> 00:02:51,830
+just generically, I guess. Just website
+does the trick. And it will give us
+
+166
+00:02:51,830 --> 00:02:51,840
+does the trick. And it will give us
+ 
+
+167
+00:02:51,840 --> 00:02:53,910
+does the trick. And it will give us
+designs that other people have put
+
+168
+00:02:53,910 --> 00:02:53,920
+designs that other people have put
+ 
+
+169
+00:02:53,920 --> 00:02:56,390
+designs that other people have put
+together. So, if for example, you like
+
+170
+00:02:56,390 --> 00:02:56,400
+together. So, if for example, you like
+ 
+
+171
+00:02:56,400 --> 00:02:58,550
+together. So, if for example, you like
+this particular website right here, we
+
+172
+00:02:58,550 --> 00:02:58,560
+this particular website right here, we
+ 
+
+173
+00:02:58,560 --> 00:03:00,350
+this particular website right here, we
+can go ahead and looks like this is
+
+174
+00:03:00,350 --> 00:03:00,360
+can go ahead and looks like this is
+ 
+
+175
+00:03:00,360 --> 00:03:01,950
+can go ahead and looks like this is
+actually a video, but we can pause it
+
+176
+00:03:01,950 --> 00:03:01,960
+actually a video, but we can pause it
+ 
+
+177
+00:03:01,960 --> 00:03:04,150
+actually a video, but we can pause it
+and we can take a screenshot of this
+
+178
+00:03:04,150 --> 00:03:04,160
+and we can take a screenshot of this
+ 
+
+179
+00:03:04,160 --> 00:03:06,350
+and we can take a screenshot of this
+website and then use that as inspiration
+
+180
+00:03:06,350 --> 00:03:06,360
+website and then use that as inspiration
+ 
+
+181
+00:03:06,360 --> 00:03:07,750
+website and then use that as inspiration
+as well. And of course, there's a lot of
+
+182
+00:03:07,750 --> 00:03:07,760
+as well. And of course, there's a lot of
+ 
+
+183
+00:03:07,760 --> 00:03:09,670
+as well. And of course, there's a lot of
+websites out there like this. Dribbble's
+
+184
+00:03:09,670 --> 00:03:09,680
+websites out there like this. Dribbble's
+ 
+
+185
+00:03:09,680 --> 00:03:11,870
+websites out there like this. Dribbble's
+not the only one, but this is one of the
+
+186
+00:03:11,870 --> 00:03:11,880
+not the only one, but this is one of the
+ 
+
+187
+00:03:11,880 --> 00:03:14,230
+not the only one, but this is one of the
+sites that I use very frequently to find
+
+188
+00:03:14,230 --> 00:03:14,240
+sites that I use very frequently to find
+ 
+
+189
+00:03:14,240 --> 00:03:16,670
+sites that I use very frequently to find
+inspiration for user interfaces. Okay,
+
+190
+00:03:16,670 --> 00:03:16,680
+inspiration for user interfaces. Okay,
+ 
+
+191
+00:03:16,680 --> 00:03:17,950
+inspiration for user interfaces. Okay,
+so let's move on to technique number
+
+192
+00:03:17,950 --> 00:03:17,960
+so let's move on to technique number
+ 
+
+193
+00:03:17,960 --> 00:03:21,070
+so let's move on to technique number
+three over here, which is all about the
+
+194
+00:03:21,070 --> 00:03:21,080
+three over here, which is all about the
+ 
+
+195
+00:03:21,080 --> 00:03:23,350
+three over here, which is all about the
+actual underlying technology that we're
+
+196
+00:03:23,350 --> 00:03:23,360
+actual underlying technology that we're
+ 
+
+197
+00:03:23,360 --> 00:03:25,750
+actual underlying technology that we're
+using. So, what we're doing is we're
+
+198
+00:03:25,750 --> 00:03:25,760
+using. So, what we're doing is we're
+ 
+
+199
+00:03:25,760 --> 00:03:28,350
+using. So, what we're doing is we're
+heading back into Claude Code and we're
+
+200
+00:03:28,350 --> 00:03:28,360
+heading back into Claude Code and we're
+ 
+
+201
+00:03:28,360 --> 00:03:31,190
+heading back into Claude Code and we're
+asking it to build out the site using
+
+202
+00:03:31,190 --> 00:03:31,200
+asking it to build out the site using
+ 
+
+203
+00:03:31,200 --> 00:03:33,510
+asking it to build out the site using
+something called Tailwind CSS and
+
+204
+00:03:33,510 --> 00:03:33,520
+something called Tailwind CSS and
+ 
+
+205
+00:03:33,520 --> 00:03:35,710
+something called Tailwind CSS and
+Shadcn-ui.
+
+206
+00:03:35,710 --> 00:03:35,720
+Shadcn-ui.
+ 
+
+207
+00:03:35,720 --> 00:03:36,830
+Shadcn-ui.
+Now, for those of you who do not know
+
+208
+00:03:36,830 --> 00:03:36,840
+Now, for those of you who do not know
+ 
+
+209
+00:03:36,840 --> 00:03:38,710
+Now, for those of you who do not know
+what CSS is, let me give you a 10-second
+
+210
+00:03:38,710 --> 00:03:38,720
+what CSS is, let me give you a 10-second
+ 
+
+211
+00:03:38,720 --> 00:03:40,670
+what CSS is, let me give you a 10-second
+crash course. It stands for cascading
+
+212
+00:03:40,670 --> 00:03:40,680
+crash course. It stands for cascading
+ 
+
+213
+00:03:40,680 --> 00:03:42,590
+crash course. It stands for cascading
+style sheets. It's just styling on a
+
+214
+00:03:42,590 --> 00:03:42,600
+style sheets. It's just styling on a
+ 
+
+215
+00:03:42,600 --> 00:03:45,150
+style sheets. It's just styling on a
+website. Here's a website with CSS.
+
+216
+00:03:45,150 --> 00:03:45,160
+website. Here's a website with CSS.
+ 
+
+217
+00:03:45,160 --> 00:03:46,230
+website. Here's a website with CSS.
+Looks beautiful. This is what we've
+
+218
+00:03:46,230 --> 00:03:46,240
+Looks beautiful. This is what we've
+ 
+
+219
+00:03:46,240 --> 00:03:48,350
+Looks beautiful. This is what we've
+built so far. Here's a website without
+
+220
+00:03:48,350 --> 00:03:48,360
+built so far. Here's a website without
+ 
+
+221
+00:03:48,360 --> 00:03:50,910
+built so far. Here's a website without
+CSS. In fact, this is actually that
+
+222
+00:03:50,910 --> 00:03:50,920
+CSS. In fact, this is actually that
+ 
+
+223
+00:03:50,920 --> 00:03:53,510
+CSS. In fact, this is actually that
+exact same website. It just has no
+
+224
+00:03:53,510 --> 00:03:53,520
+exact same website. It just has no
+ 
+
+225
+00:03:53,520 --> 00:03:56,030
+exact same website. It just has no
+styling with it. It just has HTML. It
+
+226
+00:03:56,030 --> 00:03:56,040
+styling with it. It just has HTML. It
+ 
+
+227
+00:03:56,040 --> 00:03:58,990
+styling with it. It just has HTML. It
+has the text, inputs, images, all that
+
+228
+00:03:58,990 --> 00:03:59,000
+has the text, inputs, images, all that
+ 
+
+229
+00:03:59,000 --> 00:04:00,910
+has the text, inputs, images, all that
+kind of stuff, but there is no styling.
+
+230
+00:04:00,910 --> 00:04:00,920
+kind of stuff, but there is no styling.
+ 
+
+231
+00:04:00,920 --> 00:04:03,670
+kind of stuff, but there is no styling.
+And so, that's what CSS does and
+
+232
+00:04:03,670 --> 00:04:03,680
+And so, that's what CSS does and
+ 
+
+233
+00:04:03,680 --> 00:04:06,470
+And so, that's what CSS does and
+Tailwind is just a framework or a CSS
+
+234
+00:04:06,470 --> 00:04:06,480
+Tailwind is just a framework or a CSS
+ 
+
+235
+00:04:06,480 --> 00:04:08,750
+Tailwind is just a framework or a CSS
+library in order for you to style
+
+236
+00:04:08,750 --> 00:04:08,760
+library in order for you to style
+ 
+
+237
+00:04:08,760 --> 00:04:11,310
+library in order for you to style
+beautiful websites, but you can do and
+
+238
+00:04:11,310 --> 00:04:11,320
+beautiful websites, but you can do and
+ 
+
+239
+00:04:11,320 --> 00:04:12,910
+beautiful websites, but you can do and
+and it's just like the low-level
+
+240
+00:04:12,910 --> 00:04:12,920
+and it's just like the low-level
+ 
+
+241
+00:04:12,920 --> 00:04:14,710
+and it's just like the low-level
+styling. So, you can do things like
+
+242
+00:04:14,710 --> 00:04:14,720
+styling. So, you can do things like
+ 
+
+243
+00:04:14,720 --> 00:04:17,550
+styling. So, you can do things like
+padding for example or you can put
+
+244
+00:04:17,550 --> 00:04:17,560
+padding for example or you can put
+ 
+
+245
+00:04:17,560 --> 00:04:19,710
+padding for example or you can put
+width. So, you can have columns on
+
+246
+00:04:19,710 --> 00:04:19,720
+width. So, you can have columns on
+ 
+
+247
+00:04:19,720 --> 00:04:21,670
+width. So, you can have columns on
+particular pages, stuff like this,
+
+248
+00:04:21,670 --> 00:04:21,680
+particular pages, stuff like this,
+ 
+
+249
+00:04:21,680 --> 00:04:25,190
+particular pages, stuff like this,
+right? However, if you want to create
+
+250
+00:04:25,190 --> 00:04:25,200
+right? However, if you want to create
+ 
+
+251
+00:04:25,200 --> 00:04:28,030
+right? However, if you want to create
+reusable templates, this is where Shadcn
+
+252
+00:04:28,030 --> 00:04:28,040
+reusable templates, this is where Shadcn
+ 
+
+253
+00:04:28,040 --> 00:04:30,230
+reusable templates, this is where Shadcn
+comes in. And if we over head over to
+
+254
+00:04:30,230 --> 00:04:30,240
+comes in. And if we over head over to
+ 
+
+255
+00:04:30,240 --> 00:04:32,830
+comes in. And if we over head over to
+components, we can see a bunch of
+
+256
+00:04:32,830 --> 00:04:32,840
+components, we can see a bunch of
+ 
+
+257
+00:04:32,840 --> 00:04:35,310
+components, we can see a bunch of
+pre-made reusable templates that we can
+
+258
+00:04:35,310 --> 00:04:35,320
+pre-made reusable templates that we can
+ 
+
+259
+00:04:35,320 --> 00:04:38,350
+pre-made reusable templates that we can
+use across our website, across multiple
+
+260
+00:04:38,350 --> 00:04:38,360
+use across our website, across multiple
+ 
+
+261
+00:04:38,360 --> 00:04:40,390
+use across our website, across multiple
+different pages. So, for example, we can
+
+262
+00:04:40,390 --> 00:04:40,400
+different pages. So, for example, we can
+ 
+
+263
+00:04:40,400 --> 00:04:42,670
+different pages. So, for example, we can
+have a professional accordion out of the
+
+264
+00:04:42,670 --> 00:04:42,680
+have a professional accordion out of the
+ 
+
+265
+00:04:42,680 --> 00:04:45,910
+have a professional accordion out of the
+box or we can have avatars for
+
+266
+00:04:45,910 --> 00:04:45,920
+box or we can have avatars for
+ 
+
+267
+00:04:45,920 --> 00:04:48,550
+box or we can have avatars for
+potentially like testimonials for
+
+268
+00:04:48,550 --> 00:04:48,560
+potentially like testimonials for
+ 
+
+269
+00:04:48,560 --> 00:04:51,350
+potentially like testimonials for
+example or we can have reusable buttons
+
+270
+00:04:51,350 --> 00:04:51,360
+example or we can have reusable buttons
+ 
+
+271
+00:04:51,360 --> 00:04:53,150
+example or we can have reusable buttons
+that we have that we use. That's what
+
+272
+00:04:53,150 --> 00:04:53,160
+that we have that we use. That's what
+ 
+
+273
+00:04:53,160 --> 00:04:56,470
+that we have that we use. That's what
+Shadcn does. It's a reusable template
+
+274
+00:04:56,470 --> 00:04:56,480
+Shadcn does. It's a reusable template
+ 
+
+275
+00:04:56,480 --> 00:04:57,950
+Shadcn does. It's a reusable template
+library that we can import into our
+
+276
+00:04:57,950 --> 00:04:57,960
+library that we can import into our
+ 
+
+277
+00:04:57,960 --> 00:04:59,870
+library that we can import into our
+project immediately. Okay, so let's head
+
+278
+00:04:59,870 --> 00:04:59,880
+project immediately. Okay, so let's head
+ 
+
+279
+00:04:59,880 --> 00:05:01,710
+project immediately. Okay, so let's head
+over to technique number four here,
+
+280
+00:05:01,710 --> 00:05:01,720
+over to technique number four here,
+ 
+
+281
+00:05:01,720 --> 00:05:03,710
+over to technique number four here,
+which is all about backgrounds. I'm
+
+282
+00:05:03,710 --> 00:05:03,720
+which is all about backgrounds. I'm
+ 
+
+283
+00:05:03,720 --> 00:05:04,910
+which is all about backgrounds. I'm
+going to pause this video and return
+
+284
+00:05:04,910 --> 00:05:04,920
+going to pause this video and return
+ 
+
+285
+00:05:04,920 --> 00:05:06,190
+going to pause this video and return
+back when we're all set. Cool. So,
+
+286
+00:05:06,190 --> 00:05:06,200
+back when we're all set. Cool. So,
+ 
+
+287
+00:05:06,200 --> 00:05:07,150
+back when we're all set. Cool. So,
+everything's good to go and we've
+
+288
+00:05:07,150 --> 00:05:07,160
+everything's good to go and we've
+ 
+
+289
+00:05:07,160 --> 00:05:09,670
+everything's good to go and we've
+implemented a gradient background. Let
+
+290
+00:05:09,670 --> 00:05:09,680
+implemented a gradient background. Let
+ 
+
+291
+00:05:09,680 --> 00:05:11,470
+implemented a gradient background. Let
+me just be really concise with this.
+
+292
+00:05:11,470 --> 00:05:11,480
+me just be really concise with this.
+ 
+
+293
+00:05:11,480 --> 00:05:13,510
+me just be really concise with this.
+It's a radial gradient with multiple
+
+294
+00:05:13,510 --> 00:05:13,520
+It's a radial gradient with multiple
+ 
+
+295
+00:05:13,520 --> 00:05:15,550
+It's a radial gradient with multiple
+different colors, a blurred purple,
+
+296
+00:05:15,550 --> 00:05:15,560
+different colors, a blurred purple,
+ 
+
+297
+00:05:15,560 --> 00:05:17,830
+different colors, a blurred purple,
+blue, and pink and teal circles
+
+298
+00:05:17,830 --> 00:05:17,840
+blue, and pink and teal circles
+ 
+
+299
+00:05:17,840 --> 00:05:19,990
+blue, and pink and teal circles
+positioned around the page, okay? This
+
+300
+00:05:19,990 --> 00:05:20,000
+positioned around the page, okay? This
+ 
+
+301
+00:05:20,000 --> 00:05:21,830
+positioned around the page, okay? This
+is what it looks like. We moved away
+
+302
+00:05:21,830 --> 00:05:21,840
+is what it looks like. We moved away
+ 
+
+303
+00:05:21,840 --> 00:05:24,270
+is what it looks like. We moved away
+from the image on rail railway. And the
+
+304
+00:05:24,270 --> 00:05:24,280
+from the image on rail railway. And the
+ 
+
+305
+00:05:24,280 --> 00:05:26,270
+from the image on rail railway. And the
+beautiful thing is is as we're kind of
+
+306
+00:05:26,270 --> 00:05:26,280
+beautiful thing is is as we're kind of
+ 
+
+307
+00:05:26,280 --> 00:05:29,350
+beautiful thing is is as we're kind of
+scrolling down this project, it does add
+
+308
+00:05:29,350 --> 00:05:29,360
+scrolling down this project, it does add
+ 
+
+309
+00:05:29,360 --> 00:05:31,710
+scrolling down this project, it does add
+a lot of texture and a lot of character
+
+310
+00:05:31,710 --> 00:05:31,720
+a lot of texture and a lot of character
+ 
+
+311
+00:05:31,720 --> 00:05:33,790
+a lot of texture and a lot of character
+to the site. And what I like about it is
+
+312
+00:05:33,790 --> 00:05:33,800
+to the site. And what I like about it is
+ 
+
+313
+00:05:33,800 --> 00:05:35,430
+to the site. And what I like about it is
+that even though it's a pretty
+
+314
+00:05:35,430 --> 00:05:35,440
+that even though it's a pretty
+ 
+
+315
+00:05:35,440 --> 00:05:38,150
+that even though it's a pretty
+minimalist site, there's not a lot of
+
+316
+00:05:38,150 --> 00:05:38,160
+minimalist site, there's not a lot of
+ 
+
+317
+00:05:38,160 --> 00:05:39,750
+minimalist site, there's not a lot of
+stuff going on here. It still looks
+
+318
+00:05:39,750 --> 00:05:39,760
+stuff going on here. It still looks
+ 
+
+319
+00:05:39,760 --> 00:05:41,630
+stuff going on here. It still looks
+beautiful with this in the background.
+
+320
+00:05:41,630 --> 00:05:41,640
+beautiful with this in the background.
+ 
+
+321
+00:05:41,640 --> 00:05:43,590
+beautiful with this in the background.
+It just makes it feel a bit more busy, a
+
+322
+00:05:43,590 --> 00:05:43,600
+It just makes it feel a bit more busy, a
+ 
+
+323
+00:05:43,600 --> 00:05:46,750
+It just makes it feel a bit more busy, a
+bit more complete or full just by adding
+
+324
+00:05:46,750 --> 00:05:46,760
+bit more complete or full just by adding
+ 
+
+325
+00:05:46,760 --> 00:05:49,230
+bit more complete or full just by adding
+in a background. Okay, so with that
+
+326
+00:05:49,230 --> 00:05:49,240
+in a background. Okay, so with that
+ 
+
+327
+00:05:49,240 --> 00:05:50,830
+in a background. Okay, so with that
+being said, what we're going to do here
+
+328
+00:05:50,830 --> 00:05:50,840
+being said, what we're going to do here
+ 
+
+329
+00:05:50,840 --> 00:05:53,710
+being said, what we're going to do here
+is move on to the next step, which is
+
+330
+00:05:53,710 --> 00:05:53,720
+is move on to the next step, which is
+ 
+
+331
+00:05:53,720 --> 00:05:56,510
+is move on to the next step, which is
+adding animations onto our website. So,
+
+332
+00:05:56,510 --> 00:05:56,520
+adding animations onto our website. So,
+ 
+
+333
+00:05:56,520 --> 00:05:58,510
+adding animations onto our website. So,
+I'm going to fire off this prompt right
+
+334
+00:05:58,510 --> 00:05:58,520
+I'm going to fire off this prompt right
+ 
+
+335
+00:05:58,520 --> 00:06:00,950
+I'm going to fire off this prompt right
+over here and circle back when it's all
+
+336
+00:06:00,950 --> 00:06:00,960
+over here and circle back when it's all
+ 
+
+337
+00:06:00,960 --> 00:06:02,710
+over here and circle back when it's all
+said and done. But, we're using
+
+338
+00:06:02,710 --> 00:06:02,720
+said and done. But, we're using
+ 
+
+339
+00:06:02,720 --> 00:06:06,030
+said and done. But, we're using
+something called GSAP and Framer Motion.
+
+340
+00:06:06,030 --> 00:06:06,040
+something called GSAP and Framer Motion.
+ 
+
+341
+00:06:06,040 --> 00:06:09,910
+something called GSAP and Framer Motion.
+Essentially, what these do is they bring
+
+342
+00:06:09,910 --> 00:06:09,920
+Essentially, what these do is they bring
+ 
+
+343
+00:06:09,920 --> 00:06:12,630
+Essentially, what these do is they bring
+elements to life. So, let's kind of take
+
+344
+00:06:12,630 --> 00:06:12,640
+elements to life. So, let's kind of take
+ 
+
+345
+00:06:12,640 --> 00:06:14,470
+elements to life. So, let's kind of take
+a couple examples of what this looks
+
+346
+00:06:14,470 --> 00:06:14,480
+a couple examples of what this looks
+ 
+
+347
+00:06:14,480 --> 00:06:15,910
+a couple examples of what this looks
+like. If we just head over to the site,
+
+348
+00:06:15,910 --> 00:06:15,920
+like. If we just head over to the site,
+ 
+
+349
+00:06:15,920 --> 00:06:18,190
+like. If we just head over to the site,
+you can see all the kind of cool stuff
+
+350
+00:06:18,190 --> 00:06:18,200
+you can see all the kind of cool stuff
+ 
+
+351
+00:06:18,200 --> 00:06:19,870
+you can see all the kind of cool stuff
+that you can do. But, here's just a
+
+352
+00:06:19,870 --> 00:06:19,880
+that you can do. But, here's just a
+ 
+
+353
+00:06:19,880 --> 00:06:22,230
+that you can do. But, here's just a
+really basic example. When we scroll
+
+354
+00:06:22,230 --> 00:06:22,240
+really basic example. When we scroll
+ 
+
+355
+00:06:22,240 --> 00:06:25,030
+really basic example. When we scroll
+down, we can give animation to all of
+
+356
+00:06:25,030 --> 00:06:25,040
+down, we can give animation to all of
+ 
+
+357
+00:06:25,040 --> 00:06:26,550
+down, we can give animation to all of
+our elements on the page so that they
+
+358
+00:06:26,550 --> 00:06:26,560
+our elements on the page so that they
+ 
+
+359
+00:06:26,560 --> 00:06:29,270
+our elements on the page so that they
+can kind of like flow in and and and all
+
+360
+00:06:29,270 --> 00:06:29,280
+can kind of like flow in and and and all
+ 
+
+361
+00:06:29,280 --> 00:06:30,590
+can kind of like flow in and and and all
+of that kind of stuff. It looks like
+
+362
+00:06:30,590 --> 00:06:30,600
+of that kind of stuff. It looks like
+ 
+
+363
+00:06:30,600 --> 00:06:32,790
+of that kind of stuff. It looks like
+they're flying in, I guess, is the right
+
+364
+00:06:32,790 --> 00:06:32,800
+they're flying in, I guess, is the right
+ 
+
+365
+00:06:32,800 --> 00:06:34,670
+they're flying in, I guess, is the right
+word. And then we can also use something
+
+366
+00:06:34,670 --> 00:06:34,680
+word. And then we can also use something
+ 
+
+367
+00:06:34,680 --> 00:06:36,750
+word. And then we can also use something
+like motion.dev to bring all the
+
+368
+00:06:36,750 --> 00:06:36,760
+like motion.dev to bring all the
+ 
+
+369
+00:06:36,760 --> 00:06:39,110
+like motion.dev to bring all the
+individual elements to life. So, these
+
+370
+00:06:39,110 --> 00:06:39,120
+individual elements to life. So, these
+ 
+
+371
+00:06:39,120 --> 00:06:40,990
+individual elements to life. So, these
+are examples of what you can do, but we
+
+372
+00:06:40,990 --> 00:06:41,000
+are examples of what you can do, but we
+ 
+
+373
+00:06:41,000 --> 00:06:42,750
+are examples of what you can do, but we
+can add in things like a toggle for
+
+374
+00:06:42,750 --> 00:06:42,760
+can add in things like a toggle for
+ 
+
+375
+00:06:42,760 --> 00:06:45,150
+can add in things like a toggle for
+example and it gives that professional
+
+376
+00:06:45,150 --> 00:06:45,160
+example and it gives that professional
+ 
+
+377
+00:06:45,160 --> 00:06:47,830
+example and it gives that professional
+look where this white dot flips across
+
+378
+00:06:47,830 --> 00:06:47,840
+look where this white dot flips across
+ 
+
+379
+00:06:47,840 --> 00:06:50,350
+look where this white dot flips across
+the screen. And so, all of those little
+
+380
+00:06:50,350 --> 00:06:50,360
+the screen. And so, all of those little
+ 
+
+381
+00:06:50,360 --> 00:06:52,990
+the screen. And so, all of those little
+tweaks, which I feel like we take for
+
+382
+00:06:52,990 --> 00:06:53,000
+tweaks, which I feel like we take for
+ 
+
+383
+00:06:53,000 --> 00:06:55,230
+tweaks, which I feel like we take for
+granted, but are actually kind of
+
+384
+00:06:55,230 --> 00:06:55,240
+granted, but are actually kind of
+ 
+
+385
+00:06:55,240 --> 00:06:57,670
+granted, but are actually kind of
+sophisticated and complicated to build
+
+386
+00:06:57,670 --> 00:06:57,680
+sophisticated and complicated to build
+ 
+
+387
+00:06:57,680 --> 00:06:59,390
+sophisticated and complicated to build
+um at least if you're not using AI. It
+
+388
+00:06:59,390 --> 00:06:59,400
+um at least if you're not using AI. It
+ 
+
+389
+00:06:59,400 --> 00:07:01,150
+um at least if you're not using AI. It
+took me a long like honestly, that was a
+
+390
+00:07:01,150 --> 00:07:01,160
+took me a long like honestly, that was a
+ 
+
+391
+00:07:01,160 --> 00:07:02,390
+took me a long like honestly, that was a
+huge struggle. I thought these kind of
+
+392
+00:07:02,390 --> 00:07:02,400
+huge struggle. I thought these kind of
+ 
+
+393
+00:07:02,400 --> 00:07:04,030
+huge struggle. I thought these kind of
+things would be so easy to build, but
+
+394
+00:07:04,030 --> 00:07:04,040
+things would be so easy to build, but
+ 
+
+395
+00:07:04,040 --> 00:07:05,310
+things would be so easy to build, but
+they're actually incredibly difficult.
+
+396
+00:07:05,310 --> 00:07:05,320
+they're actually incredibly difficult.
+ 
+
+397
+00:07:05,320 --> 00:07:07,310
+they're actually incredibly difficult.
+At least it was for me before AI. And
+
+398
+00:07:07,310 --> 00:07:07,320
+At least it was for me before AI. And
+ 
+
+399
+00:07:07,320 --> 00:07:09,230
+At least it was for me before AI. And
+now in like literally one prompt, you
+
+400
+00:07:09,230 --> 00:07:09,240
+now in like literally one prompt, you
+ 
+
+401
+00:07:09,240 --> 00:07:11,750
+now in like literally one prompt, you
+can build these animations across your
+
+402
+00:07:11,750 --> 00:07:11,760
+can build these animations across your
+ 
+
+403
+00:07:11,760 --> 00:07:13,430
+can build these animations across your
+entire website. Cool. So, the site's on.
+
+404
+00:07:13,430 --> 00:07:13,440
+entire website. Cool. So, the site's on.
+ 
+
+405
+00:07:13,440 --> 00:07:15,270
+entire website. Cool. So, the site's on.
+So, let's take a look at the results.
+
+406
+00:07:15,270 --> 00:07:15,280
+So, let's take a look at the results.
+ 
+
+407
+00:07:15,280 --> 00:07:17,710
+So, let's take a look at the results.
+So, as we slowly scroll down the page,
+
+408
+00:07:17,710 --> 00:07:17,720
+So, as we slowly scroll down the page,
+ 
+
+409
+00:07:17,720 --> 00:07:19,230
+So, as we slowly scroll down the page,
+we can see a lot of motion. And
+
+410
+00:07:19,230 --> 00:07:19,240
+we can see a lot of motion. And
+ 
+
+411
+00:07:19,240 --> 00:07:21,110
+we can see a lot of motion. And
+unfortunately, that's actually clipping
+
+412
+00:07:21,110 --> 00:07:21,120
+unfortunately, that's actually clipping
+ 
+
+413
+00:07:21,120 --> 00:07:23,030
+unfortunately, that's actually clipping
+the subtitle down there. So, this is
+
+414
+00:07:23,030 --> 00:07:23,040
+the subtitle down there. So, this is
+ 
+
+415
+00:07:23,040 --> 00:07:24,670
+the subtitle down there. So, this is
+something that we'd want to change and
+
+416
+00:07:24,670 --> 00:07:24,680
+something that we'd want to change and
+ 
+
+417
+00:07:24,680 --> 00:07:26,030
+something that we'd want to change and
+we can circle back to that at a later
+
+418
+00:07:26,030 --> 00:07:26,040
+we can circle back to that at a later
+ 
+
+419
+00:07:26,040 --> 00:07:27,750
+we can circle back to that at a later
+point in time. But, as we scroll down,
+
+420
+00:07:27,750 --> 00:07:27,760
+point in time. But, as we scroll down,
+ 
+
+421
+00:07:27,760 --> 00:07:30,790
+point in time. But, as we scroll down,
+we can see the text and images gliding
+
+422
+00:07:30,790 --> 00:07:30,800
+we can see the text and images gliding
+ 
+
+423
+00:07:30,800 --> 00:07:33,550
+we can see the text and images gliding
+in at the bottom here. Right? We can see
+
+424
+00:07:33,550 --> 00:07:33,560
+in at the bottom here. Right? We can see
+ 
+
+425
+00:07:33,560 --> 00:07:36,070
+in at the bottom here. Right? We can see
+again at this stage and the next stage,
+
+426
+00:07:36,070 --> 00:07:36,080
+again at this stage and the next stage,
+ 
+
+427
+00:07:36,080 --> 00:07:37,830
+again at this stage and the next stage,
+we can see the bars and all of this kind
+
+428
+00:07:37,830 --> 00:07:37,840
+we can see the bars and all of this kind
+ 
+
+429
+00:07:37,840 --> 00:07:40,950
+we can see the bars and all of this kind
+of stuff coming to life all the way down
+
+430
+00:07:40,950 --> 00:07:40,960
+of stuff coming to life all the way down
+ 
+
+431
+00:07:40,960 --> 00:07:43,670
+of stuff coming to life all the way down
+the page. Okay, so what that is is
+
+432
+00:07:43,670 --> 00:07:43,680
+the page. Okay, so what that is is
+ 
+
+433
+00:07:43,680 --> 00:07:46,110
+the page. Okay, so what that is is
+that's this GSAP
+
+434
+00:07:46,110 --> 00:07:46,120
+that's this GSAP
+ 
+
+435
+00:07:46,120 --> 00:07:47,710
+that's this GSAP
+library right over here that's doing
+
+436
+00:07:47,710 --> 00:07:47,720
+library right over here that's doing
+ 
+
+437
+00:07:47,720 --> 00:07:49,510
+library right over here that's doing
+that. And as we're scrolling down, we
+
+438
+00:07:49,510 --> 00:07:49,520
+that. And as we're scrolling down, we
+ 
+
+439
+00:07:49,520 --> 00:07:51,550
+that. And as we're scrolling down, we
+can kind of see it moving. And then for
+
+440
+00:07:51,550 --> 00:07:51,560
+can kind of see it moving. And then for
+ 
+
+441
+00:07:51,560 --> 00:07:54,030
+can kind of see it moving. And then for
+this motion library right over here,
+
+442
+00:07:54,030 --> 00:07:54,040
+this motion library right over here,
+ 
+
+443
+00:07:54,040 --> 00:07:56,990
+this motion library right over here,
+what this is doing on the page is it's
+
+444
+00:07:56,990 --> 00:07:57,000
+what this is doing on the page is it's
+ 
+
+445
+00:07:57,000 --> 00:07:59,710
+what this is doing on the page is it's
+all the hover hovering effects. So, like
+
+446
+00:07:59,710 --> 00:07:59,720
+all the hover hovering effects. So, like
+ 
+
+447
+00:07:59,720 --> 00:08:01,870
+all the hover hovering effects. So, like
+when we click this button or this box
+
+448
+00:08:01,870 --> 00:08:01,880
+when we click this button or this box
+ 
+
+449
+00:08:01,880 --> 00:08:04,230
+when we click this button or this box
+here, it moves up ever so slightly. And
+
+450
+00:08:04,230 --> 00:08:04,240
+here, it moves up ever so slightly. And
+ 
+
+451
+00:08:04,240 --> 00:08:05,830
+here, it moves up ever so slightly. And
+when we hover over this button, it
+
+452
+00:08:05,830 --> 00:08:05,840
+when we hover over this button, it
+ 
+
+453
+00:08:05,840 --> 00:08:08,950
+when we hover over this button, it
+enlarges. And it enlarges with 300
+
+454
+00:08:08,950 --> 00:08:08,960
+enlarges. And it enlarges with 300
+ 
+
+455
+00:08:08,960 --> 00:08:11,270
+enlarges. And it enlarges with 300
+second milliseconds delay. So, it's not
+
+456
+00:08:11,270 --> 00:08:11,280
+second milliseconds delay. So, it's not
+ 
+
+457
+00:08:11,280 --> 00:08:13,190
+second milliseconds delay. So, it's not
+like instantly popping up, otherwise it
+
+458
+00:08:13,190 --> 00:08:13,200
+like instantly popping up, otherwise it
+ 
+
+459
+00:08:13,200 --> 00:08:14,830
+like instantly popping up, otherwise it
+would be kind of jagged and and and
+
+460
+00:08:14,830 --> 00:08:14,840
+would be kind of jagged and and and
+ 
+
+461
+00:08:14,840 --> 00:08:17,590
+would be kind of jagged and and and
+rough. It's really smooth, right? So,
+
+462
+00:08:17,590 --> 00:08:17,600
+rough. It's really smooth, right? So,
+ 
+
+463
+00:08:17,600 --> 00:08:20,790
+rough. It's really smooth, right? So,
+it's happening over 300 milliseconds.
+
+464
+00:08:20,790 --> 00:08:20,800
+it's happening over 300 milliseconds.
+ 
+
+465
+00:08:20,800 --> 00:08:22,510
+it's happening over 300 milliseconds.
+Same kind of deal with these buttons
+
+466
+00:08:22,510 --> 00:08:22,520
+Same kind of deal with these buttons
+ 
+
+467
+00:08:22,520 --> 00:08:25,230
+Same kind of deal with these buttons
+with the gray background as well. So,
+
+468
+00:08:25,230 --> 00:08:25,240
+with the gray background as well. So,
+ 
+
+469
+00:08:25,240 --> 00:08:27,230
+with the gray background as well. So,
+all of that kind of stuff is adding
+
+470
+00:08:27,230 --> 00:08:27,240
+all of that kind of stuff is adding
+ 
+
+471
+00:08:27,240 --> 00:08:30,030
+all of that kind of stuff is adding
+animation to our website. Now, the next
+
+472
+00:08:30,030 --> 00:08:30,040
+animation to our website. Now, the next
+ 
+
+473
+00:08:30,040 --> 00:08:31,630
+animation to our website. Now, the next
+step is probably actually my favorite
+
+474
+00:08:31,630 --> 00:08:31,640
+step is probably actually my favorite
+ 
+
+475
+00:08:31,640 --> 00:08:33,430
+step is probably actually my favorite
+part of designing websites. I think it's
+
+476
+00:08:33,430 --> 00:08:33,440
+part of designing websites. I think it's
+ 
+
+477
+00:08:33,440 --> 00:08:36,589
+part of designing websites. I think it's
+absolutely stunning and that is building
+
+478
+00:08:36,589 --> 00:08:36,599
+absolutely stunning and that is building
+ 
+
+479
+00:08:36,599 --> 00:08:38,230
+absolutely stunning and that is building
+3D
+
+480
+00:08:38,230 --> 00:08:38,240
+3D
+ 
+
+481
+00:08:38,240 --> 00:08:40,750
+3D
+design into a site. So, what I'm going
+
+482
+00:08:40,750 --> 00:08:40,760
+design into a site. So, what I'm going
+ 
+
+483
+00:08:40,760 --> 00:08:43,029
+design into a site. So, what I'm going
+to do is I'm going to send this off,
+
+484
+00:08:43,029 --> 00:08:43,039
+to do is I'm going to send this off,
+ 
+
+485
+00:08:43,039 --> 00:08:46,350
+to do is I'm going to send this off,
+okay? And I'm going to tell Claude to
+
+486
+00:08:46,350 --> 00:08:46,360
+okay? And I'm going to tell Claude to
+ 
+
+487
+00:08:46,360 --> 00:08:49,110
+okay? And I'm going to tell Claude to
+use two libraries. One is called Spline
+
+488
+00:08:49,110 --> 00:08:49,120
+use two libraries. One is called Spline
+ 
+
+489
+00:08:49,120 --> 00:08:50,910
+use two libraries. One is called Spline
+or Spleen or I think it's Spline. I
+
+490
+00:08:50,910 --> 00:08:50,920
+or Spleen or I think it's Spline. I
+ 
+
+491
+00:08:50,920 --> 00:08:53,390
+or Spleen or I think it's Spline. I
+think I just horribly pronounced that.
+
+492
+00:08:53,390 --> 00:08:53,400
+think I just horribly pronounced that.
+ 
+
+493
+00:08:53,400 --> 00:08:56,510
+think I just horribly pronounced that.
+Um and the other one is 3 3.js over
+
+494
+00:08:56,510 --> 00:08:56,520
+Um and the other one is 3 3.js over
+ 
+
+495
+00:08:56,520 --> 00:08:57,710
+Um and the other one is 3 3.js over
+here. So, we're going to be using these
+
+496
+00:08:57,710 --> 00:08:57,720
+here. So, we're going to be using these
+ 
+
+497
+00:08:57,720 --> 00:08:59,830
+here. So, we're going to be using these
+guys. Let's go over what they actually
+
+498
+00:08:59,830 --> 00:08:59,840
+guys. Let's go over what they actually
+ 
+
+499
+00:08:59,840 --> 00:09:02,510
+guys. Let's go over what they actually
+do. First, we're going to start with
+
+500
+00:09:02,510 --> 00:09:02,520
+do. First, we're going to start with
+ 
+
+501
+00:09:02,520 --> 00:09:03,750
+do. First, we're going to start with
+um we're going to save the best for
+
+502
+00:09:03,750 --> 00:09:03,760
+um we're going to save the best for
+ 
+
+503
+00:09:03,760 --> 00:09:04,750
+um we're going to save the best for
+last. So, we're going to start with
+
+504
+00:09:04,750 --> 00:09:04,760
+last. So, we're going to start with
+ 
+
+505
+00:09:04,760 --> 00:09:07,910
+last. So, we're going to start with
+3.js. Now, we can have all of these kind
+
+506
+00:09:07,910 --> 00:09:07,920
+3.js. Now, we can have all of these kind
+ 
+
+507
+00:09:07,920 --> 00:09:10,950
+3.js. Now, we can have all of these kind
+of motion graphics or sorry, 3D graphics
+
+508
+00:09:10,950 --> 00:09:10,960
+of motion graphics or sorry, 3D graphics
+ 
+
+509
+00:09:10,960 --> 00:09:13,230
+of motion graphics or sorry, 3D graphics
+on our site. So, we can get things like
+
+510
+00:09:13,230 --> 00:09:13,240
+on our site. So, we can get things like
+ 
+
+511
+00:09:13,240 --> 00:09:15,790
+on our site. So, we can get things like
+this moving automatically in the
+
+512
+00:09:15,790 --> 00:09:15,800
+this moving automatically in the
+ 
+
+513
+00:09:15,800 --> 00:09:17,670
+this moving automatically in the
+background. So, if you've ever come
+
+514
+00:09:17,670 --> 00:09:17,680
+background. So, if you've ever come
+ 
+
+515
+00:09:17,680 --> 00:09:19,230
+background. So, if you've ever come
+across those sites where it has like
+
+516
+00:09:19,230 --> 00:09:19,240
+across those sites where it has like
+ 
+
+517
+00:09:19,240 --> 00:09:20,950
+across those sites where it has like
+these really cool 3D graphics and you're
+
+518
+00:09:20,950 --> 00:09:20,960
+these really cool 3D graphics and you're
+ 
+
+519
+00:09:20,960 --> 00:09:22,670
+these really cool 3D graphics and you're
+wondering how they do it, this is
+
+520
+00:09:22,670 --> 00:09:22,680
+wondering how they do it, this is
+ 
+
+521
+00:09:22,680 --> 00:09:24,630
+wondering how they do it, this is
+exactly how they're doing it. And
+
+522
+00:09:24,630 --> 00:09:24,640
+exactly how they're doing it. And
+ 
+
+523
+00:09:24,640 --> 00:09:26,150
+exactly how they're doing it. And
+there's other libraries out there that
+
+524
+00:09:26,150 --> 00:09:26,160
+there's other libraries out there that
+ 
+
+525
+00:09:26,160 --> 00:09:29,990
+there's other libraries out there that
+do this as well. Another one is Spline.
+
+526
+00:09:29,990 --> 00:09:30,000
+do this as well. Another one is Spline.
+ 
+
+527
+00:09:30,000 --> 00:09:32,230
+do this as well. Another one is Spline.
+I hope I got that right. Um and with
+
+528
+00:09:32,230 --> 00:09:32,240
+I hope I got that right. Um and with
+ 
+
+529
+00:09:32,240 --> 00:09:34,550
+I hope I got that right. Um and with
+this, you can you can grab tons of
+
+530
+00:09:34,550 --> 00:09:34,560
+this, you can you can grab tons of
+ 
+
+531
+00:09:34,560 --> 00:09:36,470
+this, you can you can grab tons of
+different 3D graphics as well. Let me
+
+532
+00:09:36,470 --> 00:09:36,480
+different 3D graphics as well. Let me
+ 
+
+533
+00:09:36,480 --> 00:09:38,550
+different 3D graphics as well. Let me
+show you just a couple here that I think
+
+534
+00:09:38,550 --> 00:09:38,560
+show you just a couple here that I think
+ 
+
+535
+00:09:38,560 --> 00:09:40,590
+show you just a couple here that I think
+is that I think are really cool. So, we
+
+536
+00:09:40,590 --> 00:09:40,600
+is that I think are really cool. So, we
+ 
+
+537
+00:09:40,600 --> 00:09:43,470
+is that I think are really cool. So, we
+have this ball over here where it rolls
+
+538
+00:09:43,470 --> 00:09:43,480
+have this ball over here where it rolls
+ 
+
+539
+00:09:43,480 --> 00:09:46,350
+have this ball over here where it rolls
+across the screen with your cursor. Next
+
+540
+00:09:46,350 --> 00:09:46,360
+across the screen with your cursor. Next
+ 
+
+541
+00:09:46,360 --> 00:09:49,350
+across the screen with your cursor. Next
+one over here, we have this nice little
+
+542
+00:09:49,350 --> 00:09:49,360
+one over here, we have this nice little
+ 
+
+543
+00:09:49,360 --> 00:09:49,950
+one over here, we have this nice little
+uh
+
+544
+00:09:49,950 --> 00:09:49,960
+uh
+ 
+
+545
+00:09:49,960 --> 00:09:51,670
+uh
+thing. I don't even know what to call
+
+546
+00:09:51,670 --> 00:09:51,680
+thing. I don't even know what to call
+ 
+
+547
+00:09:51,680 --> 00:09:53,790
+thing. I don't even know what to call
+that. I'm just going to call it thing.
+
+548
+00:09:53,790 --> 00:09:53,800
+that. I'm just going to call it thing.
+ 
+
+549
+00:09:53,800 --> 00:09:55,230
+that. I'm just going to call it thing.
+And then the third one here, which I
+
+550
+00:09:55,230 --> 00:09:55,240
+And then the third one here, which I
+ 
+
+551
+00:09:55,240 --> 00:09:57,990
+And then the third one here, which I
+think is beautiful, is these horizontal
+
+552
+00:09:57,990 --> 00:09:58,000
+think is beautiful, is these horizontal
+ 
+
+553
+00:09:58,000 --> 00:10:00,670
+think is beautiful, is these horizontal
+lines coming into the into the into the
+
+554
+00:10:00,670 --> 00:10:00,680
+lines coming into the into the into the
+ 
+
+555
+00:10:00,680 --> 00:10:04,230
+lines coming into the into the into the
+fold. And then lastly, we also have this
+
+556
+00:10:04,230 --> 00:10:04,240
+fold. And then lastly, we also have this
+ 
+
+557
+00:10:04,240 --> 00:10:07,670
+fold. And then lastly, we also have this
+these 3D boxes that follow where your
+
+558
+00:10:07,670 --> 00:10:07,680
+these 3D boxes that follow where your
+ 
+
+559
+00:10:07,680 --> 00:10:09,310
+these 3D boxes that follow where your
+cursor is going, which I think is really
+
+560
+00:10:09,310 --> 00:10:09,320
+cursor is going, which I think is really
+ 
+
+561
+00:10:09,320 --> 00:10:11,150
+cursor is going, which I think is really
+cool. Now, what we're going to be using
+
+562
+00:10:11,150 --> 00:10:11,160
+cool. Now, what we're going to be using
+ 
+
+563
+00:10:11,160 --> 00:10:13,310
+cool. Now, what we're going to be using
+specifically in this demo is this guy
+
+564
+00:10:13,310 --> 00:10:13,320
+specifically in this demo is this guy
+ 
+
+565
+00:10:13,320 --> 00:10:15,510
+specifically in this demo is this guy
+right here, which I think is freaking
+
+566
+00:10:15,510 --> 00:10:15,520
+right here, which I think is freaking
+ 
+
+567
+00:10:15,520 --> 00:10:17,470
+right here, which I think is freaking
+sweet. And it also gives me the same
+
+568
+00:10:17,470 --> 00:10:17,480
+sweet. And it also gives me the same
+ 
+
+569
+00:10:17,480 --> 00:10:19,710
+sweet. And it also gives me the same
+vibes as like stripe.com over here, how
+
+570
+00:10:19,710 --> 00:10:19,720
+vibes as like stripe.com over here, how
+ 
+
+571
+00:10:19,720 --> 00:10:21,230
+vibes as like stripe.com over here, how
+they have this beautiful nice little
+
+572
+00:10:21,230 --> 00:10:21,240
+they have this beautiful nice little
+ 
+
+573
+00:10:21,240 --> 00:10:24,430
+they have this beautiful nice little
+thing in motion. So, very similar feel.
+
+574
+00:10:24,430 --> 00:10:24,440
+thing in motion. So, very similar feel.
+ 
+
+575
+00:10:24,440 --> 00:10:26,150
+thing in motion. So, very similar feel.
+And so, for that reason, we're going to
+
+576
+00:10:26,150 --> 00:10:26,160
+And so, for that reason, we're going to
+ 
+
+577
+00:10:26,160 --> 00:10:28,070
+And so, for that reason, we're going to
+use this. Now, you do need an account
+
+578
+00:10:28,070 --> 00:10:28,080
+use this. Now, you do need an account
+ 
+
+579
+00:10:28,080 --> 00:10:30,670
+use this. Now, you do need an account
+for spline.design,
+
+580
+00:10:30,670 --> 00:10:30,680
+for spline.design,
+ 
+
+581
+00:10:30,680 --> 00:10:32,510
+for spline.design,
+and um
+
+582
+00:10:32,510 --> 00:10:32,520
+and um
+ 
+
+583
+00:10:32,520 --> 00:10:34,710
+and um
+but it is free, okay? And so, when we
+
+584
+00:10:34,710 --> 00:10:34,720
+but it is free, okay? And so, when we
+ 
+
+585
+00:10:34,720 --> 00:10:36,870
+but it is free, okay? And so, when we
+log in, we'll head over to the community
+
+586
+00:10:36,870 --> 00:10:36,880
+log in, we'll head over to the community
+ 
+
+587
+00:10:36,880 --> 00:10:39,790
+log in, we'll head over to the community
+tab right over here, and you'll need to
+
+588
+00:10:39,790 --> 00:10:39,800
+tab right over here, and you'll need to
+ 
+
+589
+00:10:39,800 --> 00:10:42,110
+tab right over here, and you'll need to
+actually go ahead and grab this. And
+
+590
+00:10:42,110 --> 00:10:42,120
+actually go ahead and grab this. And
+ 
+
+591
+00:10:42,120 --> 00:10:44,310
+actually go ahead and grab this. And
+I'll leave this in the description down
+
+592
+00:10:44,310 --> 00:10:44,320
+I'll leave this in the description down
+ 
+
+593
+00:10:44,320 --> 00:10:46,150
+I'll leave this in the description down
+below. But essentially, what we're going
+
+594
+00:10:46,150 --> 00:10:46,160
+below. But essentially, what we're going
+ 
+
+595
+00:10:46,160 --> 00:10:47,990
+below. But essentially, what we're going
+to do is we're going to grab this, and
+
+596
+00:10:47,990 --> 00:10:48,000
+to do is we're going to grab this, and
+ 
+
+597
+00:10:48,000 --> 00:10:50,070
+to do is we're going to grab this, and
+then we can remix this, which means
+
+598
+00:10:50,070 --> 00:10:50,080
+then we can remix this, which means
+ 
+
+599
+00:10:50,080 --> 00:10:52,110
+then we can remix this, which means
+we're just copying it into our project,
+
+600
+00:10:52,110 --> 00:10:52,120
+we're just copying it into our project,
+ 
+
+601
+00:10:52,120 --> 00:10:54,150
+we're just copying it into our project,
+and we're going to edit things. So, I'm
+
+602
+00:10:54,150 --> 00:10:54,160
+and we're going to edit things. So, I'm
+ 
+
+603
+00:10:54,160 --> 00:10:57,030
+and we're going to edit things. So, I'm
+going to click into editing it. But it
+
+604
+00:10:57,030 --> 00:10:57,040
+going to click into editing it. But it
+ 
+
+605
+00:10:57,040 --> 00:10:59,670
+going to click into editing it. But it
+actually comes with all this text that I
+
+606
+00:10:59,670 --> 00:10:59,680
+actually comes with all this text that I
+ 
+
+607
+00:10:59,680 --> 00:11:02,470
+actually comes with all this text that I
+don't want. And so, I'm going to go
+
+608
+00:11:02,470 --> 00:11:02,480
+don't want. And so, I'm going to go
+ 
+
+609
+00:11:02,480 --> 00:11:05,350
+don't want. And so, I'm going to go
+ahead and delete all of this stuff so
+
+610
+00:11:05,350 --> 00:11:05,360
+ahead and delete all of this stuff so
+ 
+
+611
+00:11:05,360 --> 00:11:07,829
+ahead and delete all of this stuff so
+that we can get it off the page. This
+
+612
+00:11:07,829 --> 00:11:07,839
+that we can get it off the page. This
+ 
+
+613
+00:11:07,839 --> 00:11:10,150
+that we can get it off the page. This
+graphic here, I also don't want. I just
+
+614
+00:11:10,150 --> 00:11:10,160
+graphic here, I also don't want. I just
+ 
+
+615
+00:11:10,160 --> 00:11:12,110
+graphic here, I also don't want. I just
+don't want anything where if we zoom out
+
+616
+00:11:12,110 --> 00:11:12,120
+don't want anything where if we zoom out
+ 
+
+617
+00:11:12,120 --> 00:11:14,510
+don't want anything where if we zoom out
+here, we have your everyday life,
+
+618
+00:11:14,510 --> 00:11:14,520
+here, we have your everyday life,
+ 
+
+619
+00:11:14,520 --> 00:11:16,829
+here, we have your everyday life,
+wellness, AI, all this kind of stuff in
+
+620
+00:11:16,829 --> 00:11:16,839
+wellness, AI, all this kind of stuff in
+ 
+
+621
+00:11:16,839 --> 00:11:18,270
+wellness, AI, all this kind of stuff in
+the background. Obviously, that's not
+
+622
+00:11:18,270 --> 00:11:18,280
+the background. Obviously, that's not
+ 
+
+623
+00:11:18,280 --> 00:11:21,990
+the background. Obviously, that's not
+going to look good if we have that right
+
+624
+00:11:21,990 --> 00:11:22,000
+going to look good if we have that right
+ 
+
+625
+00:11:22,000 --> 00:11:23,870
+going to look good if we have that right
+at the top here, right? We don't want
+
+626
+00:11:23,870 --> 00:11:23,880
+at the top here, right? We don't want
+ 
+
+627
+00:11:23,880 --> 00:11:26,790
+at the top here, right? We don't want
+text layered on top of text, because if
+
+628
+00:11:26,790 --> 00:11:26,800
+text layered on top of text, because if
+ 
+
+629
+00:11:26,800 --> 00:11:28,990
+text layered on top of text, because if
+we were to import it in just like that,
+
+630
+00:11:28,990 --> 00:11:29,000
+we were to import it in just like that,
+ 
+
+631
+00:11:29,000 --> 00:11:30,310
+we were to import it in just like that,
+it would actually legitimately have
+
+632
+00:11:30,310 --> 00:11:30,320
+it would actually legitimately have
+ 
+
+633
+00:11:30,320 --> 00:11:32,950
+it would actually legitimately have
+that. So, we're good here. We can hit
+
+634
+00:11:32,950 --> 00:11:32,960
+that. So, we're good here. We can hit
+ 
+
+635
+00:11:32,960 --> 00:11:35,790
+that. So, we're good here. We can hit
+export in the corner, and then we want
+
+636
+00:11:35,790 --> 00:11:35,800
+export in the corner, and then we want
+ 
+
+637
+00:11:35,800 --> 00:11:38,310
+export in the corner, and then we want
+specifically the
+
+638
+00:11:38,310 --> 00:11:38,320
+specifically the
+ 
+
+639
+00:11:38,320 --> 00:11:41,430
+specifically the
+um the code export right over here. It's
+
+640
+00:11:41,430 --> 00:11:41,440
+um the code export right over here. It's
+ 
+
+641
+00:11:41,440 --> 00:11:44,190
+um the code export right over here. It's
+going to generate a link. We're going to
+
+642
+00:11:44,190 --> 00:11:44,200
+going to generate a link. We're going to
+ 
+
+643
+00:11:44,200 --> 00:11:46,270
+going to generate a link. We're going to
+copy this, and then paste it in. So, I'm
+
+644
+00:11:46,270 --> 00:11:46,280
+copy this, and then paste it in. So, I'm
+ 
+
+645
+00:11:46,280 --> 00:11:48,590
+copy this, and then paste it in. So, I'm
+going to say, "Please
+
+646
+00:11:48,590 --> 00:11:48,600
+going to say, "Please
+ 
+
+647
+00:11:48,600 --> 00:11:54,550
+going to say, "Please
+use this spline graphic above the fold
+
+648
+00:11:54,550 --> 00:11:54,560
+use this spline graphic above the fold
+ 
+
+649
+00:11:54,560 --> 00:11:56,550
+use this spline graphic above the fold
+for the background."
+
+650
+00:11:56,550 --> 00:11:56,560
+for the background."
+ 
+
+651
+00:11:56,560 --> 00:11:59,230
+for the background."
+Okay. And then we can paste it in here,
+
+652
+00:11:59,230 --> 00:11:59,240
+Okay. And then we can paste it in here,
+ 
+
+653
+00:11:59,240 --> 00:12:00,990
+Okay. And then we can paste it in here,
+and it's going to naturally build that
+
+654
+00:12:00,990 --> 00:12:01,000
+and it's going to naturally build that
+ 
+
+655
+00:12:01,000 --> 00:12:02,870
+and it's going to naturally build that
+out, include it on our website. Cool.
+
+656
+00:12:02,870 --> 00:12:02,880
+out, include it on our website. Cool.
+ 
+
+657
+00:12:02,880 --> 00:12:04,430
+out, include it on our website. Cool.
+So, everything's good. Okay, let's go
+
+658
+00:12:04,430 --> 00:12:04,440
+So, everything's good. Okay, let's go
+ 
+
+659
+00:12:04,440 --> 00:12:06,950
+So, everything's good. Okay, let's go
+ahead and demo this out. Here is now our
+
+660
+00:12:06,950 --> 00:12:06,960
+ahead and demo this out. Here is now our
+ 
+
+661
+00:12:06,960 --> 00:12:10,510
+ahead and demo this out. Here is now our
+website with the spline graphic in the
+
+662
+00:12:10,510 --> 00:12:10,520
+website with the spline graphic in the
+ 
+
+663
+00:12:10,520 --> 00:12:12,470
+website with the spline graphic in the
+background here above the fold. And when
+
+664
+00:12:12,470 --> 00:12:12,480
+background here above the fold. And when
+ 
+
+665
+00:12:12,480 --> 00:12:14,070
+background here above the fold. And when
+I say above the fold, I just mean like
+
+666
+00:12:14,070 --> 00:12:14,080
+I say above the fold, I just mean like
+ 
+
+667
+00:12:14,080 --> 00:12:15,750
+I say above the fold, I just mean like
+literally before you scroll down the
+
+668
+00:12:15,750 --> 00:12:15,760
+literally before you scroll down the
+ 
+
+669
+00:12:15,760 --> 00:12:18,150
+literally before you scroll down the
+page, this is the first graphic that we
+
+670
+00:12:18,150 --> 00:12:18,160
+page, this is the first graphic that we
+ 
+
+671
+00:12:18,160 --> 00:12:20,870
+page, this is the first graphic that we
+see here. And we can see here that there
+
+672
+00:12:20,870 --> 00:12:20,880
+see here. And we can see here that there
+ 
+
+673
+00:12:20,880 --> 00:12:23,390
+see here. And we can see here that there
+is first of all this logo that I
+
+674
+00:12:23,390 --> 00:12:23,400
+is first of all this logo that I
+ 
+
+675
+00:12:23,400 --> 00:12:25,230
+is first of all this logo that I
+probably should have deleted there.
+
+676
+00:12:25,230 --> 00:12:25,240
+probably should have deleted there.
+ 
+
+677
+00:12:25,240 --> 00:12:26,990
+probably should have deleted there.
+And you could just go back into the the
+
+678
+00:12:26,990 --> 00:12:27,000
+And you could just go back into the the
+ 
+
+679
+00:12:27,000 --> 00:12:28,750
+And you could just go back into the the
+graphic and and find that wherever it
+
+680
+00:12:28,750 --> 00:12:28,760
+graphic and and find that wherever it
+ 
+
+681
+00:12:28,760 --> 00:12:31,950
+graphic and and find that wherever it
+is, and then delete it. But also, there
+
+682
+00:12:31,950 --> 00:12:31,960
+is, and then delete it. But also, there
+ 
+
+683
+00:12:31,960 --> 00:12:34,110
+is, and then delete it. But also, there
+is this kind of rough edge over here. We
+
+684
+00:12:34,110 --> 00:12:34,120
+is this kind of rough edge over here. We
+ 
+
+685
+00:12:34,120 --> 00:12:36,990
+is this kind of rough edge over here. We
+could smooth this out with a gradient
+
+686
+00:12:36,990 --> 00:12:37,000
+could smooth this out with a gradient
+ 
+
+687
+00:12:37,000 --> 00:12:40,030
+could smooth this out with a gradient
+over top here, okay? And that's an
+
+688
+00:12:40,030 --> 00:12:40,040
+over top here, okay? And that's an
+ 
+
+689
+00:12:40,040 --> 00:12:42,110
+over top here, okay? And that's an
+option as well. We just have a gradient
+
+690
+00:12:42,110 --> 00:12:42,120
+option as well. We just have a gradient
+ 
+
+691
+00:12:42,120 --> 00:12:44,829
+option as well. We just have a gradient
+that essentially goes from this color to
+
+692
+00:12:44,829 --> 00:12:44,839
+that essentially goes from this color to
+ 
+
+693
+00:12:44,839 --> 00:12:47,510
+that essentially goes from this color to
+transparent, so that as we scroll down,
+
+694
+00:12:47,510 --> 00:12:47,520
+transparent, so that as we scroll down,
+ 
+
+695
+00:12:47,520 --> 00:12:49,750
+transparent, so that as we scroll down,
+it just naturally fades into this
+
+696
+00:12:49,750 --> 00:12:49,760
+it just naturally fades into this
+ 
+
+697
+00:12:49,760 --> 00:12:52,350
+it just naturally fades into this
+background over here, okay? So, that's
+
+698
+00:12:52,350 --> 00:12:52,360
+background over here, okay? So, that's
+ 
+
+699
+00:12:52,360 --> 00:12:55,150
+background over here, okay? So, that's
+the spline graphic. And if we scroll
+
+700
+00:12:55,150 --> 00:12:55,160
+the spline graphic. And if we scroll
+ 
+
+701
+00:12:55,160 --> 00:12:58,150
+the spline graphic. And if we scroll
+down the page here to the CTA section,
+
+702
+00:12:58,150 --> 00:12:58,160
+down the page here to the CTA section,
+ 
+
+703
+00:12:58,160 --> 00:13:01,350
+down the page here to the CTA section,
+in that prompt as well, we said in the
+
+704
+00:13:01,350 --> 00:13:01,360
+in that prompt as well, we said in the
+ 
+
+705
+00:13:01,360 --> 00:13:04,590
+in that prompt as well, we said in the
+call to action section, include 3js, and
+
+706
+00:13:04,590 --> 00:13:04,600
+call to action section, include 3js, and
+ 
+
+707
+00:13:04,600 --> 00:13:07,829
+call to action section, include 3js, and
+we can see the graphic right over here.
+
+708
+00:13:07,829 --> 00:13:07,839
+we can see the graphic right over here.
+ 
+
+709
+00:13:07,839 --> 00:13:09,190
+we can see the graphic right over here.
+Now, there is a lot of different
+
+710
+00:13:09,190 --> 00:13:09,200
+Now, there is a lot of different
+ 
+
+711
+00:13:09,200 --> 00:13:11,350
+Now, there is a lot of different
+graphics that we can use from 3js. This
+
+712
+00:13:11,350 --> 00:13:11,360
+graphics that we can use from 3js. This
+ 
+
+713
+00:13:11,360 --> 00:13:14,190
+graphics that we can use from 3js. This
+is kind of just not the exact one, but
+
+714
+00:13:14,190 --> 00:13:14,200
+is kind of just not the exact one, but
+ 
+
+715
+00:13:14,200 --> 00:13:16,310
+is kind of just not the exact one, but
+this is more or less what it is that I
+
+716
+00:13:16,310 --> 00:13:16,320
+this is more or less what it is that I
+ 
+
+717
+00:13:16,320 --> 00:13:18,990
+this is more or less what it is that I
+asked for to include. By default, a lot
+
+718
+00:13:18,990 --> 00:13:19,000
+asked for to include. By default, a lot
+ 
+
+719
+00:13:19,000 --> 00:13:20,990
+asked for to include. By default, a lot
+of the times when you use it, it tends
+
+720
+00:13:20,990 --> 00:13:21,000
+of the times when you use it, it tends
+ 
+
+721
+00:13:21,000 --> 00:13:22,630
+of the times when you use it, it tends
+to gravitate towards just like a
+
+722
+00:13:22,630 --> 00:13:22,640
+to gravitate towards just like a
+ 
+
+723
+00:13:22,640 --> 00:13:24,070
+to gravitate towards just like a
+standard graphic like this, but there's
+
+724
+00:13:24,070 --> 00:13:24,080
+standard graphic like this, but there's
+ 
+
+725
+00:13:24,080 --> 00:13:25,350
+standard graphic like this, but there's
+a lot of different stuff that we could
+
+726
+00:13:25,350 --> 00:13:25,360
+a lot of different stuff that we could
+ 
+
+727
+00:13:25,360 --> 00:13:27,950
+a lot of different stuff that we could
+build using 3js, and you just can just
+
+728
+00:13:27,950 --> 00:13:27,960
+build using 3js, and you just can just
+ 
+
+729
+00:13:27,960 --> 00:13:29,790
+build using 3js, and you just can just
+you can just tell it exactly what it is
+
+730
+00:13:29,790 --> 00:13:29,800
+you can just tell it exactly what it is
+ 
+
+731
+00:13:29,800 --> 00:13:31,310
+you can just tell it exactly what it is
+you're looking for. As long as it's
+
+732
+00:13:31,310 --> 00:13:31,320
+you're looking for. As long as it's
+ 
+
+733
+00:13:31,320 --> 00:13:32,910
+you're looking for. As long as it's
+available, it will go to work for you
+
+734
+00:13:32,910 --> 00:13:32,920
+available, it will go to work for you
+ 
+
+735
+00:13:32,920 --> 00:13:34,790
+available, it will go to work for you
+and build it out. So, that's a cool way
+
+736
+00:13:34,790 --> 00:13:34,800
+and build it out. So, that's a cool way
+ 
+
+737
+00:13:34,800 --> 00:13:38,390
+and build it out. So, that's a cool way
+that we can have 3D graphics behind a
+
+738
+00:13:38,390 --> 00:13:38,400
+that we can have 3D graphics behind a
+ 
+
+739
+00:13:38,400 --> 00:13:40,390
+that we can have 3D graphics behind a
+particular element on the page, and
+
+740
+00:13:40,390 --> 00:13:40,400
+particular element on the page, and
+ 
+
+741
+00:13:40,400 --> 00:13:42,030
+particular element on the page, and
+those are two different resources we can
+
+742
+00:13:42,030 --> 00:13:42,040
+those are two different resources we can
+ 
+
+743
+00:13:42,040 --> 00:13:44,910
+those are two different resources we can
+call on. 3js down here, and then we can
+
+744
+00:13:44,910 --> 00:13:44,920
+call on. 3js down here, and then we can
+ 
+
+745
+00:13:44,920 --> 00:13:47,350
+call on. 3js down here, and then we can
+also call on spline up top here, which
+
+746
+00:13:47,350 --> 00:13:47,360
+also call on spline up top here, which
+ 
+
+747
+00:13:47,360 --> 00:13:49,390
+also call on spline up top here, which
+honestly add so much character to the
+
+748
+00:13:49,390 --> 00:13:49,400
+honestly add so much character to the
+ 
+
+749
+00:13:49,400 --> 00:13:52,550
+honestly add so much character to the
+website, and right away, this really to
+
+750
+00:13:52,550 --> 00:13:52,560
+website, and right away, this really to
+ 
+
+751
+00:13:52,560 --> 00:13:55,310
+website, and right away, this really to
+me like takes it over the top in terms
+
+752
+00:13:55,310 --> 00:13:55,320
+me like takes it over the top in terms
+ 
+
+753
+00:13:55,320 --> 00:13:57,470
+me like takes it over the top in terms
+of professionalism. Okay, lastly, what
+
+754
+00:13:57,470 --> 00:13:57,480
+of professionalism. Okay, lastly, what
+ 
+
+755
+00:13:57,480 --> 00:13:58,430
+of professionalism. Okay, lastly, what
+we're going to do is we're going to head
+
+756
+00:13:58,430 --> 00:13:58,440
+we're going to do is we're going to head
+ 
+
+757
+00:13:58,440 --> 00:14:00,510
+we're going to do is we're going to head
+over to the final prompt here, which is
+
+758
+00:14:00,510 --> 00:14:00,520
+over to the final prompt here, which is
+ 
+
+759
+00:14:00,520 --> 00:14:03,510
+over to the final prompt here, which is
+all about typography. So, we'll copy
+
+760
+00:14:03,510 --> 00:14:03,520
+all about typography. So, we'll copy
+ 
+
+761
+00:14:03,520 --> 00:14:06,790
+all about typography. So, we'll copy
+this prompt into Claude Code. And
+
+762
+00:14:06,790 --> 00:14:06,800
+this prompt into Claude Code. And
+ 
+
+763
+00:14:06,800 --> 00:14:08,350
+this prompt into Claude Code. And
+specifically, what we're doing in this
+
+764
+00:14:08,350 --> 00:14:08,360
+specifically, what we're doing in this
+ 
+
+765
+00:14:08,360 --> 00:14:11,310
+specifically, what we're doing in this
+case is we're using Google Fonts to find
+
+766
+00:14:11,310 --> 00:14:11,320
+case is we're using Google Fonts to find
+ 
+
+767
+00:14:11,320 --> 00:14:13,350
+case is we're using Google Fonts to find
+something that we like. So, if you just
+
+768
+00:14:13,350 --> 00:14:13,360
+something that we like. So, if you just
+ 
+
+769
+00:14:13,360 --> 00:14:15,790
+something that we like. So, if you just
+type in to Google Google Fonts,
+
+770
+00:14:15,790 --> 00:14:15,800
+type in to Google Google Fonts,
+ 
+
+771
+00:14:15,800 --> 00:14:19,230
+type in to Google Google Fonts,
+on the first link here, we can grab from
+
+772
+00:14:19,230 --> 00:14:19,240
+on the first link here, we can grab from
+ 
+
+773
+00:14:19,240 --> 00:14:22,590
+on the first link here, we can grab from
+a whole host of different fonts. And all
+
+774
+00:14:22,590 --> 00:14:22,600
+a whole host of different fonts. And all
+ 
+
+775
+00:14:22,600 --> 00:14:24,550
+a whole host of different fonts. And all
+of these are free. All we have to do is
+
+776
+00:14:24,550 --> 00:14:24,560
+of these are free. All we have to do is
+ 
+
+777
+00:14:24,560 --> 00:14:26,910
+of these are free. All we have to do is
+reference to Claude Code which one we're
+
+778
+00:14:26,910 --> 00:14:26,920
+reference to Claude Code which one we're
+ 
+
+779
+00:14:26,920 --> 00:14:28,430
+reference to Claude Code which one we're
+looking for, and it's going to go to
+
+780
+00:14:28,430 --> 00:14:28,440
+looking for, and it's going to go to
+ 
+
+781
+00:14:28,440 --> 00:14:30,710
+looking for, and it's going to go to
+work for us pulling it out and applying
+
+782
+00:14:30,710 --> 00:14:30,720
+work for us pulling it out and applying
+ 
+
+783
+00:14:30,720 --> 00:14:32,110
+work for us pulling it out and applying
+it to the particular website. You can
+
+784
+00:14:32,110 --> 00:14:32,120
+it to the particular website. You can
+ 
+
+785
+00:14:32,120 --> 00:14:35,910
+it to the particular website. You can
+have one font for headers, one font for
+
+786
+00:14:35,910 --> 00:14:35,920
+have one font for headers, one font for
+ 
+
+787
+00:14:35,920 --> 00:14:38,230
+have one font for headers, one font for
+your body paragraphs. And if this is
+
+788
+00:14:38,230 --> 00:14:38,240
+your body paragraphs. And if this is
+ 
+
+789
+00:14:38,240 --> 00:14:39,710
+your body paragraphs. And if this is
+your first time coming in using Google
+
+790
+00:14:39,710 --> 00:14:39,720
+your first time coming in using Google
+ 
+
+791
+00:14:39,720 --> 00:14:41,270
+your first time coming in using Google
+Fonts, one of the cool things is is you
+
+792
+00:14:41,270 --> 00:14:41,280
+Fonts, one of the cool things is is you
+ 
+
+793
+00:14:41,280 --> 00:14:43,910
+Fonts, one of the cool things is is you
+can sort by calligraphy. So, for
+
+794
+00:14:43,910 --> 00:14:43,920
+can sort by calligraphy. So, for
+ 
+
+795
+00:14:43,920 --> 00:14:45,949
+can sort by calligraphy. So, for
+instance, maybe you want handwriting.
+
+796
+00:14:45,949 --> 00:14:45,959
+instance, maybe you want handwriting.
+ 
+
+797
+00:14:45,959 --> 00:14:47,510
+instance, maybe you want handwriting.
+Okay, you can go down the list of all
+
+798
+00:14:47,510 --> 00:14:47,520
+Okay, you can go down the list of all
+ 
+
+799
+00:14:47,520 --> 00:14:49,270
+Okay, you can go down the list of all
+the different types of handwriting.
+
+800
+00:14:49,270 --> 00:14:49,280
+the different types of handwriting.
+ 
+
+801
+00:14:49,280 --> 00:14:51,990
+the different types of handwriting.
+Maybe you want something like informal,
+
+802
+00:14:51,990 --> 00:14:52,000
+Maybe you want something like informal,
+ 
+
+803
+00:14:52,000 --> 00:14:55,829
+Maybe you want something like informal,
+you can kind of see some text in that
+
+804
+00:14:55,829 --> 00:14:55,839
+you can kind of see some text in that
+ 
+
+805
+00:14:55,839 --> 00:14:58,870
+you can kind of see some text in that
+kind of category. You also have formal,
+
+806
+00:14:58,870 --> 00:14:58,880
+kind of category. You also have formal,
+ 
+
+807
+00:14:58,880 --> 00:15:01,590
+kind of category. You also have formal,
+you have upright, you have all these
+
+808
+00:15:01,590 --> 00:15:01,600
+you have upright, you have all these
+ 
+
+809
+00:15:01,600 --> 00:15:04,550
+you have upright, you have all these
+different types of fonts to choose from.
+
+810
+00:15:04,550 --> 00:15:04,560
+different types of fonts to choose from.
+ 
+
+811
+00:15:04,560 --> 00:15:06,110
+different types of fonts to choose from.
+So, you can easily
+
+812
+00:15:06,110 --> 00:15:06,120
+So, you can easily
+ 
+
+813
+00:15:06,120 --> 00:15:08,510
+So, you can easily
+you can easily sort based on the style
+
+814
+00:15:08,510 --> 00:15:08,520
+you can easily sort based on the style
+ 
+
+815
+00:15:08,520 --> 00:15:10,270
+you can easily sort based on the style
+it is you're looking for. And when
+
+816
+00:15:10,270 --> 00:15:10,280
+it is you're looking for. And when
+ 
+
+817
+00:15:10,280 --> 00:15:12,310
+it is you're looking for. And when
+you've gone ahead and found one, you can
+
+818
+00:15:12,310 --> 00:15:12,320
+you've gone ahead and found one, you can
+ 
+
+819
+00:15:12,320 --> 00:15:13,829
+you've gone ahead and found one, you can
+paste that right into Claude Code, or
+
+820
+00:15:13,829 --> 00:15:13,839
+paste that right into Claude Code, or
+ 
+
+821
+00:15:13,839 --> 00:15:15,350
+paste that right into Claude Code, or
+you could just ask Claude Code, "Hey,
+
+822
+00:15:15,350 --> 00:15:15,360
+you could just ask Claude Code, "Hey,
+ 
+
+823
+00:15:15,360 --> 00:15:16,949
+you could just ask Claude Code, "Hey,
+pull out the font you think is going to
+
+824
+00:15:16,949 --> 00:15:16,959
+pull out the font you think is going to
+ 
+
+825
+00:15:16,959 --> 00:15:19,069
+pull out the font you think is going to
+be the best suited for the website I'm
+
+826
+00:15:19,069 --> 00:15:19,079
+be the best suited for the website I'm
+ 
+
+827
+00:15:19,079 --> 00:15:20,630
+be the best suited for the website I'm
+building." Sweet. So, everything is
+
+828
+00:15:20,630 --> 00:15:20,640
+building." Sweet. So, everything is
+ 
+
+829
+00:15:20,640 --> 00:15:22,230
+building." Sweet. So, everything is
+live. Let's take a look at the font over
+
+830
+00:15:22,230 --> 00:15:22,240
+live. Let's take a look at the font over
+ 
+
+831
+00:15:22,240 --> 00:15:25,430
+live. Let's take a look at the font over
+here. And right away, super noticeable.
+
+832
+00:15:25,430 --> 00:15:25,440
+here. And right away, super noticeable.
+ 
+
+833
+00:15:25,440 --> 00:15:28,030
+here. And right away, super noticeable.
+Now, I find that with fonts, a lot of
+
+834
+00:15:28,030 --> 00:15:28,040
+Now, I find that with fonts, a lot of
+ 
+
+835
+00:15:28,040 --> 00:15:29,630
+Now, I find that with fonts, a lot of
+the times it's viewed as like something
+
+836
+00:15:29,630 --> 00:15:29,640
+the times it's viewed as like something
+ 
+
+837
+00:15:29,640 --> 00:15:31,990
+the times it's viewed as like something
+that's not necessary, tacked on at the
+
+838
+00:15:31,990 --> 00:15:32,000
+that's not necessary, tacked on at the
+ 
+
+839
+00:15:32,000 --> 00:15:34,829
+that's not necessary, tacked on at the
+end, kind of minimal. But honestly, I
+
+840
+00:15:34,829 --> 00:15:34,839
+end, kind of minimal. But honestly, I
+ 
+
+841
+00:15:34,839 --> 00:15:36,470
+end, kind of minimal. But honestly, I
+feel like it changes the whole entire
+
+842
+00:15:36,470 --> 00:15:36,480
+feel like it changes the whole entire
+ 
+
+843
+00:15:36,480 --> 00:15:38,350
+feel like it changes the whole entire
+look and feel of a website, especially
+
+844
+00:15:38,350 --> 00:15:38,360
+look and feel of a website, especially
+ 
+
+845
+00:15:38,360 --> 00:15:39,750
+look and feel of a website, especially
+when you have a nice beautiful font.
+
+846
+00:15:39,750 --> 00:15:39,760
+when you have a nice beautiful font.
+ 
+
+847
+00:15:39,760 --> 00:15:41,870
+when you have a nice beautiful font.
+Especially as well when you have two
+
+848
+00:15:41,870 --> 00:15:41,880
+Especially as well when you have two
+ 
+
+849
+00:15:41,880 --> 00:15:44,949
+Especially as well when you have two
+different fonts, one for titles, and one
+
+850
+00:15:44,949 --> 00:15:44,959
+different fonts, one for titles, and one
+ 
+
+851
+00:15:44,959 --> 00:15:46,910
+different fonts, one for titles, and one
+for body paragraphs. And in this case,
+
+852
+00:15:46,910 --> 00:15:46,920
+for body paragraphs. And in this case,
+ 
+
+853
+00:15:46,920 --> 00:15:48,150
+for body paragraphs. And in this case,
+it almost looks like there's three
+
+854
+00:15:48,150 --> 00:15:48,160
+it almost looks like there's three
+ 
+
+855
+00:15:48,160 --> 00:15:49,949
+it almost looks like there's three
+different fonts, one for titles, body
+
+856
+00:15:49,949 --> 00:15:49,959
+different fonts, one for titles, body
+ 
+
+857
+00:15:49,959 --> 00:15:51,829
+different fonts, one for titles, body
+paragraphs, and then bullet points as
+
+858
+00:15:51,829 --> 00:15:51,839
+paragraphs, and then bullet points as
+ 
+
+859
+00:15:51,839 --> 00:15:53,510
+paragraphs, and then bullet points as
+well. And if for whatever reason you're
+
+860
+00:15:53,510 --> 00:15:53,520
+well. And if for whatever reason you're
+ 
+
+861
+00:15:53,520 --> 00:15:54,630
+well. And if for whatever reason you're
+not happy with it, you can go back to
+
+862
+00:15:54,630 --> 00:15:54,640
+not happy with it, you can go back to
+ 
+
+863
+00:15:54,640 --> 00:15:56,550
+not happy with it, you can go back to
+the drawing board and grab new fonts
+
+864
+00:15:56,550 --> 00:15:56,560
+the drawing board and grab new fonts
+ 
+
+865
+00:15:56,560 --> 00:15:58,590
+the drawing board and grab new fonts
+from Google Font, and then include it
+
+866
+00:15:58,590 --> 00:15:58,600
+from Google Font, and then include it
+ 
+
+867
+00:15:58,600 --> 00:16:01,150
+from Google Font, and then include it
+directly onto your particular website.
+
+868
+00:16:01,150 --> 00:16:01,160
+directly onto your particular website.
+ 
+
+869
+00:16:01,160 --> 00:16:02,390
+directly onto your particular website.
+Now, the last thing that I want to talk
+
+870
+00:16:02,390 --> 00:16:02,400
+Now, the last thing that I want to talk
+ 
+
+871
+00:16:02,400 --> 00:16:04,590
+Now, the last thing that I want to talk
+about in this video is technique number,
+
+872
+00:16:04,590 --> 00:16:04,600
+about in this video is technique number,
+ 
+
+873
+00:16:04,600 --> 00:16:06,990
+about in this video is technique number,
+I guess, nine technically, where we can
+
+874
+00:16:06,990 --> 00:16:07,000
+I guess, nine technically, where we can
+ 
+
+875
+00:16:07,000 --> 00:16:09,069
+I guess, nine technically, where we can
+go through the whole website and change
+
+876
+00:16:09,069 --> 00:16:09,079
+go through the whole website and change
+ 
+
+877
+00:16:09,079 --> 00:16:11,270
+go through the whole website and change
+anything that we want to. And how we do
+
+878
+00:16:11,270 --> 00:16:11,280
+anything that we want to. And how we do
+ 
+
+879
+00:16:11,280 --> 00:16:13,630
+anything that we want to. And how we do
+that is through screenshots. I find that
+
+880
+00:16:13,630 --> 00:16:13,640
+that is through screenshots. I find that
+ 
+
+881
+00:16:13,640 --> 00:16:15,670
+that is through screenshots. I find that
+to be one of the most effective ways.
+
+882
+00:16:15,670 --> 00:16:15,680
+to be one of the most effective ways.
+ 
+
+883
+00:16:15,680 --> 00:16:17,990
+to be one of the most effective ways.
+So, instead of trying to describe how
+
+884
+00:16:17,990 --> 00:16:18,000
+So, instead of trying to describe how
+ 
+
+885
+00:16:18,000 --> 00:16:20,350
+So, instead of trying to describe how
+you want to change like a graphic over
+
+886
+00:16:20,350 --> 00:16:20,360
+you want to change like a graphic over
+ 
+
+887
+00:16:20,360 --> 00:16:22,270
+you want to change like a graphic over
+here or a graphic over here, we can take
+
+888
+00:16:22,270 --> 00:16:22,280
+here or a graphic over here, we can take
+ 
+
+889
+00:16:22,280 --> 00:16:24,350
+here or a graphic over here, we can take
+a screenshot. So, for this entire
+
+890
+00:16:24,350 --> 00:16:24,360
+a screenshot. So, for this entire
+ 
+
+891
+00:16:24,360 --> 00:16:26,790
+a screenshot. So, for this entire
+section, we can literally just grab a
+
+892
+00:16:26,790 --> 00:16:26,800
+section, we can literally just grab a
+ 
+
+893
+00:16:26,800 --> 00:16:28,829
+section, we can literally just grab a
+shot over here, and then describe what
+
+894
+00:16:28,829 --> 00:16:28,839
+shot over here, and then describe what
+ 
+
+895
+00:16:28,839 --> 00:16:31,310
+shot over here, and then describe what
+we want changed in that particular
+
+896
+00:16:31,310 --> 00:16:31,320
+we want changed in that particular
+ 
+
+897
+00:16:31,320 --> 00:16:33,670
+we want changed in that particular
+screenshot. In this example, what I'm
+
+898
+00:16:33,670 --> 00:16:33,680
+screenshot. In this example, what I'm
+ 
+
+899
+00:16:33,680 --> 00:16:35,630
+screenshot. In this example, what I'm
+going to do is I'm going to use this
+
+900
+00:16:35,630 --> 00:16:35,640
+going to do is I'm going to use this
+ 
+
+901
+00:16:35,640 --> 00:16:37,430
+going to do is I'm going to use this
+particular grid over here, because it's
+
+902
+00:16:37,430 --> 00:16:37,440
+particular grid over here, because it's
+ 
+
+903
+00:16:37,440 --> 00:16:39,069
+particular grid over here, because it's
+kind of bothering me how there's only
+
+904
+00:16:39,069 --> 00:16:39,079
+kind of bothering me how there's only
+ 
+
+905
+00:16:39,079 --> 00:16:41,470
+kind of bothering me how there's only
+one graphic right here. What I'd rather
+
+906
+00:16:41,470 --> 00:16:41,480
+one graphic right here. What I'd rather
+ 
+
+907
+00:16:41,480 --> 00:16:44,829
+one graphic right here. What I'd rather
+have is like 4x4 graphics, so it looks a
+
+908
+00:16:44,829 --> 00:16:44,839
+have is like 4x4 graphics, so it looks a
+ 
+
+909
+00:16:44,839 --> 00:16:47,230
+have is like 4x4 graphics, so it looks a
+bit more full. So, I'm going to go back
+
+910
+00:16:47,230 --> 00:16:47,240
+bit more full. So, I'm going to go back
+ 
+
+911
+00:16:47,240 --> 00:16:48,550
+bit more full. So, I'm going to go back
+to the drawing board here. I'm going to
+
+912
+00:16:48,550 --> 00:16:48,560
+to the drawing board here. I'm going to
+ 
+
+913
+00:16:48,560 --> 00:16:51,590
+to the drawing board here. I'm going to
+copy this particular prompt, and we are
+
+914
+00:16:51,590 --> 00:16:51,600
+copy this particular prompt, and we are
+ 
+
+915
+00:16:51,600 --> 00:16:53,470
+copy this particular prompt, and we are
+going to paste it in. We're just
+
+916
+00:16:53,470 --> 00:16:53,480
+going to paste it in. We're just
+ 
+
+917
+00:16:53,480 --> 00:16:55,390
+going to paste it in. We're just
+building out that grid system where
+
+918
+00:16:55,390 --> 00:16:55,400
+building out that grid system where
+ 
+
+919
+00:16:55,400 --> 00:16:58,829
+building out that grid system where
+there's 4x4 in a row. And I'm also going
+
+920
+00:16:58,829 --> 00:16:58,839
+there's 4x4 in a row. And I'm also going
+ 
+
+921
+00:16:58,839 --> 00:17:00,590
+there's 4x4 in a row. And I'm also going
+to attach that screenshot that we just
+
+922
+00:17:00,590 --> 00:17:00,600
+to attach that screenshot that we just
+ 
+
+923
+00:17:00,600 --> 00:17:02,510
+to attach that screenshot that we just
+took as well. Cool. So, we're back, and
+
+924
+00:17:02,510 --> 00:17:02,520
+took as well. Cool. So, we're back, and
+ 
+
+925
+00:17:02,520 --> 00:17:03,870
+took as well. Cool. So, we're back, and
+it looks like it's gone ahead and
+
+926
+00:17:03,870 --> 00:17:03,880
+it looks like it's gone ahead and
+ 
+
+927
+00:17:03,880 --> 00:17:05,390
+it looks like it's gone ahead and
+implemented all of those eight
+
+928
+00:17:05,390 --> 00:17:05,400
+implemented all of those eight
+ 
+
+929
+00:17:05,400 --> 00:17:08,949
+implemented all of those eight
+additional grids into the graphic here
+
+930
+00:17:08,949 --> 00:17:08,959
+additional grids into the graphic here
+ 
+
+931
+00:17:08,959 --> 00:17:09,661
+additional grids into the graphic here
+for
+
+932
+00:17:09,661 --> 00:17:09,671
+for
+ 
+
+933
+00:17:09,671 --> 00:17:09,790
+for
+>> [snorts]
+
+934
+00:17:09,790 --> 00:17:09,800
+>> [snorts]
+ 
+
+935
+00:17:09,800 --> 00:17:11,550
+>> [snorts]
+>> all different services or whatever that
+
+936
+00:17:11,550 --> 00:17:11,560
+>> all different services or whatever that
+ 
+
+937
+00:17:11,560 --> 00:17:14,429
+>> all different services or whatever that
+this fictitious company is offering. So,
+
+938
+00:17:14,429 --> 00:17:14,439
+this fictitious company is offering. So,
+ 
+
+939
+00:17:14,439 --> 00:17:16,110
+this fictitious company is offering. So,
+thanks guys for watching. If you want to
+
+940
+00:17:16,110 --> 00:17:16,120
+thanks guys for watching. If you want to
+ 
+
+941
+00:17:16,120 --> 00:17:18,669
+thanks guys for watching. If you want to
+learn more about Claude Code, I highly
+
+942
+00:17:18,669 --> 00:17:18,679
+learn more about Claude Code, I highly
+ 
+
+943
+00:17:18,679 --> 00:17:19,790
+learn more about Claude Code, I highly
+recommend taking a look at my
+
+944
+00:17:19,790 --> 00:17:19,800
+recommend taking a look at my
+ 
+
+945
+00:17:19,800 --> 00:17:22,230
+recommend taking a look at my
+masterclass on the subject for free on
+
+946
+00:17:22,230 --> 00:17:22,240
+masterclass on the subject for free on
+ 
+
+947
+00:17:22,240 --> 00:17:24,550
+masterclass on the subject for free on
+YouTube, and all the blueprints for this
+
+948
+00:17:24,550 --> 00:17:24,560
+YouTube, and all the blueprints for this
+ 
+
+949
+00:17:24,560 --> 00:17:25,669
+YouTube, and all the blueprints for this
+video are going to be down below in the
+
+950
+00:17:25,669 --> 00:17:25,679
+video are going to be down below in the
+ 
+
+951
+00:17:25,679 --> 00:17:27,189
+video are going to be down below in the
+description for free. If you guys want
+
+952
+00:17:27,189 --> 00:17:27,199
+description for free. If you guys want
+ 
+
+953
+00:17:27,199 --> 00:17:29,150
+description for free. If you guys want
+to learn more about AI and automation, I
+
+954
+00:17:29,150 --> 00:17:29,160
+to learn more about AI and automation, I
+ 
+
+955
+00:17:29,160 --> 00:17:31,270
+to learn more about AI and automation, I
+highly recommend first of all to
+
+956
+00:17:31,270 --> 00:17:31,280
+highly recommend first of all to
+ 
+
+957
+00:17:31,280 --> 00:17:32,630
+highly recommend first of all to
+subscribe to the channel, because if you
+
+958
+00:17:32,630 --> 00:17:32,640
+subscribe to the channel, because if you
+ 
+
+959
+00:17:32,640 --> 00:17:33,750
+subscribe to the channel, because if you
+like this video, I'm sure you'll like
+
+960
+00:17:33,750 --> 00:17:33,760
+like this video, I'm sure you'll like
+ 
+
+961
+00:17:33,760 --> 00:17:35,990
+like this video, I'm sure you'll like
+others. And also, if you want to learn
+
+962
+00:17:35,990 --> 00:17:36,000
+others. And also, if you want to learn
+ 
+
+963
+00:17:36,000 --> 00:17:38,190
+others. And also, if you want to learn
+more, I have a paid AI automation
+
+964
+00:17:38,190 --> 00:17:38,200
+more, I have a paid AI automation
+ 
+
+965
+00:17:38,200 --> 00:17:41,110
+more, I have a paid AI automation
+community where I go through all of this
+
+966
+00:17:41,110 --> 00:17:41,120
+community where I go through all of this
+ 
+
+967
+00:17:41,120 --> 00:17:43,030
+community where I go through all of this
+kind of stuff and teach you how you can
+
+968
+00:17:43,030 --> 00:17:43,040
+kind of stuff and teach you how you can
+ 
+
+969
+00:17:43,040 --> 00:17:44,950
+kind of stuff and teach you how you can
+first of all make money with AI and
+
+970
+00:17:44,950 --> 00:17:44,960
+first of all make money with AI and
+ 
+
+971
+00:17:44,960 --> 00:17:46,390
+first of all make money with AI and
+automation by finding, closing, and
+
+972
+00:17:46,390 --> 00:17:46,400
+automation by finding, closing, and
+ 
+
+973
+00:17:46,400 --> 00:17:48,150
+automation by finding, closing, and
+fulfilling your first deal within 30
+
+974
+00:17:48,150 --> 00:17:48,160
+fulfilling your first deal within 30
+ 
+
+975
+00:17:48,160 --> 00:17:50,350
+fulfilling your first deal within 30
+days or less, and then scaling up from
+
+976
+00:17:50,350 --> 00:17:50,360
+days or less, and then scaling up from
+ 
+
+977
+00:17:50,360 --> 00:17:52,310
+days or less, and then scaling up from
+there. And if you have an existing
+
+978
+00:17:52,310 --> 00:17:52,320
+there. And if you have an existing
+ 
+
+979
+00:17:52,320 --> 00:17:53,710
+there. And if you have an existing
+business, I'll show you how you can
+
+980
+00:17:53,710 --> 00:17:53,720
+business, I'll show you how you can
+ 
+
+981
+00:17:53,720 --> 00:17:56,230
+business, I'll show you how you can
+automate up to 80% of it with blueprints
+
+982
+00:17:56,230 --> 00:17:56,240
+automate up to 80% of it with blueprints
+ 
+
+983
+00:17:56,240 --> 00:17:57,590
+automate up to 80% of it with blueprints
+that you can literally just copy and
+
+984
+00:17:57,590 --> 00:17:57,600
+that you can literally just copy and
+ 
+
+985
+00:17:57,600 --> 00:17:59,470
+that you can literally just copy and
+paste into your existing business, which
+
+986
+00:17:59,470 --> 00:17:59,480
+paste into your existing business, which
+ 
+
+987
+00:17:59,480 --> 00:18:00,669
+paste into your existing business, which
+allowed me to personally scale my
+
+988
+00:18:00,669 --> 00:18:00,679
+allowed me to personally scale my
+ 
+
+989
+00:18:00,679 --> 00:18:02,070
+allowed me to personally scale my
+businesses to seven figures. And of
+
+990
+00:18:02,070 --> 00:18:02,080
+businesses to seven figures. And of
+ 
+
+991
+00:18:02,080 --> 00:18:03,550
+businesses to seven figures. And of
+course, if you don't want to have to
+
+992
+00:18:03,550 --> 00:18:03,560
+course, if you don't want to have to
+ 
+
+993
+00:18:03,560 --> 00:18:05,390
+course, if you don't want to have to
+automate these things yourself, you can
+
+994
+00:18:05,390 --> 00:18:05,400
+automate these things yourself, you can
+ 
+
+995
+00:18:05,400 --> 00:18:07,070
+automate these things yourself, you can
+take a look at my agency where we can do
+
+996
+00:18:07,070 --> 00:18:07,080
+take a look at my agency where we can do
+ 
+
+997
+00:18:07,080 --> 00:18:08,630
+take a look at my agency where we can do
+this on your behalf. Thanks guys for
+
+998
+00:18:08,630 --> 00:18:08,640
+this on your behalf. Thanks guys for
+ 
+
+999
+00:18:08,640 --> 00:18:09,870
+this on your behalf. Thanks guys for
+watching, and I'll see you in the next
+
+1000
+00:18:09,870 --> 00:18:09,880
+watching, and I'll see you in the next
+ 
+
+1001
+00:18:09,880 --> 00:18:12,360
+watching, and I'll see you in the next
+one. Bye-bye.
+

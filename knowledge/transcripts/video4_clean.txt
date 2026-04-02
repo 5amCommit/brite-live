@@ -1,0 +1,297 @@
+ 
+10,000 hours of operating alongside
+21st.deaf is here's a feature called
+AI does not understand what you actually
+All right, clin. Let's see the results.
+And if you like this tutorial, make sure
+And it says here run the following
+Another problem is it's hard to explain
+But I'm still not really impressed by
+By the way, in the description box
+First, let's open up a new Cloud Code
+For example, the reviews here are
+For that, we're using this research
+I hope you like this video and see you
+I like don't like the fonts and so on.
+Instead of describing what you want, you
+It's a general purpose human need robot
+It's free and it has everything what we
+Let me show you everything step by step.
+Let's see the results. So, this is the
+Let's type in npm run dev and open this
+Now I go back to 21st dev and click here
+Perfect. Close finished. Let's see the
+So once you did this, after you've done
+Tailwind, used this exact color as its
+That's why we will first normalize the
+The most famous website framework,
+Then I click this icon to create the
+Then we go here to our file system and
+Then we start a new code session. But
+This here is working. Looks nice. Boom.
+Websites built with cloud code are easy
+Yes, this looks also really nice. But
+You just pick the ones you like. This is
+activated. By the way, if you want to
+actually using skills automatically. I
+all AI generated websites. But I still
+already much better. But again has this
+already pretty good, but it's still like
+and click copy prompt. create me a
+and learns your daily routines. By the
+and open it. Then we start Clo by
+and paste it here. And I continue this
+and select here manage plugins. Then
+animation, every detail already done.
+animation. Here's the typical free grid
+approach with the following components.
+are based on robotics. For example, here
+are basically instruction files that
+basically instructs clo to fill out the
+basically what Clo does now is he checks
+be able to create beautiful websites
+be. Even an absolute beginner will then
+beautiful website was built entirely
+because then cloud code is included. And
+below, I also link all components so you
+better now. Oh, this looks nice. In
+browser. First of all, good that we
+build the website. Build me a landing
+building websites with cloud code, we
+called components.
+can choose from. Like for example, this
+can click here on the source and here
+can decide if you want to install it
+can fill it with the right information.
+can select here prompt type quote code
+can try it yourself.
+clearly AI. But what if I told you this
+click here, open, and we create the
+click open folder. Let's call it demo
+clicking on it here. And this time we
+cloth code skills. To show you the
+cloud code. But before we can start, you
+code and when to use code and when it
+code generates. Now based on this
+code now finished his research and now
+code received now details instructions
+code to normalize the whole page. For
+code. Level number one, simple
+color and so on. But the problem is the
+come now to the last part of the
+command
+comparing to what we want to build
+component on it. And now I paste what we
+component. Great. CL code just finished.
+components created by humans and we just
+copied from 21st F and send this off. CL
+copy prompt. And if I click on this, you
+copy prompt. And then I paste this
+default color 5 years ago, and that's
+description box below and paste it here.
+design skill will be useful for this
+designer and everything is coherent and
+don't have the purple colors anymore.
+don't have the same premium feeling like
+don't include do not use any skill. Now
+drop this file into Chrome. And that's
+easily to max account to have higher
+engineer to work alongside you. It can
+every button in Tailwind UI Indigo 500 5
+everything and gives you incredible
+everything inside this folder.
+exactly how I built the website from the
+exactly this website. Now we have level
+example, this plugin only has at the end
+examples and so on. So once we install
+expert in building websites. But the
+faster approach. First we delete
+file. I call it 2txt and copy the next
+first need an AI code editor. The best
+fix since you can just tell code. But
+flexible. It has here some pricing and
+follows voice commands, carries things,
+for example. And the great part about
+for robotics and so on. That's why we
+for you and make sure also that it's
+framework fill. But before I show you
+free good layout style that we see on
+frequently asked questions for the robot
+from many different websites, but we
+from the website and so on. By the way,
+front end designed plugin. And here you
+general, we can see the website looks
+generic AI generated aesthetics like
+generic layout, and everywhere purple
+generic. The pricing here is not for
+give code actual components built by
+giving it the playbook for a specific
+globally only for the project or
+good part is with the approach I show
+has a light mode and a dark mode. And by
+here our results. Let's open up this in
+here. And this foundation you can now
+him to fill out the site. All right,
+how to recreate the exact same
+how, I want to mention that this website
+icon and type in here CL code and select
+in the next
+information, he does the research on the
+install it. Once installed, you should
+installed, you don't need to mention
+instead of pasting the components one by
+instructions that are in this skill. All
+into this browser. And like you can see
+intro, from scratch. And honestly, it's
+is it's still generic information here.
+it and send this off. So this prompt
+it's the way you set it up. So I'm going
+know exactly what the plugin does, you
+layout we see everywhere on AI generated
+learned that purple is the default. Even
+let the AI implement everything for us.
+level. And there's a reason for that.
+like this one. Level number two, using
+like to formally apologize for making
+like you can see the website is still
+locally. In this case, we choose install
+look AI generated since we're using
+looks pretty good compared to somebody
+makes sense to use other tools, all
+matches. And now finally we will build
+minutes. The difference isn't the tool,
+need first a clo code pro account
+need. So, we first download it and
+needs to fill out. Based on this
+normalize, fill. So the idea is simple.
+not much harder than what we just did.
+not perfect. For example, here's some
+not use any skill since cloud codes is
+now. But let me show you even much
+of the day only a skill there. A skill
+of the website and how it looks like, we
+on Earth also being Indigo like you can
+on the top this little icon. It's for
+on this website that we built in level
+once you're a heavy user, you can switch
+once you're satisfied with the structure
+one and open it. Now you should see here
+one is Microsoft Visual Studio Code.
+one, we first create here a folder
+one. This one I used in the hero section
+our skill, we want to copy and paste the
+overused font families and then it gives
+page for cover robotics. We sell a
+page with this prompt here and we paste
+perceive, think and act. Now all reviews
+personal home robot called Kovo that
+product. And the best part is it won't
+project. Let's call it demo free. Next,
+project. So we click here, new window,
+prompt from the component I would like
+prompt here. Then I create a second
+prompt here. This one instructs cl code
+prompt, Clo decided that the front end
+prompting. But before we can start
+rate limits. All right, let's get
+real designers. Every shadow, every
+result. If you want to see the website,
+results we get with simple prompting
+results. Now he named our robot Apex.
+reveal and finder, and simply drag and
+right, Clo is finishing up. And we see
+robotics and the questions here are not
+safety was our biggest concern. After
+second approach, we will open up a new
+second folder, demo two,
+see here also. But let's see the rest of
+see something like this. The first thing
+side scroll or I don't like the font and
+simple website with the following
+so on. But these are simple things to
+some inconsistency in color. Too much
+speed to text since you can talk faster
+stands for assemble,
+started. We prompt no cloud code to
+take you from a beginner to a pro. We
+task. For example, it says never use
+task. So he basically added the
+team, we have zero accidents. It's
+tell code code how to do something like
+terminal click new terminal and paste
+text again here. But in general, it
+text file and I call it 1.xt.
+than you can type. Let's see what
+that, you tell cloud code to create a
+the CL code plugin and click install.
+the browser. Let's open this in the
+the components folder in order and send
+the files and then creates the website.
+the founder of Tailwind said, "I would
+the only thing that is not not nice yet
+the way to the exact framework I used so
+the way, if you don't like anything here
+the way, you can find this also in the
+the website. We have here some boring
+the whole website and checks what he
+they're designed by a professional
+this command there and click enter. Now
+this exact website I built with cloud
+this illustration. Text looks much
+this off. Now cloud code first reads all
+this prompt and send this off. So,
+this, we open up a new clot. Paste in
+this, we use this simple prompt here. By
+this. All right, Clo just finished.
+three. Here all elements look like
+three. I call it the ANF framework. It
+to do some research on robotics. For
+to have
+to join my school community where we
+to see the website. So I click here
+to show you the three levels of building
+to spot. They look the same and are
+today, what clo generated on the first
+topics of robots and then we instruct
+try, it's not really good. I mean, sure,
+two. If you don't have any skills
+type here front end and select here the
+type in /plugins
+use it, and even see what's inside. For
+use to polish your site for your exact
+video, you also will be able to create
+want them to look like one single
+want. It does not has human taste.
+way, I highly recommend to also get
+we can copy this URL here and paste it
+we could prompt it now to fix the purple
+we go to a website called 21st.dev. Here
+we got the exact same component here
+we instruct it to fill out the whole
+we're pasting it here and see what cloud
+website with all the components inside
+website. Like you can see it looks
+website. That's why we instruct our cl
+websites. Here again, purple. Here's
+what we got so far. Too much text,
+what you exactly want if you're not an
+whisper flow so you don't have to type
+who would do it by hand everything. But
+whole prompt here. But this time we
+whole web page. We got his components
+whole website based on our research.
+why it's all over the internet. So, I
+will be using a skill. To install it,
+will explain skills in detail in level
+will show you exactly how to use clo
+with cloud code from the most basic all
+with cloud code in just a couple of
+with cloud code. By the way, I added do
+without the hype, just things that work.
+years ago, leading every AI generated UI
+you can copy it. So by the end of the
+you can see exactly what it does, how to
+you click here on this file, click
+you have a lot of components that you
+you in level three, you don't have to
+you want to do is to click here on this
