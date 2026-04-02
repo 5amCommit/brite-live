@@ -2,6 +2,7 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import ScrollReveal from "@/components/ui/scroll-reveal";
 import Counter from "@/components/ui/counter";
+import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
 
@@ -110,8 +111,55 @@ export default function AboutPage() {
           </div>
         </section>
 
+        {/* CEO Section */}
+        <section className="py-20 lg:py-24 bg-brite-cream relative overflow-hidden">
+          <div className="absolute bottom-0 right-0 w-[400px] h-[400px] rounded-full bg-brite-teal/[0.03] blur-[100px]" />
+          <div className="relative z-10 mx-auto max-w-7xl px-6 lg:px-8">
+            <ScrollReveal>
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                  <p className="text-sm font-semibold uppercase tracking-widest text-brite-teal mb-4">
+                    Leadership
+                  </p>
+                  <h2 className="font-heading text-4xl sm:text-5xl font-bold text-brite-dark tracking-tight leading-[1.1]">
+                    Meet our{" "}
+                    <em className="italic font-normal text-brite-teal">CEO</em>
+                  </h2>
+                  <h3 className="font-heading text-2xl font-semibold text-brite-dark mt-4">
+                    Andrei Tarasenco
+                  </h3>
+                  <p className="mt-1 text-base font-medium text-brite-teal">
+                    Chief Executive Officer
+                  </p>
+                  <p className="mt-6 text-base text-brite-text-light leading-relaxed">
+                    Andrei leads BRITE&apos;s mission to make bio-identical hormone
+                    therapy accessible, affordable, and effective for practices and
+                    patients nationwide. Under his leadership, BRITE has grown from
+                    a pioneering vision into a comprehensive platform that combines
+                    organic formulations, advanced decision support, and a
+                    world-class Medical Board.
+                  </p>
+                </div>
+                <div className="relative flex justify-center">
+                  <div className="relative h-[480px] w-[380px]">
+                    <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-48 h-48 rounded-full bg-brite-teal/8 blur-[50px]" />
+                    <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-64 h-px bg-gradient-to-r from-transparent via-brite-teal/25 to-transparent" />
+                    <Image
+                      src="/brand-assets/headshot-andrei-tarasenco.png"
+                      alt="Andrei Tarasenco — CEO of BRITE"
+                      fill
+                      className="object-contain object-bottom"
+                      sizes="380px"
+                    />
+                  </div>
+                </div>
+              </div>
+            </ScrollReveal>
+          </div>
+        </section>
+
         {/* Mission */}
-        <section className="py-20 lg:py-24 bg-brite-cream">
+        <section className="py-20 lg:py-24 bg-white">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
               <ScrollReveal>

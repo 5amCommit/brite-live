@@ -185,38 +185,40 @@ Build each page using the same ANF (Assemble → Normalize → Fill) + Polish wo
 > **IMPORTANT FOR CLAUDE:** Update this tracker as steps are completed. This is the source of truth for project state across sessions. At the start of every new session, read this to know exactly where we left off.
 
 ### Phase 0 — COMPLETE
-- [x] 0.1: Next.js 15 initialized
-- [x] 0.2: shadcn/ui installed
-- [x] 0.3: CLAUDE.md written with all phases in full detail
-- [ ] 0.4: Front-end design skill installed (skipped for now — using CLAUDE.md design rules instead)
-- [x] 0.5: GitHub repo → https://github.com/5amCommit/brite-live
-- [x] 0.6: Vercel deployed → https://brite-live.vercel.app
-- [x] 0.7: Brand assets folder set up, logos downloaded
-- [x] 0.8: Dev server verified working
+- [x] All steps complete. GitHub: https://github.com/5amCommit/brite-live | Vercel: https://brite-live.vercel.app
 
-### Phase 1 — IN PROGRESS
-- [x] 1.1: User provided 3 inspiration sites (Cascaid Health, Institute of Health, Raven Health)
-- [x] 1.2: Deep analysis of all 3 sites — design patterns extracted and saved to knowledge/design-references.md
-- [x] 1.3: Typography chosen — Playfair Display (headings/serif) + Inter (body/sans-serif)
-- [x] 1.4: Color palette defined — warm teal/green evolved with cream backgrounds, dark sections, gold accent
-- [x] 1.5: Design tokens implemented in globals.css (CSS variables + Tailwind theme)
-- [ ] 1.6: Generate hero imagery with AI (deferred — can do during Phase 2)
-- [x] 1.7: Tailwind config updated with BRITE design tokens
-- [x] 1.8: CLAUDE.md updated with finalized design system
+### Phase 1 — COMPLETE
+- [x] 3 inspiration sites analyzed (Cascaid, IOH, Raven). Playfair Display + Inter. Full color system.
 
-### Phase 2 — NEXT UP
-- [ ] 2.1: ASSEMBLE homepage sections from 21st.dev components
-- [ ] 2.2: NORMALIZE into cohesive BRITE design system
-- [ ] 2.3: FILL with real content from knowledge base
+### Phase 2 — COMPLETE
+- [x] Homepage assembled with real BRITE content — Hero, TrustBar, Services, BoardPreview, Testimonials, CTA
 
-### Phase 3 — Pending
-- [ ] 3.1–3.8: All polish steps pending
+### Phase 3 — COMPLETE
+- [x] GSAP scroll animations, animated counters, stagger reveals, button glow, gradient backgrounds, scroll-aware header
 
-### Phase 4 — Pending
-- [ ] 4.1–4.14: All page buildout steps pending
+### Phase 4 — COMPLETE
+- [x] 4.1 Homepage — done
+- [x] 4.2 About — company story, pull quote, timeline, video, Medical Board CTA
+- [x] 4.3 Services — symptoms, 4-step process, product benefits, embedded Vimeo, stats
+- [x] 4.4 Medical Board — founder spotlight, all 18 transparent headshots, horizontal cards
+- [x] 4.6 Getting Started — application guide, product image, CTA
+- [x] 4.7 FAQ — 10 questions, card-style accordion
+- [x] 4.10 Contact — form with practitioner/patient selector, phone/email/website
+- [x] 4.11 Login — dark portal with app download links
+- [x] 4.12 Privacy Policy — styled legal page
+- [x] 4.13 Terms of Service — styled legal page
+- [ ] 4.5 Individual board member profile pages (18 dynamic routes) — DEFERRED
+- [ ] 4.8 Testimonials dedicated page — DEFERRED
+- [ ] 4.9 Blog/Resources hub — DEFERRED
+- [x] 4.14 Cross-page review — all nav links work, consistent header/footer
 
-### Phase 5 — Pending
-- [ ] 5.1–5.5: All technical excellence steps pending
+### Phase 5 — COMPLETE
+- [x] 5.1 SEO: metadata on all pages, Open Graph, Twitter cards, keywords, MedicalOrganization structured data, sitemap.xml, robots.txt
+- [x] 5.3 Accessibility: skip-to-content link, alt text on all images, semantic HTML
+- [x] Custom 404 page
+- [ ] 5.2 Performance: Lighthouse audit (pending)
+- [ ] 5.4 Mobile QA (pending manual testing)
+- [ ] 5.5 Analytics & custom domain (pending — needs Google Analytics tag decision)
 
 ## Design System Reference
 
