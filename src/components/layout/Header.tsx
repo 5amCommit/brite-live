@@ -32,27 +32,27 @@ export default function Header() {
     >
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="flex h-20 items-center justify-between">
-          {/* Logo — show white version on dark hero, original on scrolled white bg */}
-          <Link href="/" className="flex items-center flex-shrink-0">
-            {/* White logo for dark background (unscrolled) */}
+          {/* Logo */}
+          <Link href="/" className="relative flex items-center flex-shrink-0 h-8 w-[130px]">
+            {/* White logo for dark hero background */}
             <Image
-              src="/brand-assets/brite-logo.png"
+              src="/brand-assets/brite-logo-green.png"
               alt="BRITE"
-              width={90}
-              height={70}
+              width={415}
+              height={110}
               priority
-              className={`h-10 w-auto transition-opacity duration-500 absolute invert ${
+              className={`absolute inset-0 h-8 w-auto object-contain brightness-0 invert transition-opacity duration-500 ${
                 scrolled ? "opacity-0" : "opacity-100"
               }`}
             />
-            {/* Original logo for light background (scrolled) */}
+            {/* Green logo for scrolled white background */}
             <Image
-              src="/brand-assets/brite-logo.png"
+              src="/brand-assets/brite-logo-green.png"
               alt="BRITE"
-              width={90}
-              height={70}
+              width={415}
+              height={110}
               priority
-              className={`h-10 w-auto transition-opacity duration-500 ${
+              className={`absolute inset-0 h-8 w-auto object-contain transition-opacity duration-500 ${
                 scrolled ? "opacity-100" : "opacity-0"
               }`}
             />
