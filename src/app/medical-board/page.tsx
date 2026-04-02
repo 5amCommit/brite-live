@@ -142,8 +142,8 @@ export default function MedicalBoardPage() {
           </div>
         </section>
 
-        {/* Board Grid — clean light background, individual cards */}
-        <section className="py-20 lg:py-24 bg-brite-cream relative overflow-hidden">
+        {/* Board Grid */}
+        <section className="py-20 lg:py-24 bg-white relative overflow-hidden">
           <div className="absolute top-1/4 right-0 w-[500px] h-[500px] rounded-full bg-brite-teal/[0.03] blur-[100px]" />
 
           <div className="relative z-10 mx-auto max-w-7xl px-6 lg:px-8">
@@ -160,36 +160,40 @@ export default function MedicalBoardPage() {
             </ScrollReveal>
 
             <StaggerReveal
-              className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-5"
-              stagger={0.05}
+              className="grid grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8"
+              stagger={0.06}
             >
               {boardMembers.map((member) => (
                 <div
                   key={member.name}
-                  className="group rounded-2xl bg-white border border-border/50 overflow-hidden hover:shadow-xl hover:border-brite-teal/20 hover:-translate-y-1.5 transition-all duration-500"
+                  className="group relative rounded-2xl overflow-hidden bg-gradient-to-b from-brite-cream to-white border border-border/30 hover:shadow-2xl hover:-translate-y-2 transition-all duration-500"
                 >
-                  {/* Headshot with soft gradient bg */}
-                  <div className="relative h-56 bg-gradient-to-b from-brite-warm-gray to-white overflow-hidden">
-                    <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-36 h-24 rounded-full bg-brite-teal/8 blur-[30px] group-hover:bg-brite-teal/15 transition-all duration-700" />
-                    <Image
-                      src={member.image}
-                      alt={member.name}
-                      fill
-                      className="object-contain object-bottom group-hover:scale-[1.04] transition-transform duration-700 ease-out"
-                      sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
-                    />
-                  </div>
-                  {/* Info */}
-                  <div className="p-5">
-                    <h3 className="font-heading text-sm font-semibold text-brite-dark group-hover:text-brite-teal transition-colors duration-300 leading-tight">
-                      {member.name}
-                    </h3>
-                    <p className="mt-1 text-xs text-brite-teal font-medium">
-                      {member.specialty}
-                    </p>
-                    <p className="mt-2 text-[11px] text-brite-text-light leading-relaxed">
-                      {member.credentials}
-                    </p>
+                  {/* Teal accent bar — bottom */}
+                  <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-brite-teal via-brite-green to-brite-teal-light opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+
+                  <div className="flex items-end gap-5 p-6">
+                    {/* Headshot */}
+                    <div className="relative h-40 w-32 flex-shrink-0">
+                      <Image
+                        src={member.image}
+                        alt={member.name}
+                        fill
+                        className="object-contain object-bottom group-hover:scale-[1.05] transition-transform duration-700 ease-out"
+                        sizes="128px"
+                      />
+                    </div>
+                    {/* Info — beside the headshot */}
+                    <div className="pb-2">
+                      <h3 className="font-heading text-base font-semibold text-brite-dark group-hover:text-brite-teal transition-colors duration-300 leading-tight">
+                        {member.name}
+                      </h3>
+                      <p className="mt-1.5 text-xs text-brite-teal font-medium">
+                        {member.specialty}
+                      </p>
+                      <p className="mt-2 text-[11px] text-brite-text-light leading-relaxed">
+                        {member.credentials}
+                      </p>
+                    </div>
                   </div>
                 </div>
               ))}
