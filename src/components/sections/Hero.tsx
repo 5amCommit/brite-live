@@ -113,19 +113,32 @@ export default function Hero() {
           {/* Right — Product Image */}
           <div ref={imageRef} className="relative flex justify-center lg:justify-end">
             <div className="relative">
-              {/* Glow behind product */}
-              <div className="absolute inset-0 bg-brite-teal/20 blur-[60px] rounded-full scale-75" />
-              <Image
-                src="/brand-assets/product-box-hero.png"
-                alt="BRITE bio-identical hormone products — organic-based formulations"
-                width={520}
-                height={520}
+              {/* Layered glow effects */}
+              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px] rounded-full bg-brite-teal/15 blur-[80px] animate-[pulse_6s_ease-in-out_infinite]" />
+              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] h-[300px] rounded-full bg-brite-green/10 blur-[60px] animate-[pulse_8s_ease-in-out_infinite_2s]" />
+              {/* Decorative rings */}
+              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[420px] h-[420px] rounded-full border border-white/[0.04]" />
+              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[340px] h-[340px] rounded-full border border-brite-teal/[0.08]" />
+              {/* Product image with mask fade at edges */}
+              <div
                 className="relative z-10"
                 style={{
-                  filter: "drop-shadow(0 25px 50px rgba(0,0,0,0.5)) drop-shadow(0 10px 20px rgba(59,168,154,0.15))",
+                  maskImage: "radial-gradient(ellipse 85% 80% at 50% 45%, black 60%, transparent 100%)",
+                  WebkitMaskImage: "radial-gradient(ellipse 85% 80% at 50% 45%, black 60%, transparent 100%)",
                 }}
-                priority
-              />
+              >
+                <Image
+                  src="/brand-assets/product-box-hero.png"
+                  alt="BRITE bio-identical hormone products — organic-based formulations"
+                  width={480}
+                  height={480}
+                  className="relative"
+                  style={{
+                    filter: "drop-shadow(0 20px 40px rgba(0,0,0,0.4))",
+                  }}
+                  priority
+                />
+              </div>
             </div>
           </div>
         </div>
