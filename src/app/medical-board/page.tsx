@@ -2,6 +2,7 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import ScrollReveal from "@/components/ui/scroll-reveal";
 import StaggerReveal from "@/components/ui/stagger-reveal";
+import Counter from "@/components/ui/counter";
 import Image from "next/image";
 import type { Metadata } from "next";
 
@@ -11,25 +12,32 @@ export const metadata: Metadata = {
     "Meet BRITE's Medical Board of 18 physicians, pharmacists, Ph.D. scientists, and medical practitioners dedicated to improving hormone therapy outcomes.",
 };
 
+const founder = {
+  name: "Daved Rosensweet, M.D.",
+  role: "Founder & Medical Director",
+  specialty: "Endocrinology & Hormone Therapy",
+  image: "/brand-assets/headshot-daved-rosensweet.png",
+  bio: "Dr. Rosensweet has practiced medicine since 1971, graduating from the University of Michigan Medical School in 1968. A pioneer in bio-identical hormone therapy, he trained the first nurse practitioners in the US and directed health promotion for the state of New Mexico. His vision drives every aspect of BRITE.",
+};
+
 const boardMembers = [
-  { name: "Daved Rosensweet, M.D.", role: "Founder & Medical Director", specialty: "Endocrinology & Hormone Therapy", image: "/brand-assets/headshot-daved-rosensweet.png", transparent: true },
-  { name: "Carol Petersen, RPh, CNP", role: "Board Member", specialty: "BHRT & Compounding Pharmacy", image: "/brand-assets/headshot-carol-petersen.png", transparent: true },
-  { name: "Mary Lee Snodgrass, RPh", role: "Board Member", specialty: "Compounding Pharmacy", image: "https://iobim.org/wp-content/uploads/2022/11/MLS-PROF-PIC.jpeg" },
-  { name: "Devaki Lindsey Berkson, DC", role: "Board Member", specialty: "Functional Medicine & Nutrition", image: "https://iobim.org/wp-content/uploads/2022/11/professional-pic-2022.jpg" },
-  { name: "Jill Chmielewski, RN, BSN", role: "Board Member", specialty: "Women's Health & Aging", image: "https://iobim.org/wp-content/uploads/2022/11/Jill-Chmielewski-500.jpg" },
-  { name: "Phyllis Bronson, Ph.D.", role: "Board Member", specialty: "Biochemistry & Mood Disorders", image: "https://iobim.org/wp-content/uploads/2022/10/Bronson14pic.jpg" },
-  { name: "Val Koganski, MD, IFMCP", role: "Board Member", specialty: "Integrative & Holistic Medicine", image: "https://iobim.org/wp-content/uploads/2022/10/Val-Koganski-MD-600.jpg" },
-  { name: "Kimberly Pryslak, MS, ACNP", role: "Board Member", specialty: "Advanced Practice Nursing", image: "https://iobim.org/wp-content/uploads/2022/10/Kimberly-Pryslak-MS-ACNP-600.jpg" },
-  { name: "Jim Hrncir, RPh", role: "Board Member", specialty: "Compounding Pharmacy Pioneer", image: "https://iobim.org/wp-content/uploads/2022/10/Jim-Hrncir-RPH.png" },
-  { name: "Jennifer Heiger, ND", role: "Board Member", specialty: "Naturopathic Women's Health", image: "https://iobim.org/wp-content/uploads/2022/10/Jennifer-Heiger-ND-600-300x300.jpg" },
-  { name: "Frank J. Nordt, Ph.D.", role: "Board Member", specialty: "Biophysical Chemistry", image: "https://brite.live/wp-content/uploads/2022/11/Frank-J.-Nordt-PhD-600.jpg" },
-  { name: 'Philip "Flip" Troiano, MD', role: "Board Member", specialty: "Functional & Regenerative Medicine", image: "https://iobim.org/wp-content/uploads/2022/10/Flip-suit-600-300x300.jpg" },
-  { name: "Bruce Biundo, RPh", role: "Board Member", specialty: "Men's Health & Compounding", image: "https://iobim.org/wp-content/uploads/2022/10/Bruce-Biundo-RPh-600.jpg" },
-  { name: "Beth Claxton, MD", role: "Board Member", specialty: "OB/GYN & Menopause Management", image: "https://iobim.org/wp-content/uploads/2022/10/Beth-Claxton-MD.jpg" },
-  { name: "Dian Ginsberg, MD, FACOG", role: "Board Member", specialty: "OB/GYN & Healthy Aging", image: "https://iobim.org/wp-content/uploads/2022/11/Dian-bio.jpg" },
-  { name: "Dr. Eugene Shippen, MD", role: "Board Member", specialty: "Endocrinology & Testosterone", image: "https://brite.live/wp-content/uploads/2023/01/DrShippen.png" },
-  { name: "Holly Papanek, DO", role: "Board Member", specialty: "Internal Medicine", image: "https://brite.live/wp-content/uploads/2024/05/Dr.-Holly-Website-Photo-Cropped.jpeg" },
-  { name: "Dr. Carlos Reynes", role: "Board Member", specialty: "Preventive Medicine", image: "https://brite.live/wp-content/uploads/2026/01/Dr-Carlos-Reynes-465.jpg" },
+  { name: "Carol Petersen, RPh, CNP", specialty: "BHRT & Compounding Pharmacy", image: "/brand-assets/headshot-carol-petersen.png", credentials: "University of Wisconsin School of Pharmacy" },
+  { name: "Mary Lee Snodgrass, RPh", specialty: "Compounding Pharmacy", image: "/brand-assets/headshot-mary-lee-snodgrass.png", credentials: "University of Kentucky, 39+ years experience" },
+  { name: "Devaki Lindsey Berkson, DC", specialty: "Functional Medicine & Nutrition", image: "/brand-assets/headshot-devaki-berkson.png", credentials: "Doctor of Chiropractic, DACBN" },
+  { name: "Jill Chmielewski, RN, BSN", specialty: "Women's Health & Aging", image: "/brand-assets/headshot-jill-chmielewski.png", credentials: "RN, BSN, Certified Health Coach" },
+  { name: "Phyllis Bronson, Ph.D.", specialty: "Biochemistry & Mood Disorders", image: "/brand-assets/headshot-phyllis-bronson.png", credentials: "Ph.D. Biochemistry, Aspen, CO" },
+  { name: "Val Koganski, MD, IFMCP", specialty: "Integrative & Holistic Medicine", image: "/brand-assets/headshot-val-koganski.png", credentials: "Philadelphia Top Doctor 2017-2022" },
+  { name: "Kimberly Pryslak, MS, ACNP", specialty: "Advanced Practice Nursing", image: "/brand-assets/headshot-kimberly-pryslak.png", credentials: "Columbia University, 25+ years" },
+  { name: "Jim Hrncir, RPh", specialty: "Compounding Pharmacy Pioneer", image: "/brand-assets/headshot-jim-hrncir.png", credentials: "PCCA Pharmacist of the Year 2017" },
+  { name: "Jennifer Heiger, ND", specialty: "Naturopathic Women's Health", image: "/brand-assets/headshot-jennifer-heiger.png", credentials: "Board-certified, LA & Silicon Valley" },
+  { name: "Frank J. Nordt, Ph.D.", specialty: "Biophysical Chemistry", image: "/brand-assets/headshot-frank-nordt.png", credentials: "CEO, Rhein Consulting Laboratories" },
+  { name: 'Philip "Flip" Troiano, MD', specialty: "Functional & Regenerative Medicine", image: "/brand-assets/headshot-philip-troiano.png", credentials: "Board-certified Emergency Medicine" },
+  { name: "Bruce Biundo, RPh", specialty: "Men's Health & Compounding", image: "/brand-assets/headshot-bruce-biundo.png", credentials: "Pioneer in low testosterone education" },
+  { name: "Beth Claxton, MD", specialty: "OB/GYN & Menopause", image: "/brand-assets/headshot-beth-claxton.png", credentials: "25 years, international experience" },
+  { name: "Dian Ginsberg, MD, FACOG", specialty: "OB/GYN & Healthy Aging", image: "/brand-assets/headshot-dian-ginsberg.png", credentials: "FACOG, Houston, TX" },
+  { name: "Dr. Eugene Shippen, MD", specialty: "Endocrinology & Testosterone", image: "/brand-assets/headshot-eugene-shippen.png", credentials: "Author, The Testosterone Syndrome" },
+  { name: "Holly Papanek, DO", specialty: "Internal Medicine", image: "/brand-assets/headshot-holly-papanek.png", credentials: "Board-certified, 25 years" },
+  { name: "Dr. Carlos Reynes", specialty: "Preventive Medicine", image: "/brand-assets/headshot-carlos-reynes.png", credentials: "Internal Medicine, 30+ years" },
 ];
 
 export default function MedicalBoardPage() {
@@ -40,7 +48,15 @@ export default function MedicalBoardPage() {
         {/* Hero */}
         <section className="relative pt-36 pb-20 lg:pt-44 lg:pb-24 bg-brite-dark overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-br from-brite-dark via-brite-dark-light to-brite-charcoal" />
-          <div className="absolute -top-1/4 left-1/3 w-[600px] h-[600px] rounded-full bg-brite-teal/8 blur-[140px]" />
+          <div className="absolute -top-1/4 left-1/3 w-[700px] h-[700px] rounded-full bg-brite-teal/8 blur-[140px] animate-[pulse_10s_ease-in-out_infinite]" />
+          <div className="absolute bottom-0 right-1/4 w-[400px] h-[400px] rounded-full bg-brite-gold/5 blur-[100px]" />
+          <div
+            className="absolute inset-0 opacity-[0.02]"
+            style={{
+              backgroundImage: "linear-gradient(rgba(255,255,255,.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.1) 1px, transparent 1px)",
+              backgroundSize: "80px 80px",
+            }}
+          />
           <div className="relative z-10 mx-auto max-w-7xl px-6 lg:px-8 text-center">
             <p className="text-sm font-semibold uppercase tracking-widest text-brite-teal-light mb-6">
               Medical Board
@@ -50,59 +66,144 @@ export default function MedicalBoardPage() {
               <em className="italic font-normal text-brite-teal-light">One mission.</em>
             </h1>
             <p className="mt-6 text-xl text-brite-cream/60 max-w-2xl mx-auto">
-              Our Medical Board of Ph.D.s, scientists, pharmacists, and medical
-              practitioners is committed to improving patient outcomes through
-              rigorous education and ongoing support.
+              Ph.D.s, scientists, pharmacists, and medical practitioners
+              committed to improving patient outcomes through rigorous
+              education and ongoing support.
             </p>
+            {/* Mini stats */}
+            <div className="mt-12 flex items-center justify-center gap-12">
+              <div>
+                <p className="font-heading text-3xl font-bold text-white"><Counter target={18} duration={1.5} /></p>
+                <p className="text-xs text-brite-cream/50 mt-1">Board Members</p>
+              </div>
+              <div className="w-px h-10 bg-white/10" />
+              <div>
+                <p className="font-heading text-3xl font-bold text-white"><Counter target={500} suffix="+" duration={2} /></p>
+                <p className="text-xs text-brite-cream/50 mt-1">Combined Years</p>
+              </div>
+              <div className="w-px h-10 bg-white/10" />
+              <div>
+                <p className="font-heading text-3xl font-bold text-white"><Counter target={6} duration={1} /></p>
+                <p className="text-xs text-brite-cream/50 mt-1">Disciplines</p>
+              </div>
+            </div>
           </div>
         </section>
 
-        {/* Board Grid */}
-        <section className="py-20 lg:py-24 bg-brite-cream relative overflow-hidden">
-          <div className="absolute top-1/4 right-0 w-[400px] h-[400px] rounded-full bg-brite-teal/[0.03] blur-[100px]" />
+        {/* Founder Spotlight */}
+        <section className="py-20 lg:py-24 bg-white relative overflow-hidden">
+          <div className="absolute top-0 left-0 w-[400px] h-[400px] rounded-full bg-brite-teal/[0.03] blur-[100px]" />
           <div className="relative z-10 mx-auto max-w-7xl px-6 lg:px-8">
+            <ScrollReveal>
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                {/* Founder headshot */}
+                <div className="relative flex justify-center">
+                  <div className="relative h-[450px] w-[360px]">
+                    {/* Decorative elements */}
+                    <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 w-64 h-64 rounded-full bg-gradient-to-t from-brite-teal/10 to-transparent blur-[50px]" />
+                    <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-72 h-1 bg-gradient-to-r from-transparent via-brite-teal/30 to-transparent" />
+                    <Image
+                      src={founder.image}
+                      alt={founder.name}
+                      fill
+                      className="object-contain object-bottom"
+                      sizes="360px"
+                      priority
+                    />
+                  </div>
+                </div>
+                {/* Founder info */}
+                <div>
+                  <p className="text-sm font-semibold uppercase tracking-widest text-brite-teal mb-4">
+                    Meet Our Founder
+                  </p>
+                  <h2 className="font-heading text-4xl sm:text-5xl font-bold text-brite-dark tracking-tight leading-[1.1]">
+                    {founder.name}
+                  </h2>
+                  <p className="mt-2 text-lg font-medium text-brite-teal">
+                    {founder.role}
+                  </p>
+                  <p className="mt-6 text-base text-brite-text-light leading-relaxed">
+                    {founder.bio}
+                  </p>
+                  <div className="mt-8 flex items-center gap-6">
+                    <div className="flex items-center gap-2">
+                      <div className="w-2 h-2 rounded-full bg-brite-teal" />
+                      <span className="text-sm text-brite-text">50+ years in medicine</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <div className="w-2 h-2 rounded-full bg-brite-teal" />
+                      <span className="text-sm text-brite-text">University of Michigan</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </ScrollReveal>
+          </div>
+        </section>
+
+        {/* Board Grid — all transparent, elite floating design */}
+        <section className="py-20 lg:py-24 bg-brite-cream relative overflow-hidden">
+          <div className="absolute top-1/3 right-0 w-[500px] h-[500px] rounded-full bg-brite-teal/[0.03] blur-[100px]" />
+          <div className="absolute bottom-1/4 left-0 w-[400px] h-[400px] rounded-full bg-brite-gold/[0.02] blur-[80px]" />
+
+          <div className="relative z-10 mx-auto max-w-7xl px-6 lg:px-8">
+            <ScrollReveal>
+              <div className="text-center mb-16">
+                <h2 className="font-heading text-4xl sm:text-5xl font-bold text-brite-dark tracking-tight leading-[1.1]">
+                  The{" "}
+                  <em className="italic font-normal text-brite-teal">Board</em>
+                </h2>
+              </div>
+            </ScrollReveal>
+
             <StaggerReveal
-              className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
-              stagger={0.08}
+              className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-x-6 gap-y-12"
+              stagger={0.06}
             >
               {boardMembers.map((member) => (
-                <div
-                  key={member.name}
-                  className="group text-center"
-                >
-                  {"transparent" in member && member.transparent ? (
-                    /* Premium transparent headshot — no card, floating */
-                    <div className="relative h-72 mx-auto w-56 mb-5">
-                      {/* Subtle glow behind person */}
-                      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-40 h-40 rounded-full bg-brite-teal/10 blur-[40px] group-hover:bg-brite-teal/20 transition-all duration-700" />
-                      <Image
-                        src={member.image}
-                        alt={member.name}
-                        fill
-                        className="object-contain object-bottom group-hover:scale-105 group-hover:-translate-y-1 transition-all duration-700"
-                        sizes="224px"
-                      />
-                    </div>
-                  ) : (
-                    /* Standard photo — circular crop, no card */
-                    <div className="relative h-56 w-56 mx-auto mb-5 rounded-full overflow-hidden bg-brite-warm-gray">
-                      <Image
-                        src={member.image}
-                        alt={member.name}
-                        fill
-                        className="object-cover object-top group-hover:scale-110 transition-transform duration-700"
-                        sizes="224px"
-                      />
-                    </div>
-                  )}
-                  <h3 className="font-heading text-lg font-semibold text-brite-dark group-hover:text-brite-teal transition-colors duration-300">
+                <div key={member.name} className="group text-center">
+                  {/* Headshot — floating, no container */}
+                  <div className="relative h-52 w-44 mx-auto mb-4">
+                    <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-32 h-24 rounded-full bg-brite-teal/8 blur-[30px] group-hover:bg-brite-teal/20 group-hover:w-36 transition-all duration-700" />
+                    <Image
+                      src={member.image}
+                      alt={member.name}
+                      fill
+                      className="object-contain object-bottom group-hover:scale-[1.06] group-hover:-translate-y-1 transition-all duration-700 ease-out"
+                      sizes="176px"
+                    />
+                  </div>
+                  <h3 className="font-heading text-sm font-semibold text-brite-dark group-hover:text-brite-teal transition-colors duration-300 leading-tight">
                     {member.name}
                   </h3>
-                  <p className="mt-1 text-sm font-medium text-brite-teal">{member.role}</p>
-                  <p className="mt-1 text-sm text-brite-text-light">{member.specialty}</p>
+                  <p className="mt-1 text-xs text-brite-teal font-medium">
+                    {member.specialty}
+                  </p>
+                  <p className="mt-1 text-xs text-brite-text-light">
+                    {member.credentials}
+                  </p>
                 </div>
               ))}
             </StaggerReveal>
+          </div>
+        </section>
+
+        {/* Bottom CTA */}
+        <section className="py-20 lg:py-28 bg-brite-dark relative overflow-hidden">
+          <div className="absolute inset-0 bg-gradient-to-br from-brite-dark via-brite-dark-light to-brite-charcoal" />
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] rounded-full bg-brite-teal/10 blur-[120px]" />
+          <div className="relative z-10 mx-auto max-w-4xl px-6 lg:px-8 text-center">
+            <ScrollReveal>
+              <blockquote className="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-[1.15] tracking-tight">
+                &ldquo;We are committed to creating systems and tools to make the process{" "}
+                <em className="italic font-normal text-brite-teal-light">
+                  clearer and more straightforward.
+                </em>
+                &rdquo;
+              </blockquote>
+              <p className="mt-6 text-brite-cream/50">— BRITE Medical Board Mission</p>
+            </ScrollReveal>
           </div>
         </section>
       </main>

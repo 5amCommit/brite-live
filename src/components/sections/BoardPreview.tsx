@@ -4,59 +4,21 @@ import ScrollReveal from "@/components/ui/scroll-reveal";
 import StaggerReveal from "@/components/ui/stagger-reveal";
 
 const featuredBoard = [
-  {
-    name: "Daved Rosensweet, M.D.",
-    role: "Founder & Medical Director",
-    specialty: "Endocrinology & Hormone Therapy",
-    image: "/brand-assets/headshot-daved-rosensweet.png",
-    slug: "daved-rosensweet-m-d",
-    transparent: true,
-  },
-  {
-    name: "Val Koganski, MD",
-    role: "Board Member",
-    specialty: "Integrative & Holistic Medicine",
-    image: "https://iobim.org/wp-content/uploads/2022/10/Val-Koganski-MD-600.jpg",
-    slug: "val-koganski-md",
-  },
-  {
-    name: "Jim Hrncir, RPh",
-    role: "Board Member",
-    specialty: "Compounding Pharmacy Pioneer",
-    image: "https://iobim.org/wp-content/uploads/2022/10/Jim-Hrncir-RPH.png",
-    slug: "jim-hrncir-rph",
-  },
-  {
-    name: "Dian Ginsberg, MD",
-    role: "Board Member",
-    specialty: "OB/GYN & Menopause Management",
-    image: "https://iobim.org/wp-content/uploads/2022/11/Dian-bio.jpg",
-    slug: "dian-ginsberg-md",
-  },
-  {
-    name: "Dr. Eugene Shippen",
-    role: "Board Member",
-    specialty: "Endocrinology & Testosterone",
-    image: "https://brite.live/wp-content/uploads/2023/01/DrShippen.png",
-    slug: "dr-eugene-shippen",
-  },
-  {
-    name: "Holly Papanek, DO",
-    role: "Board Member",
-    specialty: "Internal Medicine",
-    image: "https://brite.live/wp-content/uploads/2024/05/Dr.-Holly-Website-Photo-Cropped.jpeg",
-    slug: "holly-papanek-do",
-  },
+  { name: "Daved Rosensweet, M.D.", role: "Founder & Medical Director", specialty: "Endocrinology & Hormone Therapy", image: "/brand-assets/headshot-daved-rosensweet.png" },
+  { name: "Val Koganski, MD", role: "Board Member", specialty: "Integrative & Holistic Medicine", image: "/brand-assets/headshot-val-koganski.png" },
+  { name: "Jim Hrncir, RPh", role: "Board Member", specialty: "Compounding Pharmacy Pioneer", image: "/brand-assets/headshot-jim-hrncir.png" },
+  { name: "Dian Ginsberg, MD", role: "Board Member", specialty: "OB/GYN & Menopause", image: "/brand-assets/headshot-dian-ginsberg.png" },
+  { name: "Dr. Eugene Shippen", role: "Board Member", specialty: "Endocrinology & Testosterone", image: "/brand-assets/headshot-eugene-shippen.png" },
+  { name: "Holly Papanek, DO", role: "Board Member", specialty: "Internal Medicine", image: "/brand-assets/headshot-holly-papanek.png" },
 ];
 
 export default function BoardPreview() {
   return (
-    <section className="py-24 lg:py-32 bg-brite-warm-gray relative overflow-hidden">
-      {/* Background accent */}
+    <section className="py-20 lg:py-24 bg-brite-warm-gray relative overflow-hidden">
       <div className="absolute bottom-0 left-0 w-[400px] h-[400px] rounded-full bg-brite-teal/[0.03] blur-[100px]" />
 
       <div className="relative z-10 mx-auto max-w-7xl px-6 lg:px-8">
-        {/* Section Header */}
+        {/* Header */}
         <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6 mb-16">
           <div className="max-w-2xl">
             <ScrollReveal>
@@ -75,8 +37,7 @@ export default function BoardPreview() {
             <ScrollReveal delay={0.2}>
               <p className="mt-6 text-lg text-brite-text-light leading-relaxed">
                 Our Medical Board of 18 Ph.D.s, scientists, pharmacists, and
-                medical practitioners is committed to improving patient outcomes
-                through rigorous research and education.
+                medical practitioners is committed to improving patient outcomes.
               </p>
             </ScrollReveal>
           </div>
@@ -88,69 +49,41 @@ export default function BoardPreview() {
               View All 18 Members
               <svg
                 className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={2}
-                stroke="currentColor"
+                fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor"
               >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
-                />
+                <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
               </svg>
             </Link>
           </ScrollReveal>
         </div>
 
-        {/* Board Grid with stagger */}
+        {/* Board Grid — floating headshots */}
         <StaggerReveal
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
-          stagger={0.1}
+          className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-x-6 gap-y-10"
+          stagger={0.08}
         >
           {featuredBoard.map((member) => (
             <Link
-              key={member.slug}
-              href={`/medical-board/${member.slug}`}
-              className="group relative rounded-2xl bg-white overflow-hidden shadow-sm border border-border/50 hover:shadow-xl hover:border-brite-teal/20 hover:-translate-y-2 transition-all duration-500 ease-out"
+              key={member.name}
+              href="/medical-board"
+              className="group text-center"
             >
-              {/* Photo — borderless, integrated */}
-              {"transparent" in member && member.transparent ? (
-                <div className="relative h-72 mx-4">
-                  <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-40 h-40 rounded-full bg-brite-teal/10 blur-[40px] group-hover:bg-brite-teal/20 transition-all duration-700" />
-                  <Image
-                    src={member.image}
-                    alt={member.name}
-                    fill
-                    className="object-contain object-bottom group-hover:scale-105 group-hover:-translate-y-1 transition-all duration-700 ease-out"
-                    sizes="280px"
-                  />
-                </div>
-              ) : (
-                <div className="relative h-72 overflow-hidden rounded-t-2xl">
-                  <Image
-                    src={member.image}
-                    alt={member.name}
-                    fill
-                    className="object-cover object-top group-hover:scale-105 transition-transform duration-700 ease-out"
-                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/10 to-transparent" />
-                </div>
-              )}
-
-              {/* Info */}
-              <div className="p-6 text-center">
-                <h3 className="font-heading text-lg font-semibold text-brite-dark group-hover:text-brite-teal transition-colors duration-300">
-                  {member.name}
-                </h3>
-                <p className="mt-1 text-sm font-medium text-brite-teal">
-                  {member.role}
-                </p>
-                <p className="mt-1 text-sm text-brite-text-light">
-                  {member.specialty}
-                </p>
+              <div className="relative h-48 w-36 mx-auto mb-4">
+                <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-28 h-20 rounded-full bg-brite-teal/8 blur-[25px] group-hover:bg-brite-teal/20 transition-all duration-700" />
+                <Image
+                  src={member.image}
+                  alt={member.name}
+                  fill
+                  className="object-contain object-bottom group-hover:scale-[1.06] group-hover:-translate-y-1 transition-all duration-700 ease-out"
+                  sizes="144px"
+                />
               </div>
+              <h3 className="font-heading text-sm font-semibold text-brite-dark group-hover:text-brite-teal transition-colors duration-300 leading-tight">
+                {member.name}
+              </h3>
+              <p className="mt-1 text-xs text-brite-text-light">
+                {member.specialty}
+              </p>
             </Link>
           ))}
         </StaggerReveal>
