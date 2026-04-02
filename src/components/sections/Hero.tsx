@@ -116,10 +116,10 @@ export default function Hero() {
               {/* Glow behind product */}
               <div className="absolute inset-0 bg-brite-teal/20 blur-[60px] rounded-full scale-75" />
               <Image
-                src="/brand-assets/product-box.png"
+                src="/brand-assets/product-box-hero.png"
                 alt="BRITE bio-identical hormone products — organic-based formulations"
-                width={480}
-                height={480}
+                width={520}
+                height={520}
                 className="relative z-10 drop-shadow-2xl"
                 priority
               />
