@@ -184,21 +184,70 @@ Build each page using the same ANF (Assemble → Normalize → Fill) + Polish wo
 
 > **IMPORTANT FOR CLAUDE:** Update this tracker as steps are completed. This is the source of truth for project state across sessions. At the start of every new session, read this to know exactly where we left off.
 
-- [x] Phase 0, Step 0.1: Next.js 15 initialized
-- [x] Phase 0, Step 0.2: shadcn/ui installed
-- [x] Phase 0, Step 0.3: CLAUDE.md written with all phases in full detail
-- [ ] Phase 0, Step 0.4: Front-end design skill installed
-- [x] Phase 0, Step 0.5: GitHub repo created → https://github.com/5amCommit/brite-live
-- [x] Phase 0, Step 0.6: Vercel deployed → https://brite-live.vercel.app (auto-deploys from GitHub)
-- [x] Phase 0, Step 0.7: Brand assets folder set up, logos downloaded
-- [x] Phase 0, Step 0.8: Dev server verified working
-- [ ] Phase 1: Not started — BLOCKED: waiting for user to provide 3-5 inspiration site screenshots
-- [ ] Phase 2: Not started
-- [ ] Phase 3: Not started
-- [ ] Phase 4: Not started
-- [ ] Phase 5: Not started
+### Phase 0 — COMPLETE
+- [x] 0.1: Next.js 15 initialized
+- [x] 0.2: shadcn/ui installed
+- [x] 0.3: CLAUDE.md written with all phases in full detail
+- [ ] 0.4: Front-end design skill installed (skipped for now — using CLAUDE.md design rules instead)
+- [x] 0.5: GitHub repo → https://github.com/5amCommit/brite-live
+- [x] 0.6: Vercel deployed → https://brite-live.vercel.app
+- [x] 0.7: Brand assets folder set up, logos downloaded
+- [x] 0.8: Dev server verified working
+
+### Phase 1 — IN PROGRESS
+- [x] 1.1: User provided 3 inspiration sites (Cascaid Health, Institute of Health, Raven Health)
+- [x] 1.2: Deep analysis of all 3 sites — design patterns extracted and saved to knowledge/design-references.md
+- [x] 1.3: Typography chosen — Playfair Display (headings/serif) + Inter (body/sans-serif)
+- [x] 1.4: Color palette defined — warm teal/green evolved with cream backgrounds, dark sections, gold accent
+- [x] 1.5: Design tokens implemented in globals.css (CSS variables + Tailwind theme)
+- [ ] 1.6: Generate hero imagery with AI (deferred — can do during Phase 2)
+- [x] 1.7: Tailwind config updated with BRITE design tokens
+- [x] 1.8: CLAUDE.md updated with finalized design system
+
+### Phase 2 — NEXT UP
+- [ ] 2.1: ASSEMBLE homepage sections from 21st.dev components
+- [ ] 2.2: NORMALIZE into cohesive BRITE design system
+- [ ] 2.3: FILL with real content from knowledge base
+
+### Phase 3 — Pending
+- [ ] 3.1–3.8: All polish steps pending
+
+### Phase 4 — Pending
+- [ ] 4.1–4.14: All page buildout steps pending
+
+### Phase 5 — Pending
+- [ ] 5.1–5.5: All technical excellence steps pending
+
+## Design System Reference
+
+### Fonts
+- **Headings:** Playfair Display (serif) — elegant, editorial, italic for accent words
+- **Body:** Inter (sans-serif) — clean, readable, professional
+
+### Color Palette
+| Role | Hex | Usage |
+|------|-----|-------|
+| Primary Teal | #3BA89A | CTAs, links, primary actions |
+| Teal Light | #4FC4B4 | Hover states, dark-section accents |
+| Teal Dark | #2D8A7E | Active states, emphasis |
+| Accent Green | #03c973 | Success states, secondary CTA |
+| Background Cream | #FAF8F5 | Main page background |
+| Warm Gray | #F2EFEB | Section alternating background |
+| Dark | #1A2A2A | Dark sections (hero, testimonials) |
+| Dark Light | #243838 | Cards on dark backgrounds |
+| Charcoal | #2C3E3E | Dark section accents |
+| Text Primary | #354554 | Body text |
+| Text Light | #6B7B8D | Muted text, captions |
+| Gold | #C4A265 | Premium accent, special callouts |
+| Border | #E8E4DF | Subtle borders, dividers |
+
+### Design Direction
+- **Foundation:** Cascaid Health's editorial warmth (serif headlines, breathing room, medical authority)
+- **Polish:** Institute of Health's premium feel (dark sections, confident typography, smooth scroll animations)
+- **Conversion:** Raven Health's trust patterns (feature grids, testimonials, social proof counters)
 
 ## Knowledge Base
-- `knowledge/website-content/` — scraped content from current brite.live (full site inventory with all 18 board members)
-- `knowledge/transcripts/` — YouTube video transcripts (5 videos on premium website building with Claude Code)
-- `knowledge/video-insights-summary.md` — condensed techniques from all 5 videos (ANF framework, design rules, tool recommendations)
+- `knowledge/website-content/` — scraped content from current brite.live (all 18 board members, pages, structure)
+- `knowledge/transcripts/` — YouTube video transcripts (5 videos on premium website building)
+- `knowledge/video-insights-summary.md` — condensed techniques from all 5 videos
+- `knowledge/design-references.md` — deep analysis of 3 inspiration sites (Cascaid, IOH, Raven)
