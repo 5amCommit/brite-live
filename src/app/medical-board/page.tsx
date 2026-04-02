@@ -96,29 +96,27 @@ export default function MedicalBoardPage() {
           <div className="relative z-10 mx-auto max-w-7xl px-6 lg:px-8">
             <ScrollReveal>
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                {/* Founder headshot — soft fade edges */}
+                {/* Founder headshot — framed portrait */}
                 <div className="relative flex justify-center">
-                  <div className="relative h-[480px] w-[400px]">
-                    {/* Soft teal glow behind */}
-                    <div className="absolute bottom-8 left-1/2 -translate-x-1/2 w-56 h-56 rounded-full bg-brite-teal/8 blur-[60px]" />
-                    {/* Accent strip */}
-                    <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-48 h-[2px] bg-gradient-to-r from-transparent via-brite-teal/20 to-transparent" />
-                    {/* Image with radial mask to fade edges seamlessly */}
-                    <div
-                      className="relative w-full h-full"
-                      style={{
-                        maskImage: "radial-gradient(ellipse 80% 85% at 50% 55%, black 55%, transparent 100%)",
-                        WebkitMaskImage: "radial-gradient(ellipse 80% 85% at 50% 55%, black 55%, transparent 100%)",
-                      }}
-                    >
-                      <Image
-                        src={founder.image}
-                        alt={founder.name}
-                        fill
-                        className="object-contain object-bottom"
-                        sizes="400px"
-                        priority
-                      />
+                  <div className="relative">
+                    {/* Subtle teal glow behind card */}
+                    <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 w-64 h-32 rounded-full bg-brite-teal/6 blur-[40px]" />
+                    {/* Portrait frame */}
+                    <div className="relative rounded-3xl overflow-hidden bg-gradient-to-b from-[#f0eeea] to-[#e8e5e0] shadow-lg shadow-black/[0.06]">
+                      {/* Teal top accent bar */}
+                      <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-brite-teal via-brite-green to-brite-teal-light z-10" />
+                      <div className="relative h-[420px] w-[340px]">
+                        <Image
+                          src={founder.image}
+                          alt={founder.name}
+                          fill
+                          className="object-cover object-top scale-105"
+                          sizes="340px"
+                          priority
+                        />
+                        {/* Bottom fade within frame */}
+                        <div className="absolute bottom-0 inset-x-0 h-16 bg-gradient-to-t from-[#e8e5e0] to-transparent" />
+                      </div>
                     </div>
                   </div>
                 </div>
