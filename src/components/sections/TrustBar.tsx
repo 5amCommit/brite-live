@@ -1,21 +1,18 @@
 export default function TrustBar() {
-  const credentials = [
-    "Board-Certified Physicians",
-    "Licensed Pharmacists",
-    "Ph.D. Scientists",
-    "Naturopathic Doctors",
-    "Nurse Practitioners",
+  const badges = [
+    "100% Organic Base",
+    "Made in USA",
+    "Cruelty Free",
+    "Toxin Free",
+    "Personalized Formulations",
   ];
 
   return (
-    <section className="relative py-6 bg-brite-warm-gray border-y border-border">
+    <section className="relative py-5 bg-brite-warm-gray border-y border-border/80">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-3">
-          <span className="text-xs font-semibold uppercase tracking-widest text-brite-text-light">
-            Our Medical Board includes:
-          </span>
-          {credentials.map((credential) => (
-            <div key={credential} className="flex items-center gap-2">
+          {badges.map((badge) => (
+            <div key={badge} className="flex items-center gap-2">
               <svg
                 className="h-4 w-4 text-brite-teal flex-shrink-0"
                 fill="none"
@@ -30,7 +27,7 @@ export default function TrustBar() {
                 />
               </svg>
               <span className="text-sm font-medium text-brite-text">
-                {credential}
+                {badge}
               </span>
             </div>
           ))}
