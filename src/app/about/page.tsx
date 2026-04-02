@@ -111,27 +111,36 @@ export default function AboutPage() {
           </div>
         </section>
 
-        {/* CEO Section */}
-        <section className="py-20 lg:py-24 bg-brite-cream relative overflow-hidden">
-          <div className="absolute bottom-0 right-0 w-[400px] h-[400px] rounded-full bg-brite-teal/[0.03] blur-[100px]" />
+        {/* CEO Section — dark, dramatic */}
+        <section className="relative bg-brite-dark overflow-hidden">
+          <div className="absolute inset-0 bg-gradient-to-br from-brite-dark via-brite-dark-light to-brite-charcoal" />
+          <div className="absolute top-0 right-1/3 w-[500px] h-[500px] rounded-full bg-brite-teal/8 blur-[120px]" />
+          <div
+            className="absolute inset-0 opacity-[0.02]"
+            style={{
+              backgroundImage: "linear-gradient(rgba(255,255,255,.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.1) 1px, transparent 1px)",
+              backgroundSize: "60px 60px",
+            }}
+          />
           <div className="relative z-10 mx-auto max-w-7xl px-6 lg:px-8">
-            <ScrollReveal>
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                <div>
-                  <p className="text-sm font-semibold uppercase tracking-widest text-brite-teal mb-4">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 items-end">
+              {/* Text — vertically centered */}
+              <ScrollReveal>
+                <div className="py-20 lg:py-28 lg:pr-16">
+                  <p className="text-sm font-semibold uppercase tracking-widest text-brite-teal-light mb-4">
                     Leadership
                   </p>
-                  <h2 className="font-heading text-4xl sm:text-5xl font-bold text-brite-dark tracking-tight leading-[1.1]">
+                  <h2 className="font-heading text-4xl sm:text-5xl font-bold text-white tracking-tight leading-[1.1]">
                     Meet our{" "}
-                    <em className="italic font-normal text-brite-teal">CEO</em>
+                    <em className="italic font-normal text-brite-teal-light">CEO</em>
                   </h2>
-                  <h3 className="font-heading text-2xl font-semibold text-brite-dark mt-4">
+                  <h3 className="font-heading text-2xl font-semibold text-white mt-4">
                     Andrei Tarasenco
                   </h3>
-                  <p className="mt-1 text-base font-medium text-brite-teal">
+                  <p className="mt-1 text-base font-medium text-brite-teal-light">
                     Chief Executive Officer
                   </p>
-                  <p className="mt-6 text-base text-brite-text-light leading-relaxed">
+                  <p className="mt-6 text-base text-brite-cream/60 leading-relaxed">
                     Andrei leads BRITE&apos;s mission to make bio-identical hormone
                     therapy accessible, affordable, and effective for practices and
                     patients nationwide. Under his leadership, BRITE has grown from
@@ -139,22 +148,34 @@ export default function AboutPage() {
                     organic formulations, advanced decision support, and a
                     world-class Medical Board.
                   </p>
-                </div>
-                <div className="relative flex justify-center">
-                  <div className="relative h-[480px] w-[380px]">
-                    <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-48 h-48 rounded-full bg-brite-teal/8 blur-[50px]" />
-                    <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-64 h-px bg-gradient-to-r from-transparent via-brite-teal/25 to-transparent" />
-                    <Image
-                      src="/brand-assets/headshot-andrei-tarasenco.png"
-                      alt="Andrei Tarasenco — CEO of BRITE"
-                      fill
-                      className="object-contain object-bottom"
-                      sizes="380px"
-                    />
+                  <div className="mt-8 flex items-center gap-6">
+                    <div className="flex items-center gap-2">
+                      <div className="w-2 h-2 rounded-full bg-brite-teal-light" />
+                      <span className="text-sm text-brite-cream/50">Strategic Vision</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <div className="w-2 h-2 rounded-full bg-brite-teal-light" />
+                      <span className="text-sm text-brite-cream/50">National Growth</span>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </ScrollReveal>
+              </ScrollReveal>
+
+              {/* Photo — flush to bottom of section */}
+              <ScrollReveal delay={0.2} direction="right">
+                <div className="relative h-[500px] lg:h-[550px]">
+                  <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-64 h-64 rounded-full bg-brite-teal/15 blur-[70px]" />
+                  <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-brite-teal/20 to-transparent" />
+                  <Image
+                    src="/brand-assets/headshot-andrei-tarasenco.png"
+                    alt="Andrei Tarasenco — CEO of BRITE"
+                    fill
+                    className="object-contain object-bottom"
+                    sizes="(max-width: 1024px) 100vw, 50vw"
+                  />
+                </div>
+              </ScrollReveal>
+            </div>
           </div>
         </section>
 
