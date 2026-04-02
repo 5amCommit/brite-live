@@ -142,45 +142,59 @@ export default function MedicalBoardPage() {
           </div>
         </section>
 
-        {/* Board Grid — all transparent, elite floating design */}
-        <section className="py-20 lg:py-24 bg-brite-cream relative overflow-hidden">
-          <div className="absolute top-1/3 right-0 w-[500px] h-[500px] rounded-full bg-brite-teal/[0.03] blur-[100px]" />
-          <div className="absolute bottom-1/4 left-0 w-[400px] h-[400px] rounded-full bg-brite-gold/[0.02] blur-[80px]" />
+        {/* Board Grid — DARK background, elite floating design */}
+        <section className="py-20 lg:py-24 bg-brite-dark relative overflow-hidden">
+          <div className="absolute inset-0 bg-gradient-to-b from-brite-dark via-brite-dark-light to-brite-dark" />
+          <div className="absolute top-1/4 right-0 w-[500px] h-[500px] rounded-full bg-brite-teal/5 blur-[120px]" />
+          <div className="absolute bottom-1/4 left-0 w-[400px] h-[400px] rounded-full bg-brite-gold/3 blur-[100px]" />
+          <div
+            className="absolute inset-0 opacity-[0.02]"
+            style={{
+              backgroundImage: "linear-gradient(rgba(255,255,255,.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.1) 1px, transparent 1px)",
+              backgroundSize: "60px 60px",
+            }}
+          />
 
           <div className="relative z-10 mx-auto max-w-7xl px-6 lg:px-8">
             <ScrollReveal>
               <div className="text-center mb-16">
-                <h2 className="font-heading text-4xl sm:text-5xl font-bold text-brite-dark tracking-tight leading-[1.1]">
-                  The{" "}
-                  <em className="italic font-normal text-brite-teal">Board</em>
+                <p className="text-sm font-semibold uppercase tracking-widest text-brite-teal-light mb-4">
+                  The Full Board
+                </p>
+                <h2 className="font-heading text-4xl sm:text-5xl font-bold text-white tracking-tight leading-[1.1]">
+                  17 specialists.{" "}
+                  <em className="italic font-normal text-brite-teal-light">Every discipline.</em>
                 </h2>
               </div>
             </ScrollReveal>
 
             <StaggerReveal
-              className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-x-6 gap-y-12"
-              stagger={0.06}
+              className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-x-4 gap-y-10"
+              stagger={0.05}
             >
               {boardMembers.map((member) => (
                 <div key={member.name} className="group text-center">
-                  {/* Headshot — floating, no container */}
-                  <div className="relative h-52 w-44 mx-auto mb-4">
-                    <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-32 h-24 rounded-full bg-brite-teal/8 blur-[30px] group-hover:bg-brite-teal/20 group-hover:w-36 transition-all duration-700" />
+                  {/* Headshot on dark — glows beautifully */}
+                  <div className="relative h-56 w-44 mx-auto mb-5">
+                    {/* Ambient glow */}
+                    <div className="absolute bottom-2 left-1/2 -translate-x-1/2 w-28 h-28 rounded-full bg-brite-teal/10 blur-[35px] group-hover:bg-brite-teal/25 group-hover:w-36 group-hover:h-36 transition-all duration-700" />
+                    {/* Subtle floor reflection */}
+                    <div className="absolute -bottom-1 left-1/2 -translate-x-1/2 w-24 h-px bg-gradient-to-r from-transparent via-brite-teal/20 to-transparent group-hover:via-brite-teal/40 group-hover:w-32 transition-all duration-700" />
                     <Image
                       src={member.image}
                       alt={member.name}
                       fill
-                      className="object-contain object-bottom group-hover:scale-[1.06] group-hover:-translate-y-1 transition-all duration-700 ease-out"
+                      className="object-contain object-bottom group-hover:scale-[1.06] group-hover:-translate-y-1.5 transition-all duration-700 ease-out"
                       sizes="176px"
                     />
                   </div>
-                  <h3 className="font-heading text-sm font-semibold text-brite-dark group-hover:text-brite-teal transition-colors duration-300 leading-tight">
+                  <h3 className="font-heading text-sm font-semibold text-white group-hover:text-brite-teal-light transition-colors duration-300 leading-tight">
                     {member.name}
                   </h3>
-                  <p className="mt-1 text-xs text-brite-teal font-medium">
+                  <p className="mt-1.5 text-xs text-brite-teal-light/70 font-medium">
                     {member.specialty}
                   </p>
-                  <p className="mt-1 text-xs text-brite-text-light">
+                  <p className="mt-1 inline-block text-[10px] text-brite-cream/40 bg-white/5 rounded-full px-2.5 py-0.5">
                     {member.credentials}
                   </p>
                 </div>
