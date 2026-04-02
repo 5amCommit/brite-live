@@ -114,23 +114,20 @@ export default function BoardPreview() {
               href={`/medical-board/${member.slug}`}
               className="group relative rounded-2xl bg-white overflow-hidden shadow-sm border border-border/50 hover:shadow-xl hover:border-brite-teal/20 hover:-translate-y-2 transition-all duration-500 ease-out"
             >
-              {/* Photo */}
+              {/* Photo — borderless, integrated */}
               {"transparent" in member && member.transparent ? (
-                <div className="relative h-72 overflow-hidden">
-                  <div className="absolute inset-0 bg-gradient-to-br from-brite-dark via-brite-charcoal to-brite-dark-light" />
-                  <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[300px] h-[200px] rounded-full bg-brite-teal/15 blur-[60px]" />
-                  <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[280px] h-[320px]">
-                    <Image
-                      src={member.image}
-                      alt={member.name}
-                      fill
-                      className="object-contain object-bottom group-hover:scale-105 transition-transform duration-700 ease-out"
-                      sizes="280px"
-                    />
-                  </div>
+                <div className="relative h-72 mx-4">
+                  <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-40 h-40 rounded-full bg-brite-teal/10 blur-[40px] group-hover:bg-brite-teal/20 transition-all duration-700" />
+                  <Image
+                    src={member.image}
+                    alt={member.name}
+                    fill
+                    className="object-contain object-bottom group-hover:scale-105 group-hover:-translate-y-1 transition-all duration-700 ease-out"
+                    sizes="280px"
+                  />
                 </div>
               ) : (
-                <div className="relative h-72 overflow-hidden">
+                <div className="relative h-72 overflow-hidden rounded-t-2xl">
                   <Image
                     src={member.image}
                     alt={member.name}
@@ -143,14 +140,14 @@ export default function BoardPreview() {
               )}
 
               {/* Info */}
-              <div className="p-6">
+              <div className="p-6 text-center">
                 <h3 className="font-heading text-lg font-semibold text-brite-dark group-hover:text-brite-teal transition-colors duration-300">
                   {member.name}
                 </h3>
                 <p className="mt-1 text-sm font-medium text-brite-teal">
                   {member.role}
                 </p>
-                <p className="mt-2 text-sm text-brite-text-light">
+                <p className="mt-1 text-sm text-brite-text-light">
                   {member.specialty}
                 </p>
               </div>

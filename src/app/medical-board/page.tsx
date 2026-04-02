@@ -68,45 +68,38 @@ export default function MedicalBoardPage() {
               {boardMembers.map((member) => (
                 <div
                   key={member.name}
-                  className="group rounded-2xl bg-white overflow-hidden shadow-sm border border-border/50 hover:shadow-xl hover:border-brite-teal/20 hover:-translate-y-1.5 transition-all duration-500"
+                  className="group text-center"
                 >
                   {"transparent" in member && member.transparent ? (
-                    /* Premium transparent headshot card */
-                    <div className="relative h-72 overflow-hidden">
-                      {/* Gradient background */}
-                      <div className="absolute inset-0 bg-gradient-to-br from-brite-dark via-brite-charcoal to-brite-dark-light" />
-                      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[300px] h-[200px] rounded-full bg-brite-teal/15 blur-[60px]" />
-                      {/* Headshot — positioned to float from bottom */}
-                      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[280px] h-[320px]">
-                        <Image
-                          src={member.image}
-                          alt={member.name}
-                          fill
-                          className="object-contain object-bottom group-hover:scale-105 transition-transform duration-700"
-                          sizes="280px"
-                        />
-                      </div>
-                    </div>
-                  ) : (
-                    /* Standard photo card */
-                    <div className="relative h-64 overflow-hidden bg-brite-warm-gray">
+                    /* Premium transparent headshot — no card, floating */
+                    <div className="relative h-72 mx-auto w-56 mb-5">
+                      {/* Subtle glow behind person */}
+                      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-40 h-40 rounded-full bg-brite-teal/10 blur-[40px] group-hover:bg-brite-teal/20 transition-all duration-700" />
                       <Image
                         src={member.image}
                         alt={member.name}
                         fill
-                        className="object-cover object-top group-hover:scale-105 transition-transform duration-700"
-                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                        className="object-contain object-bottom group-hover:scale-105 group-hover:-translate-y-1 transition-all duration-700"
+                        sizes="224px"
                       />
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
+                    </div>
+                  ) : (
+                    /* Standard photo — circular crop, no card */
+                    <div className="relative h-56 w-56 mx-auto mb-5 rounded-full overflow-hidden bg-brite-warm-gray">
+                      <Image
+                        src={member.image}
+                        alt={member.name}
+                        fill
+                        className="object-cover object-top group-hover:scale-110 transition-transform duration-700"
+                        sizes="224px"
+                      />
                     </div>
                   )}
-                  <div className="p-6">
-                    <h3 className="font-heading text-lg font-semibold text-brite-dark group-hover:text-brite-teal transition-colors duration-300">
-                      {member.name}
-                    </h3>
-                    <p className="mt-1 text-sm font-medium text-brite-teal">{member.role}</p>
-                    <p className="mt-2 text-sm text-brite-text-light">{member.specialty}</p>
-                  </div>
+                  <h3 className="font-heading text-lg font-semibold text-brite-dark group-hover:text-brite-teal transition-colors duration-300">
+                    {member.name}
+                  </h3>
+                  <p className="mt-1 text-sm font-medium text-brite-teal">{member.role}</p>
+                  <p className="mt-1 text-sm text-brite-text-light">{member.specialty}</p>
                 </div>
               ))}
             </StaggerReveal>
