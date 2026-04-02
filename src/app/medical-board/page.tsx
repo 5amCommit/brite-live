@@ -12,8 +12,8 @@ export const metadata: Metadata = {
 };
 
 const boardMembers = [
-  { name: "Daved Rosensweet, M.D.", role: "Founder & Medical Director", specialty: "Endocrinology & Hormone Therapy", image: "https://iobim.org/wp-content/uploads/2021/11/DrR1.jpg" },
-  { name: "Carol Petersen, RPh, CNP", role: "Board Member", specialty: "BHRT & Compounding Pharmacy", image: "https://iobim.org/wp-content/uploads/2022/11/carol-465.jpg" },
+  { name: "Daved Rosensweet, M.D.", role: "Founder & Medical Director", specialty: "Endocrinology & Hormone Therapy", image: "/brand-assets/headshot-daved-rosensweet.png", transparent: true },
+  { name: "Carol Petersen, RPh, CNP", role: "Board Member", specialty: "BHRT & Compounding Pharmacy", image: "/brand-assets/headshot-carol-petersen.png", transparent: true },
   { name: "Mary Lee Snodgrass, RPh", role: "Board Member", specialty: "Compounding Pharmacy", image: "https://iobim.org/wp-content/uploads/2022/11/MLS-PROF-PIC.jpeg" },
   { name: "Devaki Lindsey Berkson, DC", role: "Board Member", specialty: "Functional Medicine & Nutrition", image: "https://iobim.org/wp-content/uploads/2022/11/professional-pic-2022.jpg" },
   { name: "Jill Chmielewski, RN, BSN", role: "Board Member", specialty: "Women's Health & Aging", image: "https://iobim.org/wp-content/uploads/2022/11/Jill-Chmielewski-500.jpg" },
@@ -70,16 +70,36 @@ export default function MedicalBoardPage() {
                   key={member.name}
                   className="group rounded-2xl bg-white overflow-hidden shadow-sm border border-border/50 hover:shadow-xl hover:border-brite-teal/20 hover:-translate-y-1.5 transition-all duration-500"
                 >
-                  <div className="relative h-64 overflow-hidden bg-brite-warm-gray">
-                    <Image
-                      src={member.image}
-                      alt={member.name}
-                      fill
-                      className="object-cover object-top group-hover:scale-105 transition-transform duration-700"
-                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
-                  </div>
+                  {"transparent" in member && member.transparent ? (
+                    /* Premium transparent headshot card */
+                    <div className="relative h-72 overflow-hidden">
+                      {/* Gradient background */}
+                      <div className="absolute inset-0 bg-gradient-to-br from-brite-dark via-brite-charcoal to-brite-dark-light" />
+                      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[300px] h-[200px] rounded-full bg-brite-teal/15 blur-[60px]" />
+                      {/* Headshot — positioned to float from bottom */}
+                      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[280px] h-[320px]">
+                        <Image
+                          src={member.image}
+                          alt={member.name}
+                          fill
+                          className="object-contain object-bottom group-hover:scale-105 transition-transform duration-700"
+                          sizes="280px"
+                        />
+                      </div>
+                    </div>
+                  ) : (
+                    /* Standard photo card */
+                    <div className="relative h-64 overflow-hidden bg-brite-warm-gray">
+                      <Image
+                        src={member.image}
+                        alt={member.name}
+                        fill
+                        className="object-cover object-top group-hover:scale-105 transition-transform duration-700"
+                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
+                    </div>
+                  )}
                   <div className="p-6">
                     <h3 className="font-heading text-lg font-semibold text-brite-dark group-hover:text-brite-teal transition-colors duration-300">
                       {member.name}

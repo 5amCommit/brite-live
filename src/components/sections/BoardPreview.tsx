@@ -8,8 +8,9 @@ const featuredBoard = [
     name: "Daved Rosensweet, M.D.",
     role: "Founder & Medical Director",
     specialty: "Endocrinology & Hormone Therapy",
-    image: "https://iobim.org/wp-content/uploads/2021/11/DrR1.jpg",
+    image: "/brand-assets/headshot-daved-rosensweet.png",
     slug: "daved-rosensweet-m-d",
+    transparent: true,
   },
   {
     name: "Val Koganski, MD",
@@ -114,16 +115,32 @@ export default function BoardPreview() {
               className="group relative rounded-2xl bg-white overflow-hidden shadow-sm border border-border/50 hover:shadow-xl hover:border-brite-teal/20 hover:-translate-y-2 transition-all duration-500 ease-out"
             >
               {/* Photo */}
-              <div className="relative h-72 overflow-hidden">
-                <Image
-                  src={member.image}
-                  alt={member.name}
-                  fill
-                  className="object-cover object-top group-hover:scale-105 transition-transform duration-700 ease-out"
-                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/10 to-transparent" />
-              </div>
+              {"transparent" in member && member.transparent ? (
+                <div className="relative h-72 overflow-hidden">
+                  <div className="absolute inset-0 bg-gradient-to-br from-brite-dark via-brite-charcoal to-brite-dark-light" />
+                  <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[300px] h-[200px] rounded-full bg-brite-teal/15 blur-[60px]" />
+                  <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[280px] h-[320px]">
+                    <Image
+                      src={member.image}
+                      alt={member.name}
+                      fill
+                      className="object-contain object-bottom group-hover:scale-105 transition-transform duration-700 ease-out"
+                      sizes="280px"
+                    />
+                  </div>
+                </div>
+              ) : (
+                <div className="relative h-72 overflow-hidden">
+                  <Image
+                    src={member.image}
+                    alt={member.name}
+                    fill
+                    className="object-cover object-top group-hover:scale-105 transition-transform duration-700 ease-out"
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/10 to-transparent" />
+                </div>
+              )}
 
               {/* Info */}
               <div className="p-6">
