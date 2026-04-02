@@ -120,7 +120,10 @@ export default function Hero() {
                 alt="BRITE bio-identical hormone products — organic-based formulations"
                 width={520}
                 height={520}
-                className="relative z-10 drop-shadow-2xl"
+                className="relative z-10"
+                style={{
+                  filter: "drop-shadow(0 25px 50px rgba(0,0,0,0.5)) drop-shadow(0 10px 20px rgba(59,168,154,0.15))",
+                }}
                 priority
               />
             </div>
