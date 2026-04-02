@@ -90,75 +90,69 @@ export default function MedicalBoardPage() {
           </div>
         </section>
 
-        {/* Founder Spotlight — cinematic dark section */}
-        <section className="relative bg-brite-dark overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-br from-[#1a2e2e] via-brite-dark to-[#0f1f1f]" />
-          <div className="absolute top-0 left-1/4 w-[500px] h-[500px] rounded-full bg-brite-teal/6 blur-[140px]" />
-          <div className="absolute bottom-0 right-0 w-[300px] h-[300px] rounded-full bg-brite-gold/4 blur-[100px]" />
-          <div className="absolute inset-0 opacity-[0.015]" style={{
-            backgroundImage: "repeating-linear-gradient(135deg, transparent, transparent 60px, rgba(255,255,255,.08) 60px, rgba(255,255,255,.08) 61px)",
-          }} />
-
+        {/* Founder Spotlight */}
+        <section className="py-20 lg:py-24 bg-white relative overflow-hidden">
+          <div className="absolute top-0 left-0 w-[400px] h-[400px] rounded-full bg-brite-teal/[0.03] blur-[100px]" />
           <div className="relative z-10 mx-auto max-w-7xl px-6 lg:px-8">
-            <div className="grid grid-cols-1 lg:grid-cols-12 gap-0 items-end min-h-[580px] lg:min-h-[620px]">
-              {/* Photo — left side, flush bottom */}
-              <div className="lg:col-span-5 relative order-2 lg:order-1">
-                <ScrollReveal>
-                  <div className="relative h-[450px] lg:h-[580px]">
-                    {/* Gradient overlays for seamless blend */}
-                    <div className="absolute inset-0 z-10 bg-gradient-to-l from-transparent to-[#1a2e2e]/60 w-1/4" />
-                    <div className="absolute inset-0 z-10 bg-gradient-to-r from-transparent to-transparent" style={{
-                      background: "linear-gradient(to right, transparent 70%, rgba(26,46,46,0.4) 100%)",
-                    }} />
-                    <div className="absolute bottom-0 inset-x-0 z-10 h-20 bg-gradient-to-t from-[#0f1f1f]/70 to-transparent" />
-                    {/* Teal ambient glow behind subject */}
-                    <div className="absolute bottom-16 left-1/2 -translate-x-1/2 w-60 h-60 rounded-full bg-brite-teal/10 blur-[80px]" />
-                    {/* Accent light strip */}
-                    <div className="absolute bottom-0 left-0 right-0 h-[2px] bg-gradient-to-r from-transparent via-brite-teal/25 to-transparent z-20" />
-                    <Image
-                      src={founder.image}
-                      alt={founder.name}
-                      fill
-                      className="object-contain object-bottom"
-                      sizes="(max-width: 1024px) 100vw, 42vw"
-                      priority
-                    />
+            <ScrollReveal>
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                {/* Founder headshot — soft fade edges */}
+                <div className="relative flex justify-center">
+                  <div className="relative h-[480px] w-[400px]">
+                    {/* Soft teal glow behind */}
+                    <div className="absolute bottom-8 left-1/2 -translate-x-1/2 w-56 h-56 rounded-full bg-brite-teal/8 blur-[60px]" />
+                    {/* Accent strip */}
+                    <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-48 h-[2px] bg-gradient-to-r from-transparent via-brite-teal/20 to-transparent" />
+                    {/* Image with radial mask to fade edges seamlessly */}
+                    <div
+                      className="relative w-full h-full"
+                      style={{
+                        maskImage: "radial-gradient(ellipse 80% 85% at 50% 55%, black 55%, transparent 100%)",
+                        WebkitMaskImage: "radial-gradient(ellipse 80% 85% at 50% 55%, black 55%, transparent 100%)",
+                      }}
+                    >
+                      <Image
+                        src={founder.image}
+                        alt={founder.name}
+                        fill
+                        className="object-contain object-bottom"
+                        sizes="400px"
+                        priority
+                      />
+                    </div>
                   </div>
-                </ScrollReveal>
-              </div>
-
-              {/* Text — right side */}
-              <div className="lg:col-span-7 py-20 lg:py-28 lg:pl-16 order-1 lg:order-2">
-                <ScrollReveal delay={0.15}>
-                  <p className="text-xs font-semibold uppercase tracking-[0.25em] text-brite-teal-light/70 mb-6">
+                </div>
+                {/* Founder info */}
+                <div>
+                  <p className="text-sm font-semibold uppercase tracking-widest text-brite-teal mb-4">
                     Meet Our Founder
                   </p>
-                  <h2 className="font-heading text-4xl sm:text-5xl lg:text-6xl font-bold text-white tracking-tight leading-[1.05]">
+                  <h2 className="font-heading text-4xl sm:text-5xl font-bold text-brite-dark tracking-tight leading-[1.1]">
                     {founder.name}
                   </h2>
-                  <div className="mt-5 flex items-center gap-4">
-                    <div className="w-12 h-[2px] bg-gradient-to-r from-brite-teal-light to-transparent" />
-                    <div className="w-2 h-2 rounded-full bg-brite-teal-light/40" />
+                  <div className="mt-4 flex items-center gap-3">
+                    <div className="w-10 h-[2px] bg-gradient-to-r from-brite-teal to-transparent" />
+                    <div className="w-1.5 h-1.5 rounded-full bg-brite-teal/30" />
                   </div>
-                  <p className="mt-4 text-sm font-medium tracking-wide text-brite-teal-light/80 uppercase">
+                  <p className="mt-3 text-lg font-medium text-brite-teal">
                     {founder.role}
                   </p>
-                  <p className="mt-8 text-base lg:text-lg text-brite-cream/55 leading-relaxed max-w-lg">
+                  <p className="mt-6 text-base text-brite-text-light leading-relaxed">
                     {founder.bio}
                   </p>
-                  <div className="mt-10 flex items-center gap-8">
-                    <div className="flex items-center gap-3">
-                      <div className="w-8 h-[1px] bg-brite-teal-light/40" />
-                      <span className="text-sm font-medium text-brite-cream/40 tracking-wide">50+ years in medicine</span>
+                  <div className="mt-8 flex items-center gap-6">
+                    <div className="flex items-center gap-2">
+                      <div className="w-2 h-2 rounded-full bg-brite-teal" />
+                      <span className="text-sm text-brite-text">50+ years in medicine</span>
                     </div>
-                    <div className="flex items-center gap-3">
-                      <div className="w-8 h-[1px] bg-brite-teal-light/40" />
-                      <span className="text-sm font-medium text-brite-cream/40 tracking-wide">University of Michigan</span>
+                    <div className="flex items-center gap-2">
+                      <div className="w-2 h-2 rounded-full bg-brite-teal" />
+                      <span className="text-sm text-brite-text">University of Michigan</span>
                     </div>
                   </div>
-                </ScrollReveal>
+                </div>
               </div>
-            </div>
+            </ScrollReveal>
           </div>
         </section>
 

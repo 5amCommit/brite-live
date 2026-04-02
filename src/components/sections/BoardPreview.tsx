@@ -4,7 +4,7 @@ import ScrollReveal from "@/components/ui/scroll-reveal";
 import StaggerReveal from "@/components/ui/stagger-reveal";
 
 const featuredBoard = [
-  { name: "Daved Rosensweet, M.D.", role: "Founder & Medical Director", specialty: "Endocrinology & Hormone Therapy", image: "/brand-assets/headshot-daved-rosensweet-v2.png" },
+  { name: "Daved Rosensweet, M.D.", role: "Founder & Medical Director", specialty: "Endocrinology & Hormone Therapy", image: "/brand-assets/headshot-daved-rosensweet.png" },
   { name: "Val Koganski, MD", role: "Board Member", specialty: "Integrative & Holistic Medicine", image: "/brand-assets/headshot-val-koganski.png" },
   { name: "Jim Hrncir, RPh", role: "Board Member", specialty: "Compounding Pharmacy Pioneer", image: "/brand-assets/headshot-jim-hrncir.png" },
   { name: "Dian Ginsberg, MD", role: "Board Member", specialty: "OB/GYN & Menopause", image: "/brand-assets/headshot-dian-ginsberg.png" },
@@ -62,13 +62,13 @@ export default function BoardPreview() {
           className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-x-6 gap-y-10"
           stagger={0.08}
         >
-          {featuredBoard.map((member, i) => (
+          {featuredBoard.map((member) => (
             <Link
               key={member.name}
               href="/medical-board"
               className="group text-center"
             >
-              <div className={`relative h-48 w-36 mx-auto mb-4 rounded-2xl overflow-hidden ${i === 0 ? "bg-gradient-to-t from-brite-dark/90 via-brite-dark/40 to-brite-dark/10" : ""}`}>
+              <div className="relative h-48 w-36 mx-auto mb-4">
                 <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-28 h-20 rounded-full bg-brite-teal/8 blur-[25px] group-hover:bg-brite-teal/20 transition-all duration-700" />
                 <Image
                   src={member.image}
